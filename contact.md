@@ -13,6 +13,8 @@ is_contact: true
 
 </div>
 
+---
+
 <div style="text-align: justify">
 
 <p> I am also usually working at the médialab in Sciences Po:</p>
