@@ -4,13 +4,26 @@ baseurl: ""
 
 markdown: kramdown
 
+languages: ["fr", "en"]
+default_lang: "fr"
+exclude_from_localization: ["_sass", "css"]
+parallel_localization: true
+
 sass:
     style: compressed
     sass_dir: _sass
+    sourcemap: never
+
+plugins:
+  - jekyll-polyglot
 
 nav:
  - name: "About"
    link: "/"
+ - name: "Research"
+   link: "research"
+ - name: "Teaching"
+   link: "teaching"
  - name: "Resume"
    link: "resume.pdf"
  - name: "Contact"
