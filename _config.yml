@@ -4,21 +4,38 @@ baseurl: ""
 
 markdown: kramdown
 
-languages: ["fr", "en"]
-default_lang: "fr"
-
 sass:
     style: compressed
     sass_dir: _sass
 
 nav:
- - name: "About"
-   link: "/"
- - name: "Research"
-   link: "research"
- - name: "Teaching"
-   link: "teaching"
- - name: "Resume"
-   link: "resume.pdf"
- - name: "Contact"
-   link: "contact"
+  - name: "About"
+    link: "/"
+    lang: "en"
+  - name: "Research"
+    link: "research"
+    lang: "en"
+  - name: "Teaching"
+    link: "teaching"
+    lang: "en"
+  - name: "Resume"
+    link: "resume.pdf"
+    lang: "en"
+  - name: "Contact"
+    link: "contact"
+    lang: "en"
+  - name: "À propos"
+    link: "/"
+    lang: "fr"
+  - name: "Recherche"
+    link: "recherche"
+    lang: "fr"
+  - name: "Enseignement"
+    link: "enseignement"
+    lang: "fr"
+  - name: "CV"
+    link: "CV.pdf"
+    lang: "fr"
+  - name: "Contact"
+    link: "contact"
+    lang: "fr"

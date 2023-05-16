@@ -1,6 +1,7 @@
 ---
 layout: default
 description: Benjamin GILBERT | Contact
+lang: en
 is_contact: true
 ---
 
