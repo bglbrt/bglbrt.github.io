@@ -1,22 +1,22 @@
 ---
 layout: default
-description: Benjamin GILBERT | About
-lang: "en"
+description: Benjamin GILBERT | À propos
+lang: "fr"
 ---
 
 <div style="text-align: justify"> 
 
-<p> Hello! </p>
+<p> Bonjour ! </p>
 
-<p> I am Benjamin GILBERT, a PhD candidate in Sociology at Sciences Po and Université Paris-Cité. </p>
+<p> Je suis Benjamin GILBERT, doctorant en Sociologie à Sciences Po et à l'Université Paris-Cité. </p>
 
-<p> As of now, my research focuses on questions of self-evaluation and legitimisation of one's own social position, and on the performativity of social sciences on the discourses about these topics. </p>
+<p> Dans ma thèse, je m'intéresse essentiellement aux discours de justification et de légitimation de la position sociale, et à l'évolution de ces discours au regard des critiques qui sont faites des concept de mérite et plus généralement des mécanismes de maintien et de reproduction des inégalités socio-économiques. </p>
 
-<p> I largely rely on machine and deep-learning methods and on data from social networks, the written press and televion/radio to study these questions. </p>
+<p> Pour ce faire, je me base sur des méthodes computationnelles de <i>machine</i> et de <i>deep-learning</i>, et sur des données issues de réseaux sociaux, de la presse écrite et d'émissions de radiophonie et de télévision. </p>
 
-<p> Having originally trained in these fields, I am also regularly looking at research questions in mathematical and computer sciences. </p>
+<p> Ayant étudié les mathématiques et les sciences computationelles dans mes études passées, je m'intéresse aussi à des questions de recherche afférentes à ces disciplines. </p>
 
-<p>I am particularly interested in the theory of large random matrices, confounder-bias mitigation techniques in causal inference, all theoretical aspects of deep-learning, as well as advances in practical natural language processing (NLP) and automatic speech recognition (ASR) methods. </p>
+<p> Je suis en particulier intéressé par la théorie des grandes matrices aléatoires, les méthodes de mitigation des biais liées aux facteurs confondants en inférence causale, les fondements mathématiques théoriques de l'apprentissage profond, et les avancées techniques et méthodologiques en termes de traitement du langage naturel (TAL) et retranscription automatique de la parole (RAP). </p>
 
 </div>
 
@@ -28,9 +28,9 @@ lang: "en"
 
 <p></p>
 
-<p> Part of my research involves developing frameworks in Python and R. </p>
+<p> Dans mon travail, je suis amené à développer des outils sur les langages Python et R. </p>
 
-<p> Most of my code is openly accessible on my <a href = "https://github.com/bglbrt">GitHub</a> page. </p>
+<p> La plupart de mes travaux sont accessibles publiquemenet sur ma page <a href = "https://github.com/bglbrt">GitHub</a> . </p>
 
 </div>
 
@@ -38,9 +38,9 @@ lang: "en"
 
 <div style="text-align: justify">
 
-<p> I also experiment with short-film documentary filmmaking on my free time. </p>
+<p> Sur mon temps libre, je m'essaie aussi à la réalisation de courts-métrages documentaires. </p>
 
-<p> Feel free to check my <a href = "https://vimeo.com/bglbrt">Vimeo</a> to watch some of my latest works. </p>
+<p> N'hésitez pas à visionner mes dernier travaux sur ma page <a href = "https://vimeo.com/bglbrt">Vimeo</a>. </p>
 
 </div>
 
