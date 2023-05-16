@@ -3,9 +3,6 @@ url: "https://bglbrt.github.io"
 baseurl: ""
 
 markdown: kramdown
-#ins_logo: "./bits-logo.png"
-
-tracking_id: #
 
 footer: yes
 footer_url: "https://github.com/ankitsultana"
