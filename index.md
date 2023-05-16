@@ -1,6 +1,7 @@
 ---
 layout: default
 description: Benjamin GILBERT | About
+lang: "en"
 ---
 
 <div style="text-align: justify"> 
