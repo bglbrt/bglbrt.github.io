@@ -32,7 +32,7 @@ lang: "fr"
 
 <p> La plupart de mes travaux sont accessibles publiquemenet sur ma page <a href = "https://github.com/bglbrt">GitHub</a> . </p>
 
-<img style="width: 100%;" src="https://grass-graph.appspot.com/images/bglbrt.png?background=none?w=1136" alt="Recent GitHub contributions" />
+<img style="width: 100%; text-align:center;" src="https://grass-graph.appspot.com/images/bglbrt.png?background=none?w=1136" alt="Recent GitHub contributions" />
 
 </div>
 
