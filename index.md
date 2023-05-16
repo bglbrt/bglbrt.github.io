@@ -14,10 +14,10 @@ layout: default
 
 ## Coding
 
-<div style="text-align: justify"> Part of my research involves developing frameworks in Python and R. Most of my code is freely accessible on my <a href = "https://github.com/bglbrt">GitHub</a> page. \n</div>
+<div style="text-align: justify"> Part of my research involves developing frameworks in Python and R. Most of my code is freely accessible on my <a href = "https://github.com/bglbrt">GitHub</a> page. \n </div>
 
 ## Other Interests
 
-<div style="text-align: justify"> I also experiment with short-film documentary filmmaking on my free time. Feel free to check my Vimeo <a href = "https://vimeo.com/bglbrt">Vimeo</a> to see some of my latest works. \n</div>
+<div style="text-align: justify"> I also experiment with short-film documentary filmmaking on my free time. Feel free to check my Vimeo <a href = "https://vimeo.com/bglbrt">Vimeo</a> to see some of my latest works. \n </div>
 
 ---
