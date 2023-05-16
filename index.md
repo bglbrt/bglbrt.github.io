@@ -1,5 +1,6 @@
 ---
 layout: default
+description: Benjamin GILBERT | About
 ---
 
 ## About Me
@@ -12,7 +13,7 @@ layout: default
 
 <p> As of now, my research focuses on questions of self-evaluation and legitimisation of one's own social position, and on the performativity of social sciences on the discourses about these topics. </p>
 
-<p> I largely rely on machine- and deep-learning methods and on data from social networks, the press and the media to study these questions. </p>
+<p> I largely rely on machine and deep-learning methods and on data from social networks, the written press and televion/radio to study these questions. </p>
 
 <p> Having originally trained in these fields, I am also regularly looking at research questions in mathematical and computer sciences. </p>
 
@@ -30,7 +31,7 @@ layout: default
 
 <p> Part of my research involves developing frameworks in Python and R. </p>
 
-<p> Most of my code is freely accessible on my <a href = "https://github.com/bglbrt">GitHub</a> page. </p>
+<p> Most of my code is openly accessible on my <a href = "https://github.com/bglbrt">GitHub</a> page. </p>
 
 </div>
 
@@ -38,7 +39,9 @@ layout: default
 
 <div style="text-align: justify">
 
-<p> I also experiment with short-film documentary filmmaking on my free time. Feel free to check my <a href = "https://vimeo.com/bglbrt">Vimeo</a> to watch some of my latest works. </p>
+<p> I also experiment with short-film documentary filmmaking on my free time. </p>
+
+<p> Feel free to check my <a href = "https://vimeo.com/bglbrt">Vimeo</a> to watch some of my latest works. </p>
 
 </div>
 

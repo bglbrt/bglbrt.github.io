@@ -4,6 +4,23 @@ description: Benjamin GILBERT | Contact
 is_contact: true
 ---
 
-* Email: [benjamin.gilbert@sciencespo.fr](mailto:benjamin.gilbert@sciencespo.fr)
+<div style="text-align: justify">
 
-* Phone: [+33 (0) 1 45 49 53 54](tel:+330145495354)
+<p> Feel free to contact me about my research or teaching material at the following address: </p>
+
+<a href = "mailto:benjamin.gilbert@sciencespo.fr">benjamin.gilbert@sciencespo.fr</a>
+
+</div>
+
+<div style="text-align: justify">
+
+<p> I am also usually working at the médialab in Sciences Po:</p>
+
+</div>
+
+> Sciences Po - médialab
+> 27, rue Saint Guillaume
+> 75337 Paris Cedex 07
+> [+33 (0) 1 45 49 53 54](tel:+330145495354)
+
+---
