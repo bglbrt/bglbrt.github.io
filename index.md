@@ -4,40 +4,20 @@ layout: default
 
 ## About Me
 
-Hi! I am a junior year student of B.E. Computer Science at Birla Institute of Technology and Science, Pilani.
+<div style="text-align: justify"> Hello! I am Benjamin GILBERT, a PhD candidate in Sociology at Sciences Po and Université Paris-Cité. As of now, my research focuses on questions of self-evaluation and legitimisation of one's own social position, and on the performativity of social sciences on the discourses about these topics. I largely rely on machine- and deep-learning methods and on data from social networks, the press and the media to study these questions. </div>
 
-This is a jekyll based resume template. You can find the full source code on [GitHub](https://github.com/bk2dcradle/researcher)
+<div style="text-align: justify"> Having originally trained in these fields, I am also regularly looking at research questions in mathematical and computer sciences. I am particularly interested in the theory of large random matrices, confounder-bias mitigation techniques in causal inference, all theoretical aspects of deep-learning, as well as advances in practical natural language processing (NLP) and automatic speech recognition (ASR) methods. </div>
 
-## Research Interest
+<div style="text-align: justify"> Part of my research involves developing frameworks in Python and R. Most of my code is freely accessible on my <a href = "https://github.com/bglbrt">GitHub</a> page.</div>
+
+<div style="text-align: justify"> I also experiment with short-film documentary filmmaking on my free time. Feel free to check my Vimeo <a href = "https://vimeo.com/bglbrt">Vimeo</a> to see some of my latest works. </div>
+
+## Research Interests
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum ac erat aliquam dapibus. Vestibulum vehicula placerat ex, a consectetur odio pharetra quis. Mauris id urna ante. Fusce pharetra diam ac nisi aliquet, vel egestas ex iaculis. Pellentesque laoreet cursus tellus sed pellentesque. Praesent a rhoncus elit. Nunc ipsum nisl, consequat sit amet pretium quis, gravida id ipsum.
 
-## Publications
+## Independent Filmmaking
 
-1. F.Bar, J.Doe: Effects of having a placeholder of a name
-2. S.Holmes, J.Watson: Consequences of living with a sociopath in London
-
-## Typography
-
-This is a [link](http://google.com). Something *italics* and something **bold**.
-
-Here is a table
-
-Year | Award | Category
------|-------|--------
-2014 | Emmy  | Won Outstanding Lead Actor in a miniseries or a movie
-2015 | BAFTA | Nominated for Best Leading Actor for Sherlock
-2014 | Satellite | Won Best Actor miniseries or television film
-
-Here is a horizontal rule
+Lorem ipsum dolo
 
 ---
-
-Here is a blockquote
-
-> To a great mind, nothing is little
-
-## References
-
-* Foo Bar: Head of Department, Placeholder Names, Lorem
-* John Doe: Associate Professor, Department of Computer Science, Ipsum
