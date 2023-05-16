@@ -3,7 +3,7 @@ layout: default
 description: Benjamin GILBERT | About
 ---
 
-## About Me
+## About
 
 <div style="text-align: justify"> 
 
