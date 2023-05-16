@@ -8,7 +8,7 @@ is_contact: true
 
 <p> Feel free to contact me about my research or teaching material at the following address: </p>
 
-<a href = "mailto:benjamin.gilbert@sciencespo.fr">benjamin.gilbert@sciencespo.fr</a>
+<p style="text-align:center"><a href = "mailto:benjamin.gilbert@sciencespo.fr">benjamin.gilbert@sciencespo.fr</a></p>
 
 </div>
 
@@ -19,8 +19,11 @@ is_contact: true
 </div>
 
 > Sciences Po - médialab
+>
 > 27, rue Saint Guillaume
+>
 > 75337 Paris Cedex 07
+>
 > [+33 (0) 1 45 49 53 54](tel:+330145495354)
 
 ---
