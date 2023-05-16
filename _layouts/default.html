@@ -40,6 +40,11 @@
                         {% else %}
                             <li class="alignable pull-left nav-list"><a href="{{ x.link }}">{{ x.name }}</a>
                         {% endif %}
+                        {% if page.lang == "en" %}
+                            <li class="alignable pull-left nav-list"><a target="_blank" href="/">FR</a>
+                        {% else %}
+                            <li class="alignable pull-left nav-list"><a href="/research">EN</a>
+                        {% endif %}
                     {% endif %}
                             </li>
                 {% endfor %}
