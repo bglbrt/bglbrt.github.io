@@ -3,20 +3,24 @@ layout: default
 is_contact: true
 ---
 
-* Email: [benjamin.gilbert@sciencespo.fr](mailto:benjamin.gilbert@sciencespo.fr)
+* Email: [foo@xyz.com](mailto:foo@xyz.com)
 
-* Phone: [+330145495354](tel:+33 01 45 49 53 54)
+* Phone: [+91-123123](tel:+91-123123)
 
 ---
 
 ## Mailing Address
 
-> Sciences Po - médialab
+> 221B, Baker Street
 >
-> 27, rue Saint Guillaume
+> London
 >
-> 75337 Paris Cedex 07
+> United Kingdom
 
 ---
 
-## ...
+## Social
+
+1. [Facebook](#)
+2. [Twitter](#)
+3. [Google+](#)
