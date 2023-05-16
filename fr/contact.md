@@ -17,7 +17,7 @@ is_contact: true
 
 <div style="text-align: justify">
 
-<p> Je suis aussi disponible la plupart du temps au médialab :</p>
+<p> Je suis aussi disponible la plupart du temps au médialab à Sciences Po :</p>
 
 <p style="text-align:center">Sciences Po - médialab</p>
 
