@@ -1,0 +1,23 @@
+title: Benjamin GILBERT
+url: "https://bglbrt.github.io"
+baseurl: "/about"
+
+markdown: kramdown
+
+# tracking_id:
+
+footer: no
+# footer_url:
+# footer_text:
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+nav:
+ - name: "About"
+   link: "/researcher/"
+ - name: "Resume"
+   link: "resume.pdf"
+ - name: "Contact"
+   link: "contact"
