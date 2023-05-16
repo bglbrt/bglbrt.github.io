@@ -16,14 +16,12 @@ is_contact: true
 
 <p> I am also usually working at the médialab in Sciences Po:</p>
 
+<p style="text-align:center">Sciences Po - médialab</p>
+
+<p style="text-align:center">27, rue Saint Guillaume</p>
+
+<p style="text-align:center">75337 Paris Cedex 07</p>
+
+<p style="text-align:center"><a href = "tel:+330145495354">+33 (0) 1 45 49 53 54</a></p>
+
 </div>
-
-> Sciences Po - médialab
->
-> 27, rue Saint Guillaume
->
-> 75337 Paris Cedex 07
->
-> [+33 (0) 1 45 49 53 54](tel:+330145495354)
-
----
