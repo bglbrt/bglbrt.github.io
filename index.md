@@ -6,7 +6,7 @@ lang: "fr"
 
 <div style="text-align: justify"> 
 
-<p> Bonjour ! </p>
+<p> Bienvenue sur mon site ! </p>
 
 <p> Je suis Benjamin GILBERT, doctorant en Sociologie à Sciences Po et à l'Université Paris-Cité. </p>
 
@@ -16,31 +16,33 @@ lang: "fr"
 
 <p> Ayant étudié les mathématiques et les sciences computationelles par le passé, je m'intéresse aussi à des questions de recherche afférentes à ces disciplines. </p>
 
-<p> Je suis en particulier intéressé par la théorie des grandes matrices aléatoires, les méthodes de mitigation des biais liées aux facteurs confondants en inférence causale, les fondements mathématiques théoriques de l'apprentissage profond, et les avancées techniques et méthodologiques en termes de traitement du langage naturel (TAL) et de retranscription automatique de la parole (RAP). </p>
+<p> Je suis en particulier intéressé par la théorie des grandes matrices aléatoires, les méthodes de mitigation des biais liées aux facteurs confondants en inférence causale, les fondements mathématiques théoriques de l'apprentissage profond, et les avancées techniques et méthodologiques en termes de traitement du langage naturel (TAL) et de retranscription automatique de la parole. </p>
 
 </div>
+
+---
 
 ## Research Interests
 
 <div style="text-align: justify">
 
-<p></p>
+<p> Dans mes recherches, je questionne comment, plus de cinquante ans après la publication de <i>La Reproduction</i> (Bourdieu et Passeron, 1970), et alors que la conscience des inégalités et des mécanismes de reproduction sociale s’accentue (Piketty, 2013; Piketty, 2021), les élites scolaires et politiques parviennent à justifier et légitimer leur position dans l’espace social. Pour étudier cette question, je m'intéresse donc en retour aux évolutions dans la conscientisation des inégalités et des mécanismes de reproduction sociale, aux discours de justification et de légitimation de l'ordonnancement social, ainsi qu'aux regards que les élites scolaires et politiques portent sur leur propre place au sein de la stratification sociale ? </p>
 
-<p></p>
+<p> Ces recherches me conduisent pour le moment à différents projets. En premier lieu, je me penche sur l'importance donnée aux thèmes afférents aux inégalités et à la stratification sociale dans les médias ces dernières décennies, et aux glissements sémantiques des termes utilisés pour caractériser la hiérarchie sociale à l'aide de méthodes de traitement automatique du langage. Je m'intéresse aussi à la mobilisation de références au parcours biographique dans les discours politiques et plus généralement dans les stratégies de présentation de soi chez les candidats et élus à des fonctions politiques. Je me penche enfin sur les discours de critique de la légitimité de la position sociale sur les réseaux sociaux, à l'aide de méthodes d'analyse et de modélisation de réseaux, et d'analyse du langage naturel. </p>
 
-<p> Dans mon travail, je suis amené à développer des outils sur les langages Python et R. </p>
+<p> Dans mon travail, je suis par ailleurs amené à développer des outils sur les langages Python et R. </p>
 
-<p> La plupart de mes travaux sont accessibles publiquemenet sur ma page <a href = "https://github.com/bglbrt">GitHub</a> . </p>
-
-<img style="width: 100%; text-align:center;" src="https://grass-graph.appspot.com/images/bglbrt.png?background=none?w=1136" alt="Recent GitHub contributions" />
+<p> La plupart de mes travaux sont accessibles publiquement sur ma page <a href = "https://github.com/bglbrt">GitHub</a> . </p>
 
 </div>
+
+---
 
 ## Other Interests
 
 <div style="text-align: justify">
 
-<p> Sur mon temps libre, je m'essaie aussi à la réalisation de courts-métrages documentaires. </p>
+<p> Sur mon temps libre, je m'essaie aussi à la réalisation de courts-métrages documentaires, avec l'ambition d'illustrer, expliciter ou explorer des thèmes traités par les sciences sociales, caméra au poing. </p>
 
 <p> N'hésitez pas à visionner mes dernier travaux sur ma page <a href = "https://vimeo.com/bglbrt">Vimeo</a>. </p>
 
