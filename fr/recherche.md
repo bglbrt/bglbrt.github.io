@@ -1,5 +1,5 @@
 ---
 layout: default
-description: Benjamin GILBERT | Research
+description: Benjamin GILBERT | Recherche
 lang: "fr"
 ---

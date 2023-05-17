@@ -22,7 +22,7 @@ lang: "fr"
 
 ---
 
-## Research Interests
+## Thèmes de recherche
 
 <div style="text-align: justify">
 
@@ -38,7 +38,7 @@ lang: "fr"
 
 ---
 
-## Other Interests
+## Autres intérêts
 
 <div style="text-align: justify">
 
