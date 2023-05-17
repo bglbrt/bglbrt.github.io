@@ -13,13 +13,14 @@ body {
     margin: 0;
     font-family: "Lato";
     height: 100%;
+    background-image: url('images/background.svg');
 }
 a {
     text-decoration: none;
     color: $accent;
 }
 a:hover {
-    font-weight:bold;
+    text-decoration: underline;
 }
 hr {
     border: 0;
