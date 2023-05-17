@@ -46,6 +46,16 @@ lang: "fr"
 
 ---
 
+## Enseignement
+
+<div style="text-align: justify">
+
+<p> Toutes les ressources des cours que j'enseigne sont disponibles sur ce site. </p>
+
+</div>
+
+---
+
 ## Autres intérêts
 
 <div style="text-align: justify">
@@ -55,5 +65,3 @@ lang: "fr"
 <p> N'hésitez pas à visionner mes dernier travaux sur ma page <a href = "https://vimeo.com/bglbrt">Vimeo</a>. </p>
 
 </div>
-
----
