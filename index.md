@@ -30,6 +30,14 @@ lang: "fr"
 
 <p> Ces recherches me conduisent pour le moment à différents projets. En premier lieu, je me penche sur l'importance donnée aux thèmes afférents aux inégalités et à la stratification sociale dans les médias ces dernières décennies, et aux glissements sémantiques des termes utilisés pour caractériser la hiérarchie sociale à l'aide de méthodes de traitement automatique du langage. Je m'intéresse aussi à la mobilisation de références au parcours biographique dans les discours politiques et plus généralement dans les stratégies de présentation de soi chez les candidats et élus à des fonctions politiques. Je me penche enfin sur les discours de critique de la légitimité de la position sociale sur les réseaux sociaux, à l'aide de méthodes d'analyse et de modélisation de réseaux, et d'analyse du langage naturel. </p>
 
+</div>
+
+---
+
+## Code et librairies
+
+<div style="text-align: justify">
+
 <p> Dans mon travail, je suis par ailleurs amené à développer des outils sur les langages Python et R. </p>
 
 <p> La plupart de mes travaux sont accessibles publiquement sur ma page <a href = "https://github.com/bglbrt">GitHub</a> . </p>
