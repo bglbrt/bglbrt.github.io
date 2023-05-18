@@ -95,6 +95,9 @@ hr {
 }
 
 @media (max-width: 500px) {
+    body {
+        background-image: none;
+      }
 	.navbar {
 		text-align: center;
 		padding: 50px 0px 0px 0px;
@@ -121,6 +124,12 @@ hr {
 		margin: 0;
 	}
 }
+
+@media (max-width: 1000px) {
+    body {
+      background-image: none;
+    }
+  }
 
 @import "typography";
 @import "tables";
