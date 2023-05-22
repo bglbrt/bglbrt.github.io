@@ -60,7 +60,7 @@ lang: "fr"
 
 <div style="text-align: justify">
 
-<p> Sur mon temps libre, je m'essaie aussi à la réalisation de courts-métrages documentaires, avec l'ambition d'illustrer, expliciter ou explorer des thèmes traités par les sciences sociales, caméra au poing. </p>
+<p> Sur mon temps libre, je m'essaie aussi à la réalisation de courts-métrages documentaires. </p>
 
 <p> N'hésitez pas à visionner mes dernier travaux sur ma page <a href = "https://vimeo.com/bglbrt">Vimeo</a>. </p>
 
