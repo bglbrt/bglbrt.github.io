@@ -16,7 +16,7 @@ lang: "fr"
 
 ---
 
-## Publications récentes
+## Publications récentes et futures
 
 
 ### En cours de publication
