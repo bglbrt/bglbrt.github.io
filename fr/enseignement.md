@@ -6,11 +6,11 @@ lang: "fr"
 
 <div style="text-align: justify"> 
 
-<p> Toutes les ressources des cours donnés actuellement ou par le passé sont à votre disposition ci-dessous. </p>
+<p> Toutes les ressources des cours donnés actuellement ou par le passé sont à votre disposition, par ordre du plus récent au plus ancien, sur cette page. </p>
 
-<p> Pour toute question relative à un de ces cours ou pour réutiliser ces ressources, merci de m'envoyer un mail. </p>
+<p> Pour toute question relative à un de ces cours ou si vous souhaitez réutiliser ces ressources, merci de <a href = "/contact">m'envoyer un mail</a>. </p>
 
-<p> Les ressources des cours suivants sont disponibles : </p>
+<p> Pour le moment, les ressources des cours suivants sont disponibles : </p>
 
 </div>
 
@@ -20,8 +20,7 @@ lang: "fr"
 ---
 
 ## Introduction à la sociologie
-### 2022-2023
-### Sciences Po - Campus du Havre
+### 2022-2023 | Sciences Po -- Campus du Havre
 
 <div style="text-align: justify"> 
 
@@ -132,8 +131,7 @@ The weekly seminar discussions are designed to help you actively engage with soc
 ---
 
 ## Culture numérique
-### 2022-2023
-### Sciences Po - Campus de Reims
+### 2022-2023 | Sciences Po -- Campus de Reims
 
 <div style="text-align: justify"> 
 
