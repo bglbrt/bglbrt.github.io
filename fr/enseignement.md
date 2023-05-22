@@ -14,12 +14,12 @@ lang: "fr"
 
 </div>
 
-* Introduction à la sociologie - Sciences Po - 2022-2023
-* Culture numérique - Sciences Po - 2022-2023
+* Introduction to sociology - Sciences Po - 2022-2023
+* Digital culture - Sciences Po - 2022-2023
 
 ---
 
-## Introduction à la sociologie
+## Introduction to sociology **(EN)**
 ### 2022-2023 | Sciences Po -- Campus du Havre
 
 <div style="text-align: justify"> 
@@ -130,7 +130,7 @@ The weekly seminar discussions are designed to help you actively engage with soc
 
 ---
 
-## Culture numérique
+## Digital culture **(EN)**
 ### 2022-2023 | Sciences Po -- Campus de Reims
 
 <div style="text-align: justify"> 
