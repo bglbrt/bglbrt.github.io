@@ -56,7 +56,7 @@ lang: "fr"
 
 ---
 
-## Autres intérêts
+## Cinématographie
 
 <div style="text-align: justify">
 
