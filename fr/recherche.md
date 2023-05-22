@@ -18,7 +18,6 @@ lang: "fr"
 
 ## Publications récentes
 
-<div style="text-align: justify">
 
 ### En cours de publication
 
@@ -29,15 +28,9 @@ lang: "fr"
 1. Gilbert, B. (2024). La fabrique des biographies : conflits d'édition et stratégies politiques sur Wikipédia.
 2. Gilbert, B. (2024). Barba facit philosophum: what physical appearance says about representatives' political affiliation.
 
-</div>
-
 ---
 
 ## Projets de recherche
 
-<div style="text-align: justify">
-
-<p> Participation au projet AI — Political Machines (AIPM) </p>
-<p> Participation à l'équipe de recherche FOCOS (CRI) </p>
-
-</div>
+* Participation au projet AI — Political Machines (AIPM)
+* Participation à l'équipe de recherche FOCOS (CRI)
