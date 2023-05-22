@@ -28,7 +28,7 @@ lang: "fr"
 
 <p> Dans le cadre de mon doctorat, je m'intéresse aux thèmes de la perception des inégalités et de la justice sociale, aux questions de justification de l'ordonnancement social, aux catégorisations ordinaires de la structure sociale, ainsi qu'à l'histoire des inégalités depuis les années 1950.</p>
 
-<p> Une présentation plus détaillée de mon sujet de thèse ainsi qu'une liste des publications auxquelles j'ai participé sont <a href = "/fr/recherche">disponibles sur ce site</a>.</p>
+<p> Une présentation plus détaillée de mon sujet de thèse ainsi qu'une liste des publications auxquelles j'ai participé ou sur lesquelles je travaille sont <a href = "/fr/recherche">disponibles sur ce site</a>.</p>
 
 </div>
 
