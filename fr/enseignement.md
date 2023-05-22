@@ -248,7 +248,7 @@ The weekly seminar discussions are designed to help you actively engage with soc
 
 ---
 
-## Digital culture — **EN**
+## Digital culture — **In English**
 ### Sciences Po — Campus de Reims
 ### 2022-2023
 
