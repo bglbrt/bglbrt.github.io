@@ -56,6 +56,7 @@ The weekly seminar discussions are designed to help you actively engage with soc
 * Compulsory reading
     * Goffman, E.  (1959). The Presentation of Self in Everyday Life.
     * Becker, H. (1963). Outsiders. p. 8-14, 59-78.
+
 #### Lecture 4 - Stratification and inequality
 
 * Material
