@@ -22,7 +22,7 @@ lang: "fr"
 
 ---
 
-## Introduction to sociology — **EN**
+## Introduction to sociology — **In English**
 ### Sciences Po — Campus du Havre
 ### 2023-2024
 
@@ -135,7 +135,7 @@ The weekly seminar discussions are designed to help you actively engage with soc
 
 ---
 
-## Introduction to sociology — **EN**
+## Introduction to sociology — **In English**
 ### Sciences Po — Campus du Havre
 ### 2022-2023
 
