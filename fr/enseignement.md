@@ -8,7 +8,7 @@ lang: "fr"
 
 <p> Toutes les ressources des cours donnés actuellement ou par le passé sont à votre disposition, par ordre du plus récent au plus ancien, sur cette page. </p>
 
-<p> Pour toute question relative à un de ces cours ou si vous souhaitez réutiliser ces ressources, n'hésitez pas à <a href = "/contact">m'envoyer un mail</a>. </p>
+<p> Pour toute question relative à un de ces cours ou si vous souhaitez réutiliser ces ressources, n'hésitez pas à <a href = "/fr/contact">m'envoyer un mail</a>. </p>
 
 <p> Pour le moment, les ressources des cours suivants sont disponibles : </p>
 
