@@ -12,3 +12,22 @@ lang: "fr"
 
 </div>
 
+---
+
+## Publications récentes
+
+<div style="text-align: justify">
+
+<p> ... </p>
+
+</div>
+
+---
+
+## Projets de recherche
+
+<div style="text-align: justify">
+
+<p> ... </p>
+
+</div>
