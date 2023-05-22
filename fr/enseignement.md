@@ -22,7 +22,7 @@ lang: "fr"
 
 ---
 
-## Introduction to sociology — **In English**
+## Introduction to sociology — *In English*
 ### Sciences Po — Campus du Havre
 ### 2023—2024
 
@@ -135,7 +135,7 @@ The weekly seminar discussions are designed to help you actively engage with soc
 
 ---
 
-## Introduction to sociology — **In English**
+## Introduction to sociology — *In English*
 ### Sciences Po — Campus du Havre
 ### 2022—2023
 
@@ -248,7 +248,7 @@ The weekly seminar discussions are designed to help you actively engage with soc
 
 ---
 
-## Digital culture — **In English**
+## Digital culture — *In English*
 ### Sciences Po — Campus de Reims
 ### 2022—2023
 
