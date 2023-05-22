@@ -50,7 +50,7 @@ lang: "fr"
 
 <div style="text-align: justify">
 
-<p> Toutes les ressources des cours que j'enseigne sont disponibles sur ce site. </p>
+<p> Toutes les ressources des cours que j'enseigne sont <a href = "/fr/enseignement/">disponibles sur ce site</a>. </p>
 
 </div>
 
