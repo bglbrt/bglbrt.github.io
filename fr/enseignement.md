@@ -8,19 +8,20 @@ lang: "fr"
 
 <p> Toutes les ressources des cours donnés actuellement ou par le passé sont à votre disposition, par ordre du plus récent au plus ancien, sur cette page. </p>
 
-<p> Pour toute question relative à un de ces cours ou si vous souhaitez réutiliser ces ressources, merci de <a href = "/contact">m'envoyer un mail</a>. </p>
+<p> Pour toute question relative à un de ces cours ou si vous souhaitez réutiliser ces ressources, n'hésitez pas à <a href = "/contact">m'envoyer un mail</a>. </p>
 
 <p> Pour le moment, les ressources des cours suivants sont disponibles : </p>
 
 </div>
 
-* Introduction to sociology - Sciences Po - 2022-2023
-* Digital culture - Sciences Po - 2022-2023
+* Introduction to sociology — Sciences Po — 2022-2023
+* Digital culture — Sciences Po — 2022-2023
 
 ---
 
-## Introduction to sociology **(EN)**
-### 2022-2023 | Sciences Po -- Campus du Havre
+## Introduction to sociology — **EN**
+### Sciences Po — Campus du Havre
+### 2022-2023
 
 <div style="text-align: justify"> 
 
@@ -131,8 +132,9 @@ The weekly seminar discussions are designed to help you actively engage with soc
 
 ---
 
-## Digital culture **(EN)**
-### 2022-2023 | Sciences Po -- Campus de Reims
+## Digital culture — **EN**
+### Sciences Po — Campus de Reims
+### 2022-2023
 
 <div style="text-align: justify"> 
 
