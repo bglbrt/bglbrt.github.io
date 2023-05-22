@@ -14,9 +14,9 @@ lang: "fr"
 
 </div>
 
-* 2023-2024:
+* 2023—2024:
     * Introduction to sociology — Sciences Po
-* 2022-2023:
+* 2022—2023:
     * Introduction to sociology — Sciences Po
     * Digital culture — Sciences Po
 
@@ -24,7 +24,7 @@ lang: "fr"
 
 ## Introduction to sociology — **In English**
 ### Sciences Po — Campus du Havre
-### 2023-2024
+### 2023—2024
 
 <div style="text-align: justify"> 
 
@@ -137,7 +137,7 @@ The weekly seminar discussions are designed to help you actively engage with soc
 
 ## Introduction to sociology — **In English**
 ### Sciences Po — Campus du Havre
-### 2022-2023
+### 2022—2023
 
 <div style="text-align: justify"> 
 
@@ -250,7 +250,7 @@ The weekly seminar discussions are designed to help you actively engage with soc
 
 ## Digital culture — **In English**
 ### Sciences Po — Campus de Reims
-### 2022-2023
+### 2022—2023
 
 <div style="text-align: justify"> 
 
@@ -287,8 +287,8 @@ In the second half, you will be presented with various digital tools to explore 
     * think about 2/3 topics for the digital exploration to share with the rest of the class
     * read [John Perry Barlow’s Declaration of the Independence of Cyberspace](https://www.eff.org/cyberspace-independence)
 * Further reading
-    * Walter, I. (2014). The Innovators: How a Group of Hackers, Geniuses, and Geeks Created the Digital Revolution
-    * Turner, F. (2021). From counterculture to cyberculture. In From Counterculture to Cyberculture
+    * Walter, I. (2014). The Innovators: How a Group of Hackers, Geniuses, and Geeks Created the Digital Revolution.
+    * Turner, F. (2021). From counterculture to cyberculture. In From Counterculture to Cyberculture.
 
 #### Lecture 3 - The web: a “common good”?
 
@@ -319,7 +319,7 @@ Finally, we will explore questions about the “digital divide”, access to the
 
 In the first part, this session will explore these topics, and discuss our digital identity online and how we mobilise digital public spaces to express and document ourselves.
 
-Then, you will have some time to work on your digital exploration and ask for feedback.  </p>
+Then, you will have some time to work on your digital exploration and ask for feedback. </p>
 
 </div>
 
@@ -330,8 +330,8 @@ Then, you will have some time to work on your digital exploration and ask for fe
     * read about [the findings of the SelfieCity project](https://selfiecity.net/#findings)
     prepare questions for guidance on your digital exploration project
 * Further reading
-    * Rainie, H., & Wellman, B. (2012). Networked: The new social operating system (Vol. 10)
-    * Turkle, S. (2017). Alone together: Why we expect more from technology and less from each other
+    * Rainie, H., & Wellman, B. (2012). Networked: The new social operating system.
+    * Turkle, S. (2017). Alone together: Why we expect more from technology and less from each other.
 
 #### Lecture 5 - Filter bubbles and the balkanisation of society: myth and reality
 
@@ -352,8 +352,8 @@ In the second part, you will be presented with some tools you can use to documen
     * read [First Draft’s guide to fake news](https://firstdraftnews.org/articles/fake-news-complicated/)
     * think about what type of information you see rarely on social media
 * Further reading
-    * Pariser, E. (2011). The filter bubble: What the Internet is hiding from you
-    Sunstein, C. R. (2018). # Republic
+    * Pariser, E. (2011). The filter bubble: What the Internet is hiding from you.
+    Sunstein, C. R. (2018). #Republic.
 
 #### Lecture 6 - Algorithms, big data and artificial intelligence
 
@@ -371,8 +371,8 @@ In this session, we will delve into what is hiding behind the words “big data�
     * read [Gideon Lewis-Kraus’s article on the changes of AI on translation](https://www.nytimes.com/2016/12/14/magazine/the-great-ai-awakening.html)
     * read [Dylan Gurran’s article on the data collected by Google and Facebook](https://www.theguardian.com/commentisfree/2018/mar/28/all-the-data-facebook-google-has-on-you-privacy)
 * Further reading
-    * Schneier, B. (2015). Data and Goliath: The hidden battles to collect your data and control your world
-    * Andrejevic, M. (2014). Big data, big questions
+    * Schneier, B. (2015). Data and Goliath: The hidden battles to collect your data and control your world.
+    * Andrejevic, M. (2014). Big data, big questions.
 
 #### Lecture 7 - Internet governance and how to regulate AI
 
