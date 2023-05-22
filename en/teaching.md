@@ -8,7 +8,7 @@ lang: "en"
 
 <p> All resources from courses given currently or in the past are available on this page, in order from most recent to oldest. </p>
 
-<p> If you have any questions about the content of one of these courses or if you would like to re-use any of these resources, please feel free to <a href = "/contact">email me</a>. </p>
+<p> If you have any questions about the content of one of these courses or if you would like to re-use any of these resources, please feel free to <a href = "/en/contact">email me</a>. </p>
 
 <p> For the moment, the resources of the following courses are available below: </p>
 
