@@ -40,7 +40,7 @@ lang: "fr"
 
 <p> Dans mon travail, je suis par ailleurs amené à développer des outils sur les langages Python et R. </p>
 
-<p> La plupart de mes travaux sont accessibles publiquement sur ma page <a href = "https://github.com/bglbrt">GitHub</a> . </p>
+<p> La plupart de mes travaux sont accessibles publiquement sur ma page <a href = "https://github.com/bglbrt">GitHub</a>. </p>
 
 </div>
 
