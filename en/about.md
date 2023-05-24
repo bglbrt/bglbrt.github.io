@@ -28,7 +28,7 @@ lang: "en"
 
 <p> As part of my PhD, I am interested in themes of perceived inequality and social justice, questions of justification of social ordering, ordinary categorisations of social structure, and the history of inequality since the 1950s. </p>
 
-<p> A more detailed presentation of my thesis subject as well as a list of publications I have participated to or am working on is available <a href = "/en/research">on this website.</a>.</p>
+<p> A more detailed presentation of my thesis subject as well as a list of publications I have participated to or am working on is available <a href = "/en/research">on this website</a>.</p>
 
 </div>
 
