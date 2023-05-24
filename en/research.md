@@ -18,7 +18,7 @@ lang: "en"
 
 ## Recent and future publications
 
-### Submitted work
+### Submitted papers
 
 * Ramaciotti-Morales, P., Gilbert, B. et Vegena, Z. (2023). Foundations of multi-national and multi-dimensional empirical political opinion social media spaces.
 
