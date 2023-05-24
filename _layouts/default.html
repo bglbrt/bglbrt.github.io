@@ -29,7 +29,6 @@
     {% endif %}
 </head>
 <body>
-    <div id="particles-js"></div>
     <div class="wrapper">
         <div class="navbar container">
             <a id="author-name" class="alignable pull-left" href="{{ site.url }}{{ site.baseurl }}">{{ site.title }}</a>
@@ -58,6 +57,7 @@
         {% else %}
             <div class="container content">
         {% endif %}
+                <div id="particles-js"></div>
                 {{ content }}
             </div>
     </div>
