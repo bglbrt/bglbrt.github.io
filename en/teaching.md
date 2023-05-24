@@ -1,6 +1,6 @@
 ---
 layout: default
-description: Benjamin GILBERT | Teaching
+description: Teaching
 lang: "en"
 ---
 

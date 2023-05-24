@@ -1,6 +1,6 @@
 ---
 layout: default
-description: Benjamin GILBERT | À propos
+description: À propos
 lang: "fr"
 ---
 

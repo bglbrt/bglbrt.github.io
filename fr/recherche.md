@@ -1,6 +1,6 @@
 ---
 layout: default
-description: Benjamin GILBERT | Recherche
+description: Recherche
 lang: "fr"
 ---
 

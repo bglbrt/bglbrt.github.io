@@ -1,5 +1,5 @@
 ---
 layout: default
-description: Benjamin GILBERT | Research
-lang: en
+description: Research
+lang: "en"
 ---
