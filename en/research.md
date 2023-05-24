@@ -6,7 +6,7 @@ lang: "en"
 
 <div style="text-align: justify">
 
-<p> In my research, I try to question how, more than fifty years after the publication of The Inheritors (Bourdieu and Passeron, 1964), and as awareness of inequalities and mechanisms of social reproduction increases (Piketty, 2013; Piketty, 2021), educational and political elites manage to justify and legitimise their position in the social space. </p>
+<p> In my research, I try to question how, more than fifty years after the publication in France of The Inheritors (Bourdieu and Passeron, 1964), and as awareness of inequalities and mechanisms of social reproduction increases (Piketty, 2013; Piketty, 2021), educational and political elites manage to justify and legitimise their position in the social space. </p>
 
 <p> In order to study this question, I am therefore interested in turn in the evolutions in the awareness of inequalities and mechanisms of social reproduction, in the discourses of justification and legitimisation of the social ordering, as well as in the views that school and political elites have on their own position within the social stratification? </p>
 
