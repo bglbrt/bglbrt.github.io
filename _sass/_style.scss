@@ -23,7 +23,7 @@ body {
 #particles-js {
     width: 100vw;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     z-index: -1 !important;
     top: 0;
     left: 0
