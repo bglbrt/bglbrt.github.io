@@ -1,6 +1,7 @@
 ---
 layout: default
 description: Enseignement
+title: Enseignement
 lang: "fr"
 ---
 

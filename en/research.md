@@ -1,6 +1,7 @@
 ---
 layout: default
 description: Research
+title: Research
 lang: "en"
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: default
 description: Teaching
+title: Teaching
 lang: "en"
 ---
 

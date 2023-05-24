@@ -1,6 +1,7 @@
 ---
 layout: default
 description: Contact
+title: Contact
 lang: "fr"
 is_contact: true
 ---
