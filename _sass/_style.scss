@@ -59,10 +59,8 @@ hr {
 }
 .navbar {
     padding: 50px 0 50px 0;
-    z-index: 0;
 }
 .navbar-ul {
-    background-color: #00ff7f;
     display: inline-block;
     margin: 0;
     padding: 5px 0 5px 0;
@@ -89,6 +87,12 @@ hr {
 .container {
     max-width: $max-width;
     margin: auto;
+}
+.containernavbar {
+    background-color: #FFFFFF;
+    max-width: $max-width;
+    margin: auto;
+    z-index: 0;
 }
 .wrapper {
     min-height: 100%;
