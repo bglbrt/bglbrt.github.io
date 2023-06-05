@@ -21,12 +21,12 @@ lang: "en"
 
 ### Submitted papers
 
-* Ramaciotti-Morales, P., Gilbert, B. et Vegena, Z. (2023). Foundations of multi-national and multi-dimensional empirical political opinion social media spaces.
+* Ramaciotti-Morales, P., Gilbert, B. et Vegena, Z. (2023). Foundations of multi-national and multi-dimensional empirical political opinion social media spaces
 
 ### Work in progress
 
-* Gilbert, B. (2024). La fabrique des biographies : conflits d'édition et stratégies politiques sur Wikipédia.
-* Gilbert, B. (2024). Barba facit philosophum: what physical appearance says about representatives' political affiliation.
+* Gilbert, B. (2024). La fabrique des biographies : conflits d'édition et stratégies politiques sur Wikipédia
+* Gilbert, B. (2024). Barba facit philosophum: what physical appearance says about representatives' political affiliation
 
 ---
 
