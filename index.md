@@ -77,4 +77,4 @@ lang: "fr"
 
 </div>
 
-<div><iframe src="https://footpathapp.com/routes/86FA014C-2E1C-4DCB-8B0F-A1D1010D779A?embed=1" width="100%" height="400px" outline="2px solid black"></iframe></div>
+<div style="border: thick solid #000000"><iframe src="https://footpathapp.com/routes/86FA014C-2E1C-4DCB-8B0F-A1D1010D779A?embed=1" width="100%" height="400px"></iframe></div>
