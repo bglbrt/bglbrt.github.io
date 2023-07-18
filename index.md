@@ -65,7 +65,7 @@ lang: "fr"
 
 </div>
 
-<div style="width: auto; height: 400px;"><iframe src="https://footpathapp.com/routes/86FA014C-2E1C-4DCB-8B0F-A1D1010D779A?embed=1" width="100%" height="100%" frameborder="2px solid black"></iframe></div>
+<div><iframe src="https://footpathapp.com/routes/86FA014C-2E1C-4DCB-8B0F-A1D1010D779A?embed=1" width="100%" height="100%" frameborder="2px solid black"></iframe></div>
 
 ---
 
