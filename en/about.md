@@ -66,3 +66,15 @@ lang: "en"
 <p> Feel free to view my latest work on my <a href = "https://vimeo.com/bglbrt">Vimeo</a> page. </p>
 
 </div>
+
+---
+
+## Hiking and mountaineering
+
+<div style="text-align: justify">
+
+<p> I sometimes share ideas for hiking routes, you can explore them below. </p>
+
+</div>
+
+<div align="center" style="border: 2px solid black"><iframe src="https://footpathapp.com/routes/86FA014C-2E1C-4DCB-8B0F-A1D1010D779A?embed=1" width="100%" height="400px" frame-border="0"></iframe></div>
