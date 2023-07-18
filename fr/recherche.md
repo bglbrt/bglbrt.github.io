@@ -26,7 +26,6 @@ lang: "fr"
 ### En cours d'écriture
 
 * Gilbert, B. (2024). La fabrique des biographies : conflits d'édition et stratégies politiques sur Wikipédia
-* Gilbert, B. (2024). Barba facit philosophum: what physical appearance says about representatives' political affiliation
 
 ---
 
