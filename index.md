@@ -57,18 +57,6 @@ lang: "fr"
 
 ---
 
-## Randonnée et alpinisme
-
-<div style="text-align: justify">
-
-<p> Je partage parfois des idées de randonnées à faire ci-dessous... </p>
-
-</div>
-
-<div><iframe src="https://footpathapp.com/routes/86FA014C-2E1C-4DCB-8B0F-A1D1010D779A?embed=1" width="100%" height="100%" frameborder="2px solid black"></iframe></div>
-
----
-
 ## Cinématographie
 
 <div style="text-align: justify">
@@ -80,3 +68,13 @@ lang: "fr"
 </div>
 
 ---
+
+## Randonnée et alpinisme
+
+<div style="text-align: justify">
+
+<p> Je partage parfois des idées de parcours de randonnées, à explorer ci dessous. </p>
+
+</div>
+
+<div><iframe src="https://footpathapp.com/routes/86FA014C-2E1C-4DCB-8B0F-A1D1010D779A?embed=1" width="100%" height="400px" outline="2px solid black"></iframe></div>
