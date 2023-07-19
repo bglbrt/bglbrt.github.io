@@ -1,7 +1,7 @@
 ---
 layout: default
 description: About
-title: About
+title: Benjamin GILBERT - About
 lang: "en"
 ---
 

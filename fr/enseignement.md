@@ -1,7 +1,7 @@
 ---
 layout: default
 description: Enseignement
-title: Enseignement
+title: Benjamin GILBERT - Enseignement
 lang: "fr"
 ---
 

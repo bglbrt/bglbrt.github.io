@@ -1,7 +1,7 @@
 ---
 layout: default
 description: Recherche
-title: Recherche
+title: Benjamin GILBERT - Recherche
 lang: "fr"
 ---
 

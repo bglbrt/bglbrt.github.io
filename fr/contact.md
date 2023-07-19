@@ -1,7 +1,7 @@
 ---
 layout: default
 description: Contact
-title: Contact
+title: Benjamin GILBERT - Contact
 lang: "fr"
 is_contact: true
 ---
