@@ -1,7 +1,6 @@
 ---
 layout: default
 description: À propos
-title: À propos
 lang: "fr"
 ---
 
