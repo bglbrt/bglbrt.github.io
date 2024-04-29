@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="blog, accent, {{ site.author }}, {{ site.title }}, jekyll">
+    <meta name="author" content="{{ site.author }}">
+    <meta name="google-site-verification" content="Xm_5ZOSckkc8NNSBhmoNLbWjGT5-ig0jnhVg4TkJFUA" />
+    {% if page.url == "/404.html" %}
+        <meta http-equiv="refresh" content="5; url=/">
+    {% endif %}
+    {% if page.description %}
+        {% assign desc = page.description %}
+    {% else %}
+        {% assign desc = site.description %}
+    {% endif %}
+    {% if page.url %}
+        {% assign url = site.url | append: site.baseurl | append: page.url %}
+    {% else %}
+        {% assign url = site.url | append: site.baseurl | append: page.url %}
+    {% endif %}
+    <meta name="description" content="{{ desc }}">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="/feed.xml" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="shortcut icon" href="/images/favicon/favicon.ico">
+    <!--KaTeX-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+                // ...options...
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="wrapper">
+        <div class="navbar containernavbar">
+            <a id="author-name" class="alignable pull-left" href="{{ site.url }}{{ site.baseurl }}">{{ site.title }}</a>
+            <ul id="navlist" class="alignable pull-right navbar-ul">
+                {% for x in site.nav %}
+                    {% if x.lang == page.lang %}
+                        {% if x.name == "Resume" %}
+                            <li class="alignable pull-left nav-list"><a target="_blank" href="{{ x.link }}">{{ x.name }}</a>
+                        {% else %}
+                            <li class="alignable pull-left nav-list"><a href="{{ x.link }}">{{ x.name }}</a>
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+                {% if page.lang == "en" %}
+                    <li class="alignable pull-left nav-list"><a class="lang" style="color: black" href="/">FR</a>
+                {% else %}
+                    <li class="alignable pull-left nav-list"><a class="lang" style="color: black" href="/en/about">EN</a>
+                {% endif %}
+                            </li>
+            </ul>
+        </div>
+        <div style="clear:both"></div>
+        <hr>
+        {% if page.is_contact == true %}
+            <div class="container content contact">
+        {% else %}
+            <div class="container content">
+        {% endif %}
+                {{ content }}
+            </div>
+    </div>
+    <script src="/particles.js-master/particles.js"></script>
+    <script src="/particles.js-master/demo/js/app.js"></script>
+</body>
+<footer>
+</footer>
