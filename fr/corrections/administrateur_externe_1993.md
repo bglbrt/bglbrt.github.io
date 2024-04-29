@@ -20,7 +20,11 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
 
 ###### lala3
 
-
+<ol>
+  <li value="a.">This is item three $$a=1$$.</li>
+  <li value="1)">This is item fifty.</li>
+  <li value="100">This is item one hundred.</li>
+</ol>
 
 Calculer l'intégrale $$\int_{0}^{+\infty} e^{-t} \mathrm{d}t$$. 
 
