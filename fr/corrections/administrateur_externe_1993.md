@@ -6,13 +6,21 @@ lang: "fr"
 katex: True
 ---
 
-# 1993
+# Annale de l'épreuve de mathématiques -- 1993
 
 ## Problème 1
 
 Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ un entier naturel.
 
 ### Partie 1
+
+#### lala
+
+##### lala2
+
+###### lala3
+
+
 
 Calculer l'intégrale $$\int_{0}^{+\infty} e^{-t} \mathrm{d}t$$. 
 
