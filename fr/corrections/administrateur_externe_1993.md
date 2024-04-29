@@ -46,7 +46,7 @@ $$
 
 On commence par montrer que \(F_n(x)\) converge pour tout \( n\in\mathbb{N} \) et \( x>0 \).
 
-On note que pour tout $$n \in \mathbb{N}$$, on a :
+On note que pour tout \(n \in \mathbb{N}\), on a :
 $$
 \begin{aligned}
     F_n(x) & = \int_{x}^{+\infty} \frac{e^{-t}}{t^{n+1}} \mathrm{d}t \\
@@ -58,7 +58,7 @@ $$
 \end{aligned}
 $$
 
-On montre ensuite que pour tout \( n\in\mathbb{N} \) et \( x>0 \) : $$0 < F_n(x) < \frac{e^{-x}}{x^{n+1}}$$.
+On montre ensuite que pour tout \( n\in\mathbb{N} \) et \( x>0 \) on a \(0 < F_n(x) < \frac{e^{-x}}{x^{n+1}}\).
 
 </p>
 
