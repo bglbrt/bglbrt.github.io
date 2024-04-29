@@ -13,7 +13,9 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
 
 ### Partie 1
 
-Calculer l'intégrale $$\int_{0}^{+\infty} e^{-t} \diff t$$. 
+Donner $$\sum_{2}^{3}$$.
+
+Calculer l'intégrale $\int_{0}^{+\infty} e^{-t} \diff t$. 
 
 <blockquote>
 En évaluant l'intégrale, on a :
