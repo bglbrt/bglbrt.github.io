@@ -20,27 +20,12 @@ Calculer l'intégrale $$\int_{0}^{+\infty} e^{-t} \mathrm{d}t$$.
 En évaluant l'intégrale, on a :
 
 $$
-\begin{align}
+\begin{aligned}
     \int_{0}^{+\infty} e^{-t} \mathrm{d} t & = \lim {b \rightarrow +\infty} \int_{0}^{b} e^{-t} \mathrm{d}t \\
     & = \lim {b \rightarrow +\infty} \left[ -e^{-t} \right]_{0}^{b} \\
     & = \lim {b \rightarrow +\infty} -e^{-b} - \left( -e^{-0} \right)
     & = 1
-\end{align}
-$$
-
-```math
-a = 1
-```
-
-<blockquote>
-```math
-a = 1
-```
-</blockquote>
-
-<p>
-$$
-\sum_{a}^{b} a^{b}
+\end{aligned}
 $$
 </p>
 
