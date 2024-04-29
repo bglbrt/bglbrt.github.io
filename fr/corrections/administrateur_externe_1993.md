@@ -14,20 +14,8 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
 
 ### Partie 1
 
-#### lala
-
-##### lala2
-
-###### lala3
-
-<ol>
-  <li value="a.">This is item three $$a=1$$.</li>
-  <li value="1)">This is item fifty.</li>
-  <li value="100">This is item one hundred.</li>
-</ol>
-
-Calculer l'intégrale $$\int_{0}^{+\infty} e^{-t} \mathrm{d}t$$. 
-
+1. Calculer l'intégrale $$\int_{0}^{+\infty} e^{-t} \mathrm{d}t$$. 
+    - lala
 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(121, 28, 248, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px">
 
 En évaluant l'intégrale, on a :
