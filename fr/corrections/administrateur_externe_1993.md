@@ -12,45 +12,55 @@ katex: True
 
 Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ un entier naturel.
 
-Calculer l'intégrale $\int_{0}^{+\infty}$. 
-
-Calculer l'intégrale $$\int_{0}^{+\infty} e^{-t} \mathrm{d}t$$. 
-
 ### Partie 1
 
-Calculer l'intégrale $$\int_{0}^{+\infty}$$. 
+Calculer l'intégrale $$\int_{0}^{+\infty} e^{-t} \mathrm{d}t$$. 
 
 <p>
 En évaluant l'intégrale, on a :
 
 $$
 \begin{align}
-    \int_{0}^{+\infty} e^{-t} \mathrm{d} t & = \lim_{b \rightarrow +\infty} \int_{0}^{b} e^{-t} \mathrm{d}t \\
-    & = \lim_{b \rightarrow +\infty} \left[ -e^{-t} \right]_{0}^{b} \\
-    & = \lim_{b \rightarrow +\infty} -e^{-b} - \left( -e^{-0} \right)
+    \int_{0}^{+\infty} e^{-t} \mathrm{d} t & = \lim {b \rightarrow +\infty} \int_{0}^{b} e^{-t} \mathrm{d}t \\
+    & = \lim {b \rightarrow +\infty} \left[ -e^{-t} \right]_{0}^{b} \\
+    & = \lim {b \rightarrow +\infty} -e^{-b} - \left( -e^{-0} \right)
     & = 1
 \end{align}
 $$
 
 </p>
 
-<p>
+<blockquote>
+En évaluant l'intégrale, on a :
+
+$$
+\begin{align}
+    \int_{0}^{+\infty} e^{-t} \mathrm{d} t & = \lim {b \rightarrow +\infty} \int_{0}^{b} e^{-t} \mathrm{d}t \\
+    & = \lim {b \rightarrow +\infty} \left[ -e^{-t} \right]_{0}^{b} \\
+    & = \lim {b \rightarrow +\infty} -e^{-b} - \left( -e^{-0} \right)
+    & = 1
+\end{align}
+$$
+
+</blockquote>
+
+<blockquote>
 En évaluant l'intégrale, on a :
 
 ```math
 \begin{align}
-    \int_{0}^{+\infty} e^{-t} \mathrm{d} t & = \lim_{b \rightarrow +\infty} \int_{0}^{b} e^{-t} \mathrm{d} t \\
-    & = \lim_{b \rightarrow +\infty} \left[ -e^{-t} \right]_{0}^{b} \\
-    & = \lim_{b \rightarrow +\infty} -e^{-b} - \left( -e^{-0} \right)
+    \int_{0}^{+\infty} e^{-t} \mathrm{d} t & = \lim {b \rightarrow +\infty} \int_{0}^{b} e^{-t} \mathrm{d}t \\
+    & = \lim {b \rightarrow +\infty} \left[ -e^{-t} \right]_{0}^{b} \\
+    & = \lim {b \rightarrow +\infty} -e^{-b} - \left( -e^{-0} \right)
     & = 1
 \end{align}
 ```
-</p>
+</blockquote>
 
 $$\begin{align}
-    \int_{0}^{+\infty} e^{-t} \mathrm{d} t & = \lim_{b \rightarrow +\infty} \int_{0}^{b} e^{-t} \mathrm{d} t \\
-    & = \lim_{b \rightarrow +\infty} \left[ -e^{-t} \right]_{0}^{b} \\
-    & = \lim_{b \rightarrow +\infty} -e^{-b} - \left( -e^{-0} \right)
+    \int_{0}^{+\infty} e^{-t} \mathrm{d} t & = \lim {b \rightarrow +\infty} \int_{0}^{b} e^{-t} \mathrm{d}t \\
+    & = \lim {b \rightarrow +\infty} \left[ -e^{-t} \right]_{0}^{b} \\
+    & = \lim {b \rightarrow +\infty} -e^{-b} - \left( -e^{-0} \right)
     & = 1
 \end{align}$$
 
