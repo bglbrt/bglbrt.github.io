@@ -14,7 +14,7 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
 
 Calculer l'intégrale $\int_{0}^{+\infty}$. 
 
-Calculer l'intégrale $$\int_{0}^{+\infty} e^{-t}$$. 
+Calculer l'intégrale $$\int_{0}^{+\infty} e^{-t} \mathrm{d}t$$. 
 
 ### Partie 1
 
@@ -25,7 +25,7 @@ En évaluant l'intégrale, on a :
 
 $$
 \begin{align}
-    \int_{0}^{+\infty} e^{-t} \diff t & = \lim_{b \rightarrow +\infty} \int_{0}^{b} e^{-t} \diff t \\
+    \int_{0}^{+\infty} e^{-t} \mathrm{d} t & = \lim_{b \rightarrow +\infty} \int_{0}^{b} e^{-t} \mathrm{d}t \\
     & = \lim_{b \rightarrow +\infty} \left[ -e^{-t} \right]_{0}^{b} \\
     & = \lim_{b \rightarrow +\infty} -e^{-b} - \left( -e^{-0} \right)
     & = 1
@@ -39,7 +39,7 @@ En évaluant l'intégrale, on a :
 
 ```math
 \begin{align}
-    \int_{0}^{+\infty} e^{-t} \diff t & = \lim_{b \rightarrow +\infty} \int_{0}^{b} e^{-t} \diff t \\
+    \int_{0}^{+\infty} e^{-t} \mathrm{d} t & = \lim_{b \rightarrow +\infty} \int_{0}^{b} e^{-t} \mathrm{d} t \\
     & = \lim_{b \rightarrow +\infty} \left[ -e^{-t} \right]_{0}^{b} \\
     & = \lim_{b \rightarrow +\infty} -e^{-b} - \left( -e^{-0} \right)
     & = 1
@@ -48,7 +48,7 @@ En évaluant l'intégrale, on a :
 </p>
 
 $$\begin{align}
-    \int_{0}^{+\infty} e^{-t} \diff t & = \lim_{b \rightarrow +\infty} \int_{0}^{b} e^{-t} \diff t \\
+    \int_{0}^{+\infty} e^{-t} \mathrm{d} t & = \lim_{b \rightarrow +\infty} \int_{0}^{b} e^{-t} \mathrm{d} t \\
     & = \lim_{b \rightarrow +\infty} \left[ -e^{-t} \right]_{0}^{b} \\
     & = \lim_{b \rightarrow +\infty} -e^{-b} - \left( -e^{-0} \right)
     & = 1
