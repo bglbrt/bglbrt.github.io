@@ -15,10 +15,10 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
 ### Partie 1
 
 <p>
-<ol type="1">
+<ol type="a">
   <li>
     <ol type="a">
-      <li><p>Calculer l'intégrale $$\int_{0}^{+\infty} e^{-t} \mathrm{d}t$$ ROROR.</p></li>
+      <li><p>Calculer l'intégrale $$\int_{0}^{+\infty} e^{-t} \mathrm{d}t$$ LALALA.</p></li>
       <li>...</li>
       <li>...</li>
     </ol>
