@@ -30,7 +30,7 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
 
 Calculer l'intégrale $$\int_{0}^{+\infty} e^{-t} \mathrm{d}t$$. 
 
-<p>
+<p style="background-color:#33475b">
 
 En évaluant l'intégrale, on a :
 
