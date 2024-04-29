@@ -15,13 +15,11 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
 ### Partie 1
 
 <ol type="1">
-  <li>
     <ol type="a">
-      <li>Calculer l'intégrale $$\int_{0}^{+\infty} e^{-t} \mathrm{d}t$$.</li>
+      <li><p>Calculer l'intégrale $$\int_{0}^{+\infty} e^{-t} \mathrm{d}t$$.</p></li>
       <li>...</li>
       <li>...</li>
     </ol>
-  </li>
 </ol>
 
 1. lala
