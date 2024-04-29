@@ -6,8 +6,10 @@ lang: "fr"
 katex: True
 ---
 
-# Annale de l'épreuve de mathématiques --- 1993
-#### Concours externe d'administrateur de l'Insee
+<h1>Annale de l'épreuve de mathématiques --- 1993</h1>
+<h2 style="font-weight: normal">Concours externe d'administrateur de l'Insee</h2>
+
+---
 
 ## Problème 1
 
@@ -20,7 +22,7 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
         <ol type="a">
             <li> Calculer l'intégrale \(\int_{0}^{+\infty} e^{-t} \mathrm{d}t\). </li>
 
-<p style="border: solid 2px; border-radius: 10px; background-color:rgba(121, 28, 248, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; list-style-position: outside">
+<p style="border: solid 2px; border-radius: 10px; background-color:rgba(121, 28, 248, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 0 0 0 0;">
 
 En évaluant l'intégrale, on a :
 $$
