@@ -3,7 +3,7 @@ layout: default
 description: Annale 1993 - Concours externe d'administrateur de l'Insee
 title: Benjamin GILBERT - Corrections
 lang: "fr"
-katex: False
+katex: True
 ---
 
 # Annale de l'épreuve de mathématiques --- 1993
@@ -17,7 +17,7 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
 <ol type="1">
     <li>
         <ol type="a">
-            <li> Calculer l'intégrale $$\int_{0}^{+\infty} e^{-t} \mathrm{d}t$$. </li>
+            <li> Calculer l'intégrale \(\int_{0}^{+\infty} e^{-t} \mathrm{d}t\). </li>
 
 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(121, 28, 248, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px">
 
