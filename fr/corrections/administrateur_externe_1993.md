@@ -3,6 +3,7 @@ layout: default
 description: Annale 1993 - Concours externe d'administrateur de l'Insee
 title: Benjamin GILBERT - Corrections
 lang: "fr"
+katex: True
 ---
 
 # 1993
@@ -22,13 +23,28 @@ Calculer l'intégrale $$\int_{0}^{+\infty}$$.
 <p>
 En évaluant l'intégrale, on a :
 
-$$\begin{align}
+$$
+\begin{align}
     \int_{0}^{+\infty} e^{-t} \diff t & = \lim_{b \rightarrow +\infty} \int_{0}^{b} e^{-t} \diff t \\
     & = \lim_{b \rightarrow +\infty} \left[ -e^{-t} \right]_{0}^{b} \\
     & = \lim_{b \rightarrow +\infty} -e^{-b} - \left( -e^{-0} \right)
     & = 1
-\end{align}$$
+\end{align}
+$$
 
+</p>
+
+<p>
+En évaluant l'intégrale, on a :
+
+```math
+\begin{align}
+    \int_{0}^{+\infty} e^{-t} \diff t & = \lim_{b \rightarrow +\infty} \int_{0}^{b} e^{-t} \diff t \\
+    & = \lim_{b \rightarrow +\infty} \left[ -e^{-t} \right]_{0}^{b} \\
+    & = \lim_{b \rightarrow +\infty} -e^{-b} - \left( -e^{-0} \right)
+    & = 1
+\end{align}
+```
 </p>
 
 $$\begin{align}
