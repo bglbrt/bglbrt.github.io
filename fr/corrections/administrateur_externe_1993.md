@@ -11,9 +11,13 @@ lang: "fr"
 
 Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ un entier naturel.
 
+Calculer l'intégrale $\int_{0}^{+\infty}$. 
+
+Calculer l'intégrale $$\int_{0}^{+\infty} e^{-t}$$. 
+
 ### Partie 1
 
-Calculer l'intégrale $$\int_{0}^{+\infty} e^{-t} \diff t$$. 
+Calculer l'intégrale $$\int_{0}^{+\infty}$$. 
 
 <p>
 En évaluant l'intégrale, on a :
