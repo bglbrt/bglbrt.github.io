@@ -57,9 +57,7 @@ En évaluant l'intégrale, on a :
 ```
 </blockquote>
 
-$$\begin{align}
-    a = 1
-\end{align}$$
+$$\begin{align} a = 1 \end{align}$$
 
 **   b)** On pose :
 
