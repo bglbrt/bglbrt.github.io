@@ -17,9 +17,9 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
 
 ### Partie 1
 
-<ol type="1">
+<ol type="1" style="font-weight: bold">
     <li>
-        <ol type="a">
+        <ol type="a" style="font-weight: bold">
             <li> Calculer l'intégrale \(\int_{0}^{+\infty} e^{-t} \mathrm{d}t\). </li>
 
 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(121, 28, 248, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; margin: 15px 0 15px -60px;">
