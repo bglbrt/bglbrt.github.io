@@ -57,12 +57,11 @@ En évaluant l'intégrale, on a :
 ```
 </blockquote>
 
-$$\begin{align}
-    \int_{0}^{+\infty} e^{-t} \mathrm{d} t & = \lim {b \rightarrow +\infty} \int_{0}^{b} e^{-t} \mathrm{d}t \\
-    & = \lim {b \rightarrow +\infty} \left[ -e^{-t} \right]_{0}^{b} \\
-    & = \lim {b \rightarrow +\infty} -e^{-b} - \left( -e^{-0} \right)
-    & = 1
-\end{align}$$
+$$
+\begin{align}
+    a = 1
+\end{align}
+$$
 
 **   b)** On pose :
 
