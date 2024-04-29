@@ -28,22 +28,20 @@ $$
 \end{align}
 $$
 
-<p>
 ```math
 a = 1
 ```
-</p>
+
+<blockquote>
+```math
+a = 1
+```
+</blockquote>
 
 <p>
-```math
+$$
 \sum_{a}^{b} a^{b}
-```
-</p>
-
-<p>
-```math
-\lim \sum_{a}^{b} a^{b}
-```
+$$
 </p>
 
 ---
