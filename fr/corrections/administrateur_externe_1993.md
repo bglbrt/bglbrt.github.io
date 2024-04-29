@@ -28,23 +28,23 @@ $$
 \end{align}
 $$
 
+<p>
 ```math
 a = 1
 ```
-
-$$a = 1$$
-
-<p>
-$$a = 1$$
 </p>
 
-<blockquote>
-$$a = 1$$
-</blockquote>
+<p>
+```math
+\sum_{a}^{b} a^{b}
+```
+</p>
 
-**   b)** On pose :
-
-
+<p>
+```math
+\lim \sum_{a}^{b} a^{b}
+```
+</p>
 
 ---
 
