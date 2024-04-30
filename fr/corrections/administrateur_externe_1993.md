@@ -6,7 +6,7 @@ lang: "fr"
 katex: True
 ---
 
-<h1>Annale de l'épreuve de mathématiques - 1993</h1>
+<h1 style="margin-bottom: 0">Annale de l'épreuve de mathématiques - 1993</h1>
 <h3 style="font-weight: normal">Concours externe d'administrateur de l'Insee</h3>
 
 ---
