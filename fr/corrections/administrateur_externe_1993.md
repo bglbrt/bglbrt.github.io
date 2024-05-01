@@ -28,14 +28,11 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
 
 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(121, 28, 248, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
 
-En évaluant l'intégrale, on a :
+En évaluant directement l'intégrale impropre, on a :
 $$
-\begin{aligned}
-    \int_{0}^{+\infty} e^{-t} \mathrm{d} t & = \lim_{b \rightarrow +\infty} \int_{0}^{b} e^{-t} \mathrm{d}t \\
-    & = \lim_{b \rightarrow +\infty} \left[ -e^{-t} \right]_{0}^{b} \\
-    & = \lim_{b \rightarrow +\infty} -e^{-b} - \left( -e^{-0} \right) \\
-    & = 1
-\end{aligned}
+\begin{equation*}
+    \int_{0}^{+\infty} e^{-t} \mathrm{d} t & = \lim_{b \rightarrow +\infty} \int_{0}^{b} e^{-t} \mathrm{d}t = \lim_{b \rightarrow +\infty} \left[ -e^{-t} \right]_{0}^{b} = \lim_{b \rightarrow +\infty} -e^{-b} - \left( -e^{-0} \right)  = 1
+\end{equation*}
 $$
 </p>
 
@@ -52,13 +49,9 @@ On commence par montrer par majoration que \(F_n(x)\) converge pour tout \( n\in
 
 On note que pour tout \(n \in \mathbb{N}\), on a :
 $$
-\begin{aligned}
-    F_n(x) & = \int_{x}^{+\infty} \frac{e^{-t}}{t^{n+1}} \mathrm{d}t \\
-    & \leq \int_{x}^{+\infty} \frac{e^{-t}}{x^{n+1}} \mathrm{d}t \\
-    & = \frac{1}{x^{n+1}} \int_{x}^{+\infty} e^{-t} \mathrm{d}t \\
-    & = \frac{e^{-x}}{x^{n+1}} \\
-    @ < +\infty
-\end{aligned}
+\begin{equation*}
+    F_n(x) & = \int_{x}^{+\infty} \frac{e^{-t}}{t^{n+1}} \mathrm{d}t \leq \int_{x}^{+\infty} \frac{e^{-t}}{x^{n+1}} \mathrm{d}t = \frac{e^{-x}}{x^{n+1}} < +\infty
+\end{equation*}
 $$
 
 On montre ensuite que pour tout \( n\in\mathbb{N} \) et \( x>0 \) on a \(0 < F_n(x) < \frac{e^{-x}}{x^{n+1}}\).
