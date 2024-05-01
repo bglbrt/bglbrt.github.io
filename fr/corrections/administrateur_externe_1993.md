@@ -6,8 +6,8 @@ lang: "fr"
 katex: True
 ---
 
-<h3 style="font-weight: normal; margin-top: 10px">Concours externe d'administrateur de l'Insee</h3>
-<h1 style="margin-bottom: 0">Annale de l'épreuve de mathématiques — 1993</h1>
+<h3 style="font-weight: normal; margin-bottom: 10px">Concours externe d'administrateur de l'Insee</h3>
+<h1 style="margin-top: 0">Annale de l'épreuve de mathématiques — 1993</h1>
 
 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(121, 28, 248, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px 0px;">
 Ces propositions de corrections n'engagent que leur auteur.
