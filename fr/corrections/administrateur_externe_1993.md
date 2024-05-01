@@ -54,7 +54,7 @@ $$
 
 On montre ensuite que pour tout \( n\in\mathbb{N} \) et \( x>0 \) on a \(0 < F_n(x) < \frac{e^{-x}}{x^{n+1}}\).
 
-<br>
+<br><br>
 
 </p>
 
