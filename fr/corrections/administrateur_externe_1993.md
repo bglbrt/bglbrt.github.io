@@ -30,9 +30,7 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
 
 En évaluant directement l'intégrale impropre, on a :
 $$
-\begin{equation*}
-    \int_{0}^{+\infty} e^{-t} \mathrm{d} t & = \lim_{b \rightarrow +\infty} \int_{0}^{b} e^{-t} \mathrm{d}t = \lim_{b \rightarrow +\infty} \left[ -e^{-t} \right]_{0}^{b} = \lim_{b \rightarrow +\infty} -e^{-b} - \left( -e^{-0} \right)  = 1
-\end{equation*}
+\int_{0}^{+\infty} e^{-t} \mathrm{d} t & = \lim_{b \rightarrow +\infty} \int_{0}^{b} e^{-t} \mathrm{d}t = \lim_{b \rightarrow +\infty} \left[ -e^{-t} \right]_{0}^{b} = \lim_{b \rightarrow +\infty} -e^{-b} - \left( -e^{-0} \right)  = 1
 $$
 </p>
 
@@ -51,9 +49,7 @@ On commence par montrer par majoration que \(F_n(x)\) converge pour tout \( n\in
 
 On note que pour tout \(n \in \mathbb{N}\), on a :
 $$
-\begin{equation*}
-    F_n(x) & = \int_{x}^{+\infty} \frac{e^{-t}}{t^{n+1}} \mathrm{d}t \leq \int_{x}^{+\infty} \frac{e^{-t}}{x^{n+1}} \mathrm{d}t = \frac{e^{-x}}{x^{n+1}} < +\infty
-\end{equation*}
+F_n(x) & = \int_{x}^{+\infty} \frac{e^{-t}}{t^{n+1}} \mathrm{d}t \leq \int_{x}^{+\infty} \frac{e^{-t}}{x^{n+1}} \mathrm{d}t = \frac{e^{-x}}{x^{n+1}} < +\infty
 $$
 
 On montre ensuite que pour tout \( n\in\mathbb{N} \) et \( x>0 \) on a \(0 < F_n(x) < \frac{e^{-x}}{x^{n+1}}\).
