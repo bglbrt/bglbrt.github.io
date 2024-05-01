@@ -6,7 +6,7 @@ lang: "fr"
 katex: True
 ---
 
-<h3 style="font-weight: normal; margin-bottom: 10px">Concours externe d'administrateur de l'Insee</h3>
+<h2 style="font-weight: normal; margin-bottom: 10px">Concours externe d'administrateur de l'Insee</h2>
 <h1 style="margin-top: 0">Annale de l'épreuve de mathématiques — 1993</h1>
 
 ---
@@ -53,6 +53,8 @@ F_n(x) = \int_{x}^{+\infty} \frac{e^{-t}}{t^{n+1}} \mathrm{d}t \leq \int_{x}^{+\
 $$
 
 On montre ensuite que pour tout \( n\in\mathbb{N} \) et \( x>0 \) on a \(0 < F_n(x) < \frac{e^{-x}}{x^{n+1}}\).
+
+<br>
 
 </p>
 
