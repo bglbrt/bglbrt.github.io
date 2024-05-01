@@ -45,7 +45,7 @@ $$
 
 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(121, 28, 248, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
 
-On commence par montrer par majoration que \(F_n(x)\) converge pour tout \( n\in\mathbb{N} \) et \( x>0 \).\n
+On commence par montrer par majoration que \(F_n(x)\) converge pour tout \( n\in\mathbb{N} \) et \( x>0 \).
 
 On note que pour tout \(n \in \mathbb{N}\), on a :
 $$
