@@ -45,7 +45,7 @@ $$
 
 On commence par montrer par majoration que \(F_n(x)\) converge pour tout \( n\in\mathbb{N} \) et \( x>0 \).
 
-<br>
+<br><br>
 
 On note que pour tout \(n \in \mathbb{N}\), on a :
 $$
