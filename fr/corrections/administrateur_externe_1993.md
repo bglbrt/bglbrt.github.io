@@ -48,17 +48,16 @@ $$
 
 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(121, 28, 248, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; margin: 15px 0 15px -60px;">
 
-On commence par montrer que \(F_n(x)\) converge pour tout \( n\in\mathbb{N} \) et \( x>0 \).
+On commence par montrer par majoration que \(F_n(x)\) converge pour tout \( n\in\mathbb{N} \) et \( x>0 \).\n
 
 On note que pour tout \(n \in \mathbb{N}\), on a :
 $$
 \begin{aligned}
     F_n(x) & = \int_{x}^{+\infty} \frac{e^{-t}}{t^{n+1}} \mathrm{d}t \\
-    & = \lim_{b \rightarrow +\infty} \int_{x}^{b} \frac{e^{-t}}{t^{n+1}} \mathrm{d}t \\
-    & = \lim_{b \rightarrow +\infty} \int_{\min(x, 1)}^{1} \frac{e^{-t}}{t^{n+1}} \mathrm{d}t + \int_{1}^{b} \frac{e^{-t}}{t^{n+1}} \mathrm{d}t \\
-    & \leq \int_{\min(x, 1)}^{1} \frac{e^{-t}}{t^{n+1}} \mathrm{d}t + \lim_{b \rightarrow +\infty} \int_{1}^{b} \frac{e^{-t}}{t^{n+1}} \mathrm{d}t \\
-    & \leq \int_{\min(x, 1)}^{1} \frac{e^{-t}}{t^{n+1}} \mathrm{d}t + \lim_{b \rightarrow +\infty} \int_{1}^{b} e^{-t} \mathrm{d}t \\
-    & < +\infty
+    & \leq \int_{x}^{+\infty} \frac{e^{-t}}{x^{n+1}} \mathrm{d}t \\
+    & = \frac{1}{x^{n+1}} \int_{x}^{+\infty} e^{-t} \mathrm{d}t \\
+    & = \frac{e^{-x}}{x^{n+1}} \\
+    @ < +\infty
 \end{aligned}
 $$
 
