@@ -53,6 +53,7 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                     $$
                     <br><br>
                     On montre ensuite que pour tout \( n\in\mathbb{N} \) et \( x>0 \) on a bien : \(0 < F_n(x) < \frac{e^{-x}}{x^{n+1}}\).
+                    fcghjklmù
                  </p>
             </li>
         </ol>
