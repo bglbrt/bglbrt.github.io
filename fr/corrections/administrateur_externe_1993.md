@@ -6,7 +6,7 @@ lang: "fr"
 katex: True
 ---
 
-<h2 style="font-weight: normal; margin-bottom: 10px">Concours externe d'administrateur de l'Insee</h2>
+<h2 style="font-weight: normal; margin-bottom: 10px"><em>Concours externe d'administrateur de l'Insee</em></h2>
 <h1 style="margin-top: 0">Annale de l'épreuve de mathématiques — 1993</h1>
 
 ---
@@ -14,6 +14,8 @@ katex: True
 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px 0px;">
 Les propositions de corrections présentées ci-dessous n'engagent que l'auteur de ce site.
 </p>
+
+---
 
 ## Problème 1
 
