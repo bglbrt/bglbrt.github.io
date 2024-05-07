@@ -69,8 +69,10 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                     On en déduit que \( F_n \) est deux fois dérivable sur \( \left] 0, +\infty \right[ \) car \( F'_n \) est la composée de fonctions dériavles sur cet intervalle.
                 </p>
             </li>
-        </li>
-        <li>
+        </ol>
+    </li>
+    <li>
+        <ol type="a" start="1">
             <li>
                 ...
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
