@@ -70,7 +70,7 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
             </li>
         </ol>
     </li>
-    <li> On pose \( f_0(x) = 0 \) et pour \( n \in \mathbb{N}^\star \), \( f_n(x) = \sum_{k=1}^{n} (-1)^{k-1} \frac{(k-1)!}{x^k} \) (avec la convention \( 0! = 1 \)).
+    <li> On pose \( f_0(x) = 0 \) et pour \( n \in \mathbb{N}^\star \), \( f_n(x) = \sum_{k=1}^{n} (-1)^{k-1} \frac{(k-1)!}{x^k} \).
         <ol type="a" start="1">
             <li>
                 Etablir pour \( x >0 \) et \( n \in \mathbb{N} \) la relation de récurrence :
@@ -84,7 +84,7 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
             <li>
                 ...
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    En s'appuyant sur la convergence de \( F_n(x) \), on note qu'en utilisant une intégration par parties on a :
+                    En s'appuyant sur le résultat de convergence de montré dans les questions précédentes, on a en utilisant une intégration par parties :
                     $$
                     \int_{x}^{+\infty} \frac{e^{-t}}{t^{n+1}} \mathrm{d}t = \lim_{b \rightarrow +\infty} \left[-\frac{e^{-t}}{t^{n+1}}\right]_{x}^{b}-\int_{x}^{b} \frac{(n+1) e^{-t}}{t^{n+2}} \mathrm{d}t
                      =\frac{e^{-x}}{x^{n+1}} - (n+1) \int_{x}^{+\infty} \frac{e^{-t}}{t^{n+2}} d t
