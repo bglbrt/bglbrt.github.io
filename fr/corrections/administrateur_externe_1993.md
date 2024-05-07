@@ -45,29 +45,19 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                 0 < F_n(x) < \frac{e^{-x}}{x^{n+1}}
                 $$
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    Soit \( f : \begin{cases} t \mapsto \frac{e^{-t}}{t^{n+1}} \\ \mathbb{R} \rightarrow \mathbb{R} \end{cases} \).
-                    <br><br>
-                    Il est clair qu'on a pour tout \( n\in\mathbb{N} \) et \( t>x \) :
+                    Dans la suite, on définit \( f : \begin{cases} t \mapsto \frac{e^{-t}}{t^{n+1}} \\ \mathbb{R} \rightarrow \mathbb{R} \end{cases} \). Il est clair qu'on a pour tout \( n\in\mathbb{N} \) et \( t>x \) :
                     $$
                     0 < f(t) < \frac{e^{-t}}{x^{n+1}}
                     $$
+                    On en déduit alors qu'on a :
+                    $$
+                    0 < \int_{x}^{+\infty} f(t) \mathrm{d}t = \int_{x}^{+\infty} \frac{e^{-t}}{t^{n+1}} \mathrm{d}t < \int_{x}^{+\infty} \frac{e^{-t}}{x^{n+1}} = \frac{1}{x^{n+1}} \int_{x}^{+\infty} e^{-t} \mathrm{d}t = \frac{e^{-x}}{x^{n+1}}
+                    $$
                     On commence par montrer par majoration que \(F_n(x)\) converge pour tout \( n\in\mathbb{N} \) et \( x>0 \).
                     <br><br>
-                    On note que pour tout \(n \in \mathbb{N}\), on a :
-                    $$
-                    F_n(x) = \int_{x}^{+\infty} \frac{e^{-t}}{t^{n+1}} \mathrm{d}t \leq \int_{x}^{+\infty} \frac{e^{-t}}{x^{n+1}} \mathrm{d}t = \frac{e^{-x}}{x^{n+1}} < +\infty.
-                    $$
+                    Il s'ensuit directement que pour tout \( n\in\mathbb{N} \) et \( x>0 \) : \( 0 < F_n(x) < +\infty \), d'où \(F_n(x)\) converge.
                     <br><br>
-                    On montre ensuite que pour tout \( n\in\mathbb{N} \) et \( x>0 \) on a bien : \(0 < F_n(x) < \frac{e^{-x}}{x^{n+1}}\).
-                    <br><br>
-                    On note d'abord que \( F_n(x) > 0 \) car \( F_n(x) \) est une intégrale d'une fonction strictement positive sur le domaine d'intégration.
-                    <br><br>
-                    Puis, on a par majoration :
-                    $$
-                    \int_{x}^{+\infty} \frac{e^{-t}}{t^{n+1}} \mathrm{d}t < \int_{x}^{+\infty} \frac{e^{-t}}{x^{n+1}} = \frac{1}{x^{n+1}} \int_{x}^{+\infty} e^{-t} \mathrm{d}t = \frac{e^{-x}}{x^{n+1}}
-                    $$
-                    On en déduit qu'on a bien pour tout \( n\in\mathbb{N} \) et \( x>0 \) on a bien : \(0 < F_n(x) < \frac{e^{-x}}{x^{n+1}}\).
-                    Puis, en s'appuyant sur la convergence de \( F_n(x) \), on note qu'en utilisant une intégration par parties on a :
+                    En s'appuyant sur la convergence de \( F_n(x) \), on note qu'en utilisant une intégration par parties on a :
                     $$
                     \int_{x}^{+\infty} \frac{e^{-t}}{t^{n+1}} \mathrm{d}t = \lim_{b \rightarrow +\infty} \left[-\frac{e^{-t}}{t^{n+1}}\right]_{x}^{b}-\int_{x}^{b} \frac{(n+1) e^{-t}}{t^{n+2}} \mathrm{d}t
                      =\frac{e^{-x}}{x^{n+1}} - (n+1) \int_{x}^{+\infty} \frac{e^{-t}}{t^{n+2}} d t
