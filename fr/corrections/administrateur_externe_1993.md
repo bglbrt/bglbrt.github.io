@@ -45,7 +45,7 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                 0 < F_n(x) < \frac{e^{-x}}{x^{n+1}}
                 $$
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    Dans la suite, par souci de concision, on définit \( f : t \mapsto \frac{e^{-t}}{t^{n+1}} \). Il est clair qu'on a pour tout \( n\in\mathbb{N} \) et \( t>x \) :
+                    Dans la suite, on définit \( f : t \mapsto \frac{e^{-t}}{t^{n+1}} \). Il est clair qu'on a pour tout \( n\in\mathbb{N} \) et \( t>x \) :
                     $$
                     0 < f(t) < \frac{e^{-t}}{x^{n+1}}
                     $$
@@ -53,20 +53,20 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                     $$
                     0 < \int_{x}^{+\infty} f(t) \mathrm{d}t < \int_{x}^{+\infty} \frac{e^{-t}}{x^{n+1}} = \frac{1}{x^{n+1}} \int_{x}^{+\infty} e^{-t} \mathrm{d}t = \frac{e^{-x}}{x^{n+1}}
                     $$
-                    Il s'ensuit que pour tout \( n\in\mathbb{N} \) et \( x>0 \) on a bien \( 0 < F_n(x) < \frac{e^{-x}}{x^{n+1}} \).
+                    Il s'ensuit que pour tout \( n\in\mathbb{N} \) et \( x>0 \) on a bien : \( 0 < F_n(x) < \frac{e^{-x}}{x^{n+1}} \).
                     <br><br>
-                    Par encadrement, on en déduit que pour tout \( n\in\mathbb{N} \) et \( x>0 \), \(F_n(x)\) converge.
-                    En s'appuyant sur la convergence de \( F_n(x) \), on note qu'en utilisant une intégration par parties on a :
-                    $$
-                    \int_{x}^{+\infty} \frac{e^{-t}}{t^{n+1}} \mathrm{d}t = \lim_{b \rightarrow +\infty} \left[-\frac{e^{-t}}{t^{n+1}}\right]_{x}^{b}-\int_{x}^{b} \frac{(n+1) e^{-t}}{t^{n+2}} \mathrm{d}t
-                     =\frac{e^{-x}}{x^{n+1}} - (n+1) \int_{x}^{+\infty} \frac{e^{-t}}{t^{n+2}} d t
-                    $$
+                    Par encadrement, on en déduit que pour tout \( n\in\mathbb{N} \) et \( x>0 \) : \(F_n(x)\) converge.
                  </p>
             </li>
             <li>
-                Montrer que pour tout \(n \in \mathbb{N} \), la fonction \( F_n \) est deux fois dérivable sur \left] 0, +\infty \right[ et calculer sa dérivée \( F'_n \).
+                Montrer que pour tout \(n \in \mathbb{N} \), la fonction \( F_n \) est deux fois dérivable sur \( \left] 0, +\infty \right[ \) et calculer sa dérivée \( F'_n \).
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    ...
+                    Par le théorème fondamental de l'analyse, en utilisant le résultat de convergence montré précédemment, on a pour tout \(n \in \mathbb{N} \) et pour tout \( x \in \left] 0, +\infty \right[ \) :
+                    $$
+                    F'_n(x) = \frac{\partial F_n(x)}{\partial x} = \frac{\partial}{\partial x} \int_{x}^{+\infty} f(t) \mathrm{d}t = - f(x) = - \frac{e^{-x}}{x^{n+1}}
+                    $$
+                    <br><br>
+                    On en déduit que \( F_n \) est deux fois dérivable sur \( \left] 0, +\infty \right[ \) car \( F'_n \) est la composée de fonctions dériavles sur cet intervalle.
                 </p>
             </li>
         </li>
@@ -80,7 +80,11 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
             <li>
                 ...
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    ...
+                    En s'appuyant sur la convergence de \( F_n(x) \), on note qu'en utilisant une intégration par parties on a :
+                    $$
+                    \int_{x}^{+\infty} \frac{e^{-t}}{t^{n+1}} \mathrm{d}t = \lim_{b \rightarrow +\infty} \left[-\frac{e^{-t}}{t^{n+1}}\right]_{x}^{b}-\int_{x}^{b} \frac{(n+1) e^{-t}}{t^{n+2}} \mathrm{d}t
+                     =\frac{e^{-x}}{x^{n+1}} - (n+1) \int_{x}^{+\infty} \frac{e^{-t}}{t^{n+2}} d t
+                    $$
                 </p>
             </li>
             <li>
