@@ -65,15 +65,18 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                     $$
                     F'_n(x) = \frac{\partial}{\partial x} F_n(x) = \frac{\partial}{\partial x} \int_{x}^{+\infty} f(t) \mathrm{d}t = - f(x) = - \frac{e^{-x}}{x^{n+1}}
                     $$
-                    On en déduit que \( F_n \) est deux fois dérivable sur \( \left] 0, +\infty \right[ \) car \( F'_n \) est la composée de fonctions dériavles sur cet intervalle.
+                    On en déduit que \( F_n \) est deux fois dérivable sur \( \left] 0, +\infty \right[ \) car \( F'_n \) est une composée de fonctions dérivables sur l'intervalle \( \left] 0, +\infty \right[ \).
                 </p>
             </li>
         </ol>
     </li>
-    <li>
+    <li> On pose \( f_0(x) = 0 \) et pour \( n \in \mathbb{N}^\star \), \( f_n(x) = \sum_{k=1}^{n} (-1)^{k-1} \frac{(k-1)!}{x^k} \) (avec la convention \( 0! = 1 \)).
         <ol type="a" start="1">
             <li>
-                ...
+                Etablir pour \( x >0 \) et \( n \in \mathbb{N} \) la relation de récurrence :
+                $$
+                F_n(x) = \frac{e^{-x}}{x^{n+1}} - (n+1)F_{n+1}(x)
+                $$
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
