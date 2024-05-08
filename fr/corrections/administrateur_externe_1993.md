@@ -137,7 +137,7 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                     En utilisant la majoration trouvée précédemment, on a pour \( x >0 \) et \( n \in \mathbb{N} \) :
                     $$
                     \begin{aligned}
-                        \lvert \varphi(x)-f_{n}(x) \right| & = \left| (-1)^{n} n! e^{x} F_{n}(x) \rvert \\
+                        \lvert \varphi(x)-f_{n}(x) \rvert & = \lvert (-1)^{n} n! e^{x} F_{n}(x) \rvert \\
                         & \leq \lvert n! e^{x} \frac{e^{-x}}{x^{n+1}} \rvert \\
                         & = \frac{n!}{x^{n+1}}
                     \end{aligned}
