@@ -45,7 +45,7 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                 0 < F_n(x) < \frac{e^{-x}}{x^{n+1}}
                 $$
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    Dans la suite, on définit \( f : t \mapsto \frac{e^{-t}}{t^{n+1}} \). Il est clair qu'on a pour tout \( n\in\mathbb{N} \) et \( t>x \) :
+                    Dans la suite, on définit \( f : t \mapsto \frac{e^{-t}}{t^{n+1}} \). Il est clair qu'on a pour tout \( n\in\mathbb{N} \) et \( t>x>0 \) :
                     $$
                     0 < f(t) < \frac{e^{-t}}{x^{n+1}}
                     $$
@@ -103,12 +103,14 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                     On établit la relation par récurrence sur \( n \in \mathbb{N} \).
                     <br>
                     <u>Initialisation</u>
+                    <br>
                     Pour \( n=0 \), on a bien :
                     $$
                     e^{x} F_{0}(x) = f_{0}(x)+(-1)^{0} 0! e^{x} F_{0}(x) =e^{x} F_{0}(x)
                     $$
                     <br>
                     <u>Hérédité</u>
+                    <br>
                     On suppose la relation de récurrence vraie au rang \( n \). On a alors :
                     $$
                     \begin{aligned}
