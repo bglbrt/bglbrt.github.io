@@ -81,12 +81,11 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                 F_n(x) = \frac{e^{-x}}{x^{n+1}} - (n+1)F_{n+1}(x)
                 $$
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    En s'appuyant sur le résultat de convergence montré dans les questions précédentes, on a, en utilisant une intégration par parties sur \( F_n(x) \) :
+                    En s'appuyant sur le résultat de convergence montré dans les questions précédentes, on obtient pour tout \( n \in \mathbb{N} \) en utilisant une intégration par parties :
                     $$
                     \begin{aligned}
-                    \int_{x}^{+\infty} \frac{e^{-t}}{t^{n+1}} \mathrm{d}t & = \lim_{b \rightarrow +\infty} \int_{x}^{b} \frac{e^{-t}}{t^{n+1}} \mathrm{d}t \\
-                    & = \lim_{b \rightarrow +\infty} \left( \left[-\frac{e^{-t}}{t^{n+1}}\right]_{x}^{b}-\int_{x}^{b} \frac{(n+1) e^{-t}}{t^{n+2}} \mathrm{d}t \right) \\
-                    & = \frac{e^{-x}}{x^{n+1}} - (n+1) \int_{x}^{+\infty} \frac{e^{-t}}{t^{n+2}} \mathrm{d}t
+                        \lim_{b \rightarrow +\infty} \int_{x}^{b} \frac{e^{-t}}{t^{n+1}} \mathrm{d}t & = \lim_{b \rightarrow +\infty} \left( \left[-\frac{e^{-t}}{t^{n+1}}\right]_{x}^{b}-\int_{x}^{b} \frac{(n+1) e^{-t}}{t^{n+2}} \mathrm{d}t \right) \\
+                        & = \frac{e^{-x}}{x^{n+1}} - (n+1) \int_{x}^{+\infty} \frac{e^{-t}}{t^{n+2}} \mathrm{d}t
                     \end{aligned}
                     $$
                     On en déduit pour \( x >0 \) et \( n \in \mathbb{N} \) la relation de récurrence :
@@ -101,15 +100,66 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                 e^{x} F_0(x) = f_n(x) + (-1)^n n! e^{x} F_n(x)
                 $$
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    On établit la relation par récurrence sur \( n \in \mathbb{N} \) :
+                    On établit la relation par récurrence sur \( n \in \mathbb{N} \).
+                    <br>
                     <u>Initialisation</u>
                     Pour \( n=0 \), on a bien :
                     $$
                     e^{x} F_{0}(x) = f_{0}(x)+(-1)^{0} 0! e^{x} F_{0}(x) =e^{x} F_{0}(x)
                     $$
-                    <br><br>
+                    <br>
                     <u>Hérédité</u>
-                    
+                    On suppose la relation de récurrence vraie au rang \( n \). On a alors :
+                    $$
+                    \begin{aligned}
+                        e^{x} F_0(x) & = f_n(x) + (-1)^n n! e^{x} F_n(x) \\
+                        & = f_{n}(x) + (-1)^{n} n! e^{x} \left( \frac{e^{-x}}{x^{n+1}} - (n+1)F_{n+1}(x) \right) \\
+                        & = f_{n}(x) + \frac{(-1)^{n} n!}{x^{n+1}} + (-1)^{n+1}(n+1)!e^{x} F_{n+1}(x) \\
+                        & = f_{n+1}(x)+(-1)^{n+1}(n+1)!e^{x} F_{n+1}(x)
+                    \end{aligned}
+                    $$
+                    On en déduit qu'on a bien pour \( x >0 \) et \( n \in \mathbb{N} \) :
+                    $$
+                    e^{x} F_0(x) = f_n(x) + (-1)^n n! e^{x} F_n(x)
+                    $$
+                </p>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <ol type="a" start="1">
+            <li>
+                On pose \( \varphi(x) = e^x F_0(x) \). Montrer que :
+                $$
+                \lvert \varphi(x) - f_n(x) \rvert \leq \frac{n!}{x^{n+1}}
+                $$
+                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                    En utilisant la majoration trouvée précédemment, on a pour \( x >0 \) et \( n \in \mathbb{N} \) :
+                    $$
+                    \begin{aligned}
+                        \lvert \varphi(x)-f_{n}(x) \right| & = \left| (-1)^{n} n! e^{x} F_{n}(x) \rvert \\
+                        & \leq \lvert n! e^{x} \frac{e^{-x}}{x^{n+1}} \rvert \\
+                        & = \frac{n!}{x^{n+1}}
+                    \end{aligned}
+                    $$
+                </p>
+            </li>
+            <li>
+                Déterminer les valeurs de \( n \) pour lesquelles \( \epsilon_n = \frac{n!}{10^{n+1}} \) est minimal, et en déduire pour ces valeurs de \( n \) un majorant numérique de l'erreur conimise en prenant \( \ln(10) \) comme valeur approchée de \( \varphi(10) \).
+                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
+            </li>
+            <li>
+                ...
+                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
+            </li>
+            <li>
+                ...
+                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                    ...
                 </p>
             </li>
             <li>
