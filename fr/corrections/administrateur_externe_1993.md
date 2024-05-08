@@ -70,7 +70,10 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
             </li>
         </ol>
     </li>
-    <li> On pose \( f_0(x) = 0 \) et pour \( n \in \mathbb{N}^\star \), \( f_n(x) = \sum_{k=1}^{n} (-1)^{k-1} \frac{(k-1)!}{x^k} \).
+    <li> On pose \( f_0(x) = 0 \) et pour \( n \in \mathbb{N}^\star \) :
+    $$
+    f_n(x) = \sum_{k=1}^{n} (-1)^{k-1} \frac{(k-1)!}{x^k}.
+    $$
         <ol type="a" start="1">
             <li>
                 Etablir pour \( x >0 \) et \( n \in \mathbb{N} \) la relation de récurrence :
@@ -78,17 +81,35 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                 F_n(x) = \frac{e^{-x}}{x^{n+1}} - (n+1)F_{n+1}(x)
                 $$
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    ...
+                    En s'appuyant sur le résultat de convergence montré dans les questions précédentes, on a, en utilisant une intégration par parties sur \( F_n(x) \) :
+                    $$
+                    \begin{aligned}
+                    \int_{x}^{+\infty} \frac{e^{-t}}{t^{n+1}} \mathrm{d}t & = \lim_{b \rightarrow +\infty} \int_{x}^{b} \frac{e^{-t}}{t^{n+1}} \mathrm{d}t \\
+                    & = \lim_{b \rightarrow +\infty} \left( \left[-\frac{e^{-t}}{t^{n+1}}\right]_{x}^{b}-\int_{x}^{b} \frac{(n+1) e^{-t}}{t^{n+2}} \mathrm{d}t \right) \\
+                    & = \frac{e^{-x}}{x^{n+1}} - (n+1) \int_{x}^{+\infty} \frac{e^{-t}}{t^{n+2}} \mathrm{d}t
+                    \end{aligned}
+                    $$
+                    On en déduit pour \( x >0 \) et \( n \in \mathbb{N} \) la relation de récurrence :
+                    $$
+                    F_n(x) = \frac{e^{-x}}{x^{n+1}} - (n+1)F_{n+1}(x)
+                    $$
                 </p>
             </li>
             <li>
-                ...
+                En déduire :
+                $$
+                e^{x} F_0(x) = f_n(x) + (-1)^n n! e^{x} F_n(x)
+                $$
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    En s'appuyant sur le résultat de convergence de montré dans les questions précédentes, on a en utilisant une intégration par parties :
+                    On établit la relation par récurrence sur \( n \in \mathbb{N} \) :
+                    <u>Initialisation</u>
+                    Pour \( n=0 \), on a bien :
                     $$
-                    \int_{x}^{+\infty} \frac{e^{-t}}{t^{n+1}} \mathrm{d}t = \lim_{b \rightarrow +\infty} \left[-\frac{e^{-t}}{t^{n+1}}\right]_{x}^{b}-\int_{x}^{b} \frac{(n+1) e^{-t}}{t^{n+2}} \mathrm{d}t
-                     =\frac{e^{-x}}{x^{n+1}} - (n+1) \int_{x}^{+\infty} \frac{e^{-t}}{t^{n+2}} d t
+                    e^{x} F_{0}(x) = f_{0}(x)+(-1)^{0} 0! e^{x} F_{0}(x) =e^{x} F_{0}(x)
                     $$
+                    <br><br>
+                    <u>Hérédité</u>
+                    
                 </p>
             </li>
             <li>
