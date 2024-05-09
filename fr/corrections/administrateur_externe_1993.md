@@ -238,7 +238,7 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                         & = n! \sum_{p=0}^{n} p \binom{n}{p} (-1)^{p} x^{p-1} F_{p}(x) + n! \frac{e^{-x}}{x} \sum_{p=0}^{n} \binom{n}{p} (-1)^{p} \\
                         & = n! \sum_{p=0}^{n} p \binom{n}{p} (-1)^{p} x^{p-1} \int_{x}^{+\infty} \frac{e^{-t}}{t^{p+1}} \mathrm{d}t \\
                         & = n! \int_{x}^{+\infty} \frac{e^{-t} \sum_{p=0}^{n} p\binom{n}{p} (-1)^{p} x^{p^-1} t^{n-p}}{t^{n+1}} \mathrm{d}t \\
-                        & = -n n! \int_{x}^{+\infty} \frac{e^{-t} \sum_{p=0}^{n-1} \binom{n-1}{p-1} (-x)^{p-1} t^{(n-1)-(p-1)}}{t^{n+1}} \mathrm{d}t \\
+                        & = -n n! \int_{x}^{+\infty} \frac{e^{-t} \sum_{p=1}^{n} \binom{n-1}{p-1} (-x)^{p-1} t^{(n-1)-(p-1)}}{t^{n+1}} \mathrm{d}t \\
                         & = -n n! \int_{x}^{+\infty} \frac{e^{-t}(t-x)^{n-1}}{t^{n+1}} d t
                     \end{aligned}
                     $$
