@@ -153,16 +153,11 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                     $$
                     \frac{\varepsilon_{n+1}}{\varepsilon_{n}} = \frac{(n+1)!}{10^{n+2}} \times \frac{10^{n+1}}{n!} = \frac{n+1}{10}
                     $$
-                    On en déduit que la suite est : 
-                    <ul>
-                        <li> décroissante jusqu'en \( n = 9 \) ; </li>
-                        <li> égale en \( n = 9 \) et \( n = 10 \) ; </li>
-                        <li> décroissante à partir de \( n = 10 \). </li>
-                    </ul>
+                    On en déduit que la suite est décroissante jusqu'en \( n = 9 \) ; égale en \( n = 9 \) et \( n = 10 \) ; et croissante à partir de \( n = 10 \).
                     <br>
                     Elle atteint donc son minimum en \( n = 9 \) et \( n = 10 \).
                     <br><br>
-                    On en déduit directement :
+                    On en déduit directement, en utilisant la question précédente :
                     $$
                     \lvert \varphi(x)-f_{n}(x) \rvert \leq \frac{10!}{10^{11}} 
                     $$
