@@ -191,7 +191,22 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
             <li>
                 Exprimer la fonction \( G_n \) comme combinaison linéaire des fonctions \( x \mapsto x^p F_p(x) \).
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    ...
+                    On rappelle que pour tout \( n \in \mathbb{N}, x>0 \) et \( t \geq x \) on a :
+                    $$
+                    (t-x)^{n} = \sum_{k=0}^{n} \binom{n}{k} t^{k} (-x)^{n-k}
+                    $$
+                    <br>
+                    Avec un changement de variables, on peut alons écrire pour tout \( n \in \mathbb{N}, x>0 \) :
+                    $$
+                    \begin{aligned}
+                        G_{n}(x) & = n! \int_{x}^{+\infty} \sum_{k=0}^{n} \binom{n}{k} t^{k} (-x)^{n-k} \frac{e^{-t}}{t^{n+1}} \mathrm{d}t \\
+                        & = n! \sum_{k=0}^{n} \binom{n}{k} (-x)^{n-k} \int_{x}^{+\infty} \frac{e^{-t}}{t^{n+1-k}} \mathrm{d}t \\
+                        & = n! \sum_{k=0}^{n} \binom{n}{k} (-x)^{n-k} F_{n-k}(x) \\
+                        & = n! \sum_{p=0}^{n} \binom{n}{p} (-1)^{p} x^{p} F_{p}(x)
+                    \end{aligned}
+                    $$
+                    <br>
+                    On en déduit que \( G_n \) peut s'écrire comme une combinaison linéaire des fonctions \( x \mapsto x^p F_p(x) \).
                 </p>
             </li>
             <li>
