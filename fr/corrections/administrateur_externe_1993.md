@@ -175,10 +175,17 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
             <li>
                 Montrer pour tout \( n \in \mathbb{N} \) et tout \( x>0 \), la convergence de l'intégrale :
                 $$
-                G_n(x) = n! \int_{x}^{+\infty} \frac{e^{-t}(t-x)^n}{t^{n+1}} \mathrm{d}t
+                G_n(x) = n! \int_{x}^{+\infty} \frac{e^{-t}(t-x)^n}{t^{n+1}} \mathrm{d}t.
                 $$
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    ...
+                    On remarque que pour tout \( n\in\mathbb{N}, x>0 \) et \( t>x \) on a :
+                    $$
+                    0 \leq (t-x)^n \leq t^n
+                    $$
+                    En utilisant le résultat de la première partie, on en déduit :
+                    $$
+                    G_{n}(x) = n!\int_{x}^{+\infty} \frac{e^{-t}(t-x)^{n}}{t^{n+1}} \mathrm{d}t \leq n! \int_{x}^{+\infty} \frac{e^{-t}}{t} \mathrm{d}t < +\infty
+                    $$
                 </p>
             </li>
             <li>
@@ -202,7 +209,7 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
             <li>
                 Pour \( n\geq 1 \) et \( x > 0 \), montrer que :
                 $$
-                G_n'(x) = -n n! \int_{x}^{+\infty} \frac{e^{-t}(t-x)^{n-1}}{t^{n+1}} \mathrm{d}t
+                G_n'(x) = -n n! \int_{x}^{+\infty} \frac{e^{-t}(t-x)^{n-1}}{t^{n+1}} \mathrm{d}t.
                 $$
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
@@ -222,7 +229,7 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                 </p>
             </li>
             <li>
-                À l'aide d'une intégration par parties - qu'on justifiera - de \( \int_{x}^{+\infty} \frac{e^{-t (t-x)^{n-1}}}{t^n} \mathrm{d}t \), montrer que pour \( n \geq 1 \) et \( x > 0 \) on a :
+                À l'aide d'une intégration par partie qu'on justifiera de \( \int_{x}^{+\infty} \frac{e^{-t (t-x)^{n-1}}}{t^n} \mathrm{d}t \), montrer que pour \( n \geq 1 \) et \( x > 0 \) on a :
                 $$
                 G_n'(x) = n G_{n-1}(x) + n G_{n-1}'(x).
                 $$
