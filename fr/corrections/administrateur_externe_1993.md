@@ -233,10 +233,9 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                     En utilisant les résultats de la partie précédente, on a :
                     $$
                     \begin{aligned}
-                        G_{n}'(x) & = \frac{\partial}{\partial x} n! \sum_{p=0}^{n} \binom{n}{p}(-1)^{p} x^{p} F_{p}(x) \\
-                        & = n! \sum_{p=0}^{n} \binom{n}{p} (-1)^{p} \left( p x^{p-1} F_{p}(x) - x^{p} F_{p}'(x) \right) \\
+                        G_{n}'(x) & = n! \sum_{p=0}^{n} \binom{n}{p} (-1)^{p} \left( p x^{p-1} F_{p}(x) - x^{p} F_{p}'(x) \right) \\
                         & = n! \sum_{p=0}^{n} p \binom{n}{p} (-1)^{p} x^{p-1} F_{p}(x) + n! \frac{e^{-x}}{x} \sum_{p=0}^{n} \binom{n}{p} (-1)^{p} \\
-                        & = n! \sum_{p=0}^{n} p \binom{n}{p} (-1)^{p} x^{p-1} \int_{x}^{+\infty} \frac{e^{-t}}{t^{p+1}} \mathrm{d}t \\
+                        & = n! \sum_{p=0}^{n} p \binom{n}{p} (-1)^{p} x^{p-1} \int_{x}^{+\infty} \frac{e^{-t}}{t^{p+1}} \mathrm{d}t + 0 \\
                         & = n! \int_{x}^{+\infty} \frac{e^{-t} \sum_{p=0}^{n} p\binom{n}{p} (-1)^{p} x^{p^-1} t^{n-p}}{t^{n+1}} \mathrm{d}t \\
                         & = -n n! \int_{x}^{+\infty} \frac{e^{-t} \sum_{p=1}^{n} \binom{n-1}{p-1} (-x)^{p-1} t^{(n-1)-(p-1)}}{t^{n+1}} \mathrm{d}t \\
                         & = -n n! \int_{x}^{+\infty} \frac{e^{-t}(t-x)^{n-1}}{t^{n+1}} d t
