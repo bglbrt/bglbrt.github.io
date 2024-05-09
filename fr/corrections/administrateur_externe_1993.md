@@ -191,7 +191,7 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
             <li>
                 Exprimer la fonction \( G_n \) comme combinaison linéaire des fonctions \( x \mapsto x^p F_p(x) \).
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    On rappelle que pour tout \( n \in \mathbb{N}, x>0 \) et \( t \geq x \) on a :
+                    On rappelle que, par la formule du binôme de Newton, pour tout \( n \in \mathbb{N}, x>0 \) et \( t \geq x \) on a :
                     $$
                     (t-x)^{n} = \sum_{k=0}^{n} \binom{n}{k} t^{k} (-x)^{n-k}
                     $$
@@ -212,13 +212,16 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
             <li>
                 Établir que la fonction \( G_n(x) \) est deux fois dérivable sur \( \left] 0, +\infty \right[ \).
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    ...
+                    En s'appuyant sur les résultats de la partie précédente, la fonction \( G_n(x) \) est deux fois dérivables sur \( \left] 0, +\infty \right[ \) pour tout \( n\in \mathbb{N} \) en tant que combinaison linéaire finie de fonctions elles-mêmes deux fois dérivables sur \( \left] 0, +\infty \right[ \).
                 </p>
             </li>
             <li>
                 Justifier que pour \( n\geq 1 \), on a \( \sum_{p=0}^n (-1)^p C_n^p = 0 \).
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    ...
+                    Par la formule du binôme de Newton, on a :
+                    $$
+                    \sum_{p=0}^{n} (-1)^{p} C_{n}^{p} = \sum_{p=0}^{n} \binom{n}{p} (-1)^{p} (1)^{n-p} = (-1+1)^{n} = 0
+                    $$
                 </p>
             </li>
             <li>
