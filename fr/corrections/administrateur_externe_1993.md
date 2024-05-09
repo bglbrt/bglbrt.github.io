@@ -173,19 +173,37 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
     <li>
         <ol type="a" start="1">
             <li>
-                ..
+                Montrer pour tout \( n \in \mathbb{N} \) et tout \( x>0 \), la convergence de l'intégrale :
+                $$
+                G_n(x) = n! \int_{x}^{+\infty} \frac{e^{-t}(t-x)^n}{t^{n+1}} \mathrm{d}t
+                $$
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li>
-                ..
+                Exprimer la fonction \( G_n \) comme combinaison linéaire des fonctions \( x \mapsto x^p F_p(x) \).
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li>
-                ..
+                Établir que la fonction \( G_n(x) \) est deux fois dérivable sur \( \left] 0, +\infty \right[ \).
+                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
+            </li>
+            <li>
+                Justifier que pour \( n\geq 1 \), on a \sum_{p=0}^n (-1)^p C_n^p = 0.
+                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
+            </li>
+            <li>
+                Pour \( n\geq 1 \) et \( x > 0 \), montrer que :
+                $$
+                G_n'(x) = -n n! \int_{x}^{+\infty} \frac{e^{-t}(t-x)^{n-1}}{t^{n+1}} \mathrm{d}t
+                $$
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
