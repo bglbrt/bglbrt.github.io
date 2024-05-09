@@ -194,7 +194,7 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                 </p>
             </li>
             <li>
-                Justifier que pour \( n\geq 1 \), on a \sum_{p=0}^n (-1)^p C_n^p = 0.
+                Justifier que pour \( n\geq 1 \), on a \( \sum_{p=0}^n (-1)^p C_n^p = 0 \).
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -213,29 +213,37 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
     <li>
         <ol type="a" start="1">
             <li>
-                ..
+                Montrer que pour \( n \geq 1 \) et \( x > 0 \) :
+                $$
+                xG_n'(x) = n G_n(x) - n^2 G_{n-1}(x).
+                $$
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li>
-                ..
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    ...
-                </p>
-            </li>
-        </ol>
-    </li>
-    <li>
-        <ol type="a" start="1">
-            <li>
-                ..
+                À l'aide d'une intégration par parties - qu'on justifiera - de \( \int_{x}^{+\infty} \frac{e^{-t (t-x)^{n-1}}}{t^n} \mathrm{d}t \), montrer que pour \( n \geq 1 \) et \( x > 0 \) on a :
+                $$
+                G_n'(x) = n G_{n-1}(x) + n G_{n-1}'(x).
+                $$
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li>
-                ...
+                En utilisant les résultats précédents, établir que pour \( n\geq 1 \) et \( x > 0 \) :
+                $$
+                G_{n+1}(x) = (x+2n+1) G_n(x) - n^2 G_{n-1}(x).
+                $$
+                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
+            </li>
+            <li>
+                En utilisant les résultats précédents, montrer que pour \( n\geq 1 \) et \( x > 0 \) on a :
+                $$
+                x G_n''(x) + (x+1) G_n'(x) - nG_n(x) = 0.
+                $$
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
