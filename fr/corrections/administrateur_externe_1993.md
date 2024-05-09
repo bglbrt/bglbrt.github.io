@@ -140,7 +140,7 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                     $$
                     \begin{aligned}
                         \lvert \varphi(x)-f_{n}(x) \rvert & = \lvert (-1)^{n} n! e^{x} F_{n}(x) \rvert \\
-                        & \leq \lvert n! e^{x} \frac{e^{-x}}{x^{n+1}} \rvert \\
+                        & \leq n! \lvert e^{x} \frac{e^{-x}}{x^{n+1}} \rvert \\
                         & = \frac{n!}{x^{n+1}}
                     \end{aligned}
                     $$
@@ -153,8 +153,8 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                     $$
                     \frac{\varepsilon_{n+1}}{\varepsilon_{n}} = \frac{(n+1)!}{10^{n+2}} \times \frac{10^{n+1}}{n!} = \frac{n+1}{10}
                     $$
-                    On en déduit que la suite est décroissante jusqu'en \( n = 9 \) ; égale en \( n = 9 \) et \( n = 10 \) ; et croissante à partir de \( n = 10 \).
-                    <br>
+                    On en déduit que la suite \( (\varepsilon_n )_{n\in\mathbb{N}} \) est décroissante jusqu'en \( n = 9 \), égale en \( n = 9 \) et \( n = 10 \) puis croissante à partir de \( n = 10 \).
+                    <br><br>
                     Elle atteint donc son minimum en \( n = 9 \) et \( n = 10 \).
                     <br><br>
                     On en déduit directement, en utilisant la question précédente :
