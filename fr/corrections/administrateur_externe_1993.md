@@ -149,14 +149,17 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
             <li>
                 Déterminer les valeurs de \( n \) pour lesquelles \( \varepsilon_n = \frac{n!}{10^{n+1}} \) est minimal, et en déduire pour ces valeurs de \( n \) un majorant numérique de l'erreur conimise en prenant \( \ln(10) \) comme valeur approchée de \( \varphi(10) \).
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    On note qu'on a :
+                    On note que pour tout \( n \in \mathbb{N} : \varepsilon > 0 \) et qu'on a :
                     $$
                     \frac{\varepsilon_{n+1}}{\varepsilon_{n}} = \frac{(n+1)!}{10^{n+2}} \times \frac{10^{n+1}}{n!} = \frac{n+1}{10}
                     $$
                     On en déduit que la suite est : 
-                    - décroissante jusqu'en \( n = 9 \) ;
-                    - égale en \( n = 9 \) et \( n = 10 \) ;
-                    - décroissante à partir de \( n = 10 \).
+                    <ul>
+                        <li> décroissante jusqu'en \( n = 9 \) ; </li>
+                        <li> égale en \( n = 9 \) et \( n = 10 \) ; </li>
+                        <li> décroissante à partir de \( n = 10 \). </li>
+                    </ul>
+                    <br>
                     Elle atteint donc son minimum en \( n = 9 \) et \( n = 10 \).
                     <br><br>
                     On en déduit directement :
