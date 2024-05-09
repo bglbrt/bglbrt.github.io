@@ -103,14 +103,14 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                     On établit la relation par récurrence sur \( n \in \mathbb{N} \).
                     <br><br>
                     <u>Initialisation</u>
-                    <br>
+                    <br><br>
                     Pour \( n=0 \), on a bien :
                     $$
                     e^{x} F_{0}(x) = f_{0}(x)+(-1)^{0} 0! e^{x} F_{0}(x) =e^{x} F_{0}(x)
                     $$
                     <br>
                     <u>Hérédité</u>
-                    <br>
+                    <br><br>
                     On suppose la relation de récurrence vraie au rang \( n \). On a alors :
                     $$
                     \begin{aligned}
