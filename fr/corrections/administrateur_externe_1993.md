@@ -151,9 +151,13 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     On note qu'on a :
                     $$
-                        \frac{\varepsilon_{n+1}}{\varepsilon_{n}} = \frac{n+1}{10}
+                    \frac{\varepsilon_{n+1}}{\varepsilon_{n}} = \frac{(n+1)!}{10^{n+2}} \times \frac{10^{n+1}}{n!} = \frac{n+1}{10}
                     $$
-                    On en déduit que la suite est décroissante jusqu'en \( n = 9 \), puis croissante à partir de \( n = 10 \), et qu'on a par ailleurs \( \varepsilon_9 = \varepsilon_10 \). Elle atteint donc son minimum en les deux valeurs \( n = 9 \) et \( n = 10 \).
+                    On en déduit que la suite est : 
+                    - décroissante jusqu'en \( n = 9 \) ;
+                    - égale en \( n = 9 \) et \( n = 10 \) ;
+                    - décroissante à partir de \( n = 10 \).
+                    Elle atteint donc son minimum en \( n = 9 \) et \( n = 10 \).
                     <br><br>
                     On en déduit directement :
                     $$
