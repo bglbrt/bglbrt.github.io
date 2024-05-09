@@ -202,7 +202,7 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                         G_{n}(x) & = n! \int_{x}^{+\infty} \sum_{k=0}^{n} \binom{n}{k} t^{k} (-x)^{n-k} \frac{e^{-t}}{t^{n+1}} \mathrm{d}t \\
                         & = n! \sum_{k=0}^{n} \binom{n}{k} (-x)^{n-k} \int_{x}^{+\infty} \frac{e^{-t}}{t^{n+1-k}} \mathrm{d}t \\
                         & = n! \sum_{k=0}^{n} \binom{n}{k} (-x)^{n-k} F_{n-k}(x) \\
-                        & = n! \sum_{p=0}^{n} \binom{n}{p} (-1)^{p} x^{p} F_{p}(x)
+                        & = \sum_{p=0}^{n} \left[ n! \binom{n}{p} (-1)^{p} \left] x^{p} F_{p}(x)
                     \end{aligned}
                     $$
                     <br>
@@ -212,7 +212,7 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
             <li>
                 Établir que la fonction \( G_n(x) \) est deux fois dérivable sur \( \left] 0, +\infty \right[ \).
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    En s'appuyant sur les résultats de la partie précédente, la fonction \( G_n(x) \) est deux fois dérivables sur \( \left] 0, +\infty \right[ \) pour tout \( n\in \mathbb{N} \) en tant que combinaison linéaire finie de fonctions elles-mêmes deux fois dérivables sur \( \left] 0, +\infty \right[ \).
+                    En s'appuyant sur les résultats de la partie précédente, la fonction \( G_n(x) \) est deux fois dérivables sur \( \left] 0, +\infty \right[ \) pour tout \( n\in \mathbb{N} \) en tant que combinaison linéaire de fonctions elles-mêmes deux fois dérivables sur \( \left] 0, +\infty \right[ \).
                 </p>
             </li>
             <li>
@@ -230,7 +230,17 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                 G_n'(x) = -n n! \int_{x}^{+\infty} \frac{e^{-t}(t-x)^{n-1}}{t^{n+1}} \mathrm{d}t.
                 $$
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    ...
+                    En utilisant les résultats de la partie précédente, on a :
+                    $$
+                    \begin{aligned}
+                        G_{n}'(x) = & \frac{\partial}{\partial x} n! \sum_{p=0}^{n} \binom{n}{p}(-1)^{p} x^{p} F_{p}(x) \\
+                        = & n! \sum_{p=0}^{n} \binom{n}{p} (-1)^{p} \left( p x^{p-1} F_{p}(x) - x^{p} F_{p}'(x) \right) \\
+                        = & n! \sum_{p=0}^{n} \binom{n}{p} (-1)^{p} \left( p x^{p-1} \int_{x}^{+\infty} \frac{e^{-t}}{t^{p+1}} \mathrm{d}t + x^{p} \frac{e^{-x}}{x^{p+1}} \right) \\
+                        & = ... \\
+                        & = -n n! \int_{x}^{+\infty} \frac{e^{-t}(t-x)^{n-1}}{t^{n+1}} \mathrm{d}t
+                    \end{aligned}
+                    $$
+
                 </p>
             </li>
         </ol>
