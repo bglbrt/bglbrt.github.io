@@ -101,7 +101,7 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                 $$
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     On établit la relation par récurrence sur \( n \in \mathbb{N} \).
-                    <br>
+                    <br><br>
                     <u>Initialisation</u>
                     <br>
                     Pour \( n=0 \), on a bien :
@@ -147,9 +147,18 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                 </p>
             </li>
             <li>
-                Déterminer les valeurs de \( n \) pour lesquelles \( \epsilon_n = \frac{n!}{10^{n+1}} \) est minimal, et en déduire pour ces valeurs de \( n \) un majorant numérique de l'erreur conimise en prenant \( \ln(10) \) comme valeur approchée de \( \varphi(10) \).
+                Déterminer les valeurs de \( n \) pour lesquelles \( \varepsilon_n = \frac{n!}{10^{n+1}} \) est minimal, et en déduire pour ces valeurs de \( n \) un majorant numérique de l'erreur conimise en prenant \( \ln(10) \) comme valeur approchée de \( \varphi(10) \).
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    ...
+                    On note qu'on a :
+                    $$
+                        \frac{\varepsilon_{n+1}}{\varepsilon_{n}} = \frac{n+1}{10}
+                    $$
+                    On en déduit que la suite est décroissante jusqu'en \( n = 9 \), puis croissante à partir de \( n = 10 \), et qu'on a par ailleurs \( \varepsilon_9 = \varepsilon_10 \). Elle atteint donc son minimum en les deux valeurs \( n = 9 \) et \( n = 10 \).
+                    <br><br>
+                    On en déduit directement :
+                    $$
+                    \lvert \varphi(x)-f_{n}(x) \rvert \leq \frac{10!}{10^{11}} 
+                    $$
                 </p>
             </li>
         </ol>
