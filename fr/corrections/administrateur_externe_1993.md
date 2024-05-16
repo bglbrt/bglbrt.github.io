@@ -471,7 +471,7 @@ Dans tout le problème, \( n \) désigne un entier naturel, et \( \mathcal{M}_3(
 
 On note \( I \) la matrice de l'identité de \( \mathbb{R}_3 \) et \( M \) la matrice :
 $$
-M = \begin{matrix} -7 & 0 & -8 \\ 4 & 1 & 4 \\ 4 & 0 & 5 \end{matrix}.
+M = \begin{pmatrix} -7 & 0 & -8 \\ 4 & 1 & 4 \\ 4 & 0 & 5 \end{pmatrix}.
 $$
 
 <ol type="1" start="1">
