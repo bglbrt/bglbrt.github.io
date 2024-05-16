@@ -467,4 +467,113 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
 
 ## Problème 2
 
-### Partie 1
+Dans tout le problème, \( n \) désigne un entier naturel, et \( \mathcal{M}_3(\mathbb{R}) \) l'espace vectoriel réel des matrices carrées d'ordre \( 3 \) à coefficients réels.
+
+On note \( I \) la matrice de l'identité de \( \mathbb{R}_3 \) et \( M \) la matrice :
+$$
+M = \begin{matrix} -7 & 0 & -8 \\ 4 & 1 & 4 \\ 4 & 0 & 5 \end{matrix}.
+$$
+
+<ol type="1" start="1">
+    <li>
+        <ol type="a" start="1">
+            <li>
+                ...
+                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
+            </li>
+            <li>
+                ...
+                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
+            </li>
+            <li>
+                ...
+                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
+            </li>
+        </ol>
+    </li>
+    <li>
+        ...
+        <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+            ...
+        </p>
+    </li>
+    <li>
+        <ol type="a" start="1">
+            <li>
+                ...
+                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
+            </li>
+            <li>
+                ...
+                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
+            </li>
+            <li>
+                ...
+                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <ol type="a" start="1">
+            <li>
+                ...
+                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
+            </li>
+            <li>
+                ...
+                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <ol type="a" start="1">
+            <li>
+                ...
+                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
+            </li>
+            <li>
+                ...
+                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
+            </li>
+            <li>
+                ...
+                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
+            </li>
+            <li>
+                ...
+                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
+            </li>
+            <li>
+                ...
+                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
+            </li>
+        </ol>
+    </li>
+</ol> 
+
