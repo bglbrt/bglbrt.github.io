@@ -294,16 +294,17 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                     On obtient ainsi pour tout \( n \geq 1 \) et \( x > 0 \) :
                     $$
                     \begin{aligned}
-                        \frac{1}{(n-1)!} G_{n-1}(x) & = \lim_{b\rightarrow +\infty} \int_{x}^{b} \frac{e^{-t}(t-x)^{n-1}}{t^{n}} \mathrm{d}t \\
-                        & = \lim_{b\rightarrow +\infty} \left( \left[-\frac{e^{-t}(t-x)^{n-1}}{t^{n}}\right]_{x}^{b} +\int_{x}^{b} e^{-t}\left(\frac{(n-1)(t-x)^{n-2}}{t^{n}}-\frac{n(t-x)^{n-1}}{t^{n+1}}\right) \mathrm{d}t \right) \\
+                        \frac{G_{n-1}(x)}{(n-1)!} & = \lim_{b\rightarrow +\infty} \int_{x}^{b} \frac{e^{-t}(t-x)^{n-1}}{t^{n}} \mathrm{d}t \\
+                        & = \lim_{b\rightarrow +\infty} \left( \left[-\frac{e^{-t}(t-x)^{n-1}}{t^{n}}\right]_{x}^{b} + \int_{x}^{b} e^{-t}\frac{\partial}{\partial t} \left( \frac{(t-x)^{n-1}}{t^{n}} \right) \right) \\
+                        & = \lim_{b\rightarrow +\infty} \int_{x}^{b} e^{-t}\left(\frac{(n-1)(t-x)^{n-2}}{t^{n}}-\frac{n(t-x)^{n-1}}{t^{n+1}}\right) \mathrm{d}t \\
                         & = (n-1) \int_{x}^{+\infty} \frac{e^{-t}(t-x)^{n-2}}{t^{n}} \mathrm{d}t - n \int_{x}^{+\infty} \frac{e^{-t}(t-x)^{n-1}}{t^{n+1}} \mathrm{d}t
                     \end{aligned}
                     $$
-                    On en déduit alors :
+                    On en déduit alors en multipliant par \( (n-1)! \):
                     $$
                     G_{n-1}(x) = -G_{n-1}'(x) + \frac{1}{n} G_n'(x)
                     $$
-                    En réarrangeant les termes, on obtient :
+                    En réarrangeant les termes de l'équation, on obtient :
                     $$
                     G_n'(x) = n G_{n-1}(x) + n G_{n-1}'(x)
                     $$
@@ -324,7 +325,22 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                 x G_n''(x) + (x+1) G_n'(x) - nG_n(x) = 0.
                 $$
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    ...
+                    On note d'abord qu'on a pour tout \( n\geq 1 \) et \( x > 0 \), en combinant les résultats précédents :
+                    $$
+                    n G_{n}(x) = x G_n'(x) + n^{2} G_{n-1}(x) = x G_n'(x) + n \left( G_n'(x) - n G_{n-1}'(x)\right)
+                    $$
+                    Puis, en dérivant la relation mise en évidence à la question *2. a.*, on a pour tout \( n\geq 1 \) et \( x > 0 \) :
+                    $$
+                    G_{n}'(x) + x G_{n}''(x) = n G_{n}'(x) - n^{2} G_{n-1}^'(x)
+                    $$
+                    En insérant la deuxième équation dans la première, on obtient :
+                    $$
+                    n G_{n}(x) = x G_n'(x) + G_n'(x) + xG_n''(x)
+                    $$
+                    En réarrangeant les termes, on obtient :
+                    $$
+                    x G_n''(x) + (x+1) G_n'(x) - nG_n(x) = 0
+                    $$
                 </p>
             </li>
         </ol>
