@@ -81,7 +81,12 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                 F_n(x) = \frac{e^{-x}}{x^{n+1}} - (n+1)F_{n+1}(x)
                 $$
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    En s'appuyant sur le résultat de convergence montré dans les questions précédentes, on obtient pour tout \( n \in \mathbb{N} \) en utilisant une intégration par parties :
+                    On utilise une intégration par parties.
+                    <br><br>
+                    Pour ce faire, on s'appuie sur le résultat de convergence montré dans les questions précédentes, et on note que :
+                    - ...
+                    - ...
+                    On obtient ainsi pour tout \( n \in \mathbb{N} \) :
                     $$
                     \begin{aligned}
                         \lim_{b \rightarrow +\infty} \int_{x}^{b} \frac{e^{-t}}{t^{n+1}} \mathrm{d}t & = \lim_{b \rightarrow +\infty} \left( \left[-\frac{e^{-t}}{t^{n+1}}\right]_{x}^{b}-\int_{x}^{b} \frac{(n+1) e^{-t}}{t^{n+2}} \mathrm{d}t \right) \\
@@ -202,7 +207,7 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                         G_{n}(x) & = n! \int_{x}^{+\infty} \sum_{k=0}^{n} \binom{n}{k} t^{k} (-x)^{n-k} \frac{e^{-t}}{t^{n+1}} \mathrm{d}t \\
                         & = n! \sum_{k=0}^{n} \binom{n}{k} (-x)^{n-k} \int_{x}^{+\infty} \frac{e^{-t}}{t^{n+1-k}} \mathrm{d}t \\
                         & = n! \sum_{k=0}^{n} \binom{n}{k} (-x)^{n-k} F_{n-k}(x) \\
-                        & = \sum_{p=0}^{n} \left[ n! \binom{n}{p} (-1)^{p} \left] x^{p} F_{p}(x)
+                        & = \sum_{p=0}^{n} \left[ n! \binom{n}{p} (-1)^{p} \right] x^{p} F_{p}(x)
                     \end{aligned}
                     $$
                     <br>
@@ -253,7 +258,16 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                 xG_n'(x) = n G_n(x) - n^2 G_{n-1}(x).
                 $$
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    ...
+                    En utilisant les résultats précédents, on a pour tout \( n \geq 1 \) et pour tout \( x > 0 \) :
+                    $$
+                    \begin{aligned}
+                        x G_n'(x) & = -x n n! \int_{x}^{+\infty} \frac{e^{-t}(t-x)^{n-1}}{t^{n+1}} \mathrm{d}t \\
+                        & = n \left( n! \int_{x}^{+\infty} \frac{e^{-t}(t-x)^{n-1}(t-x-t)}{t^{n+1}} \mathrm{d}t \right) \\
+                        & = n n! \left( \int_{x}^{+\infty} \frac{e^{-t}(t-x)^{n}}{t^{n+1}} \mathrm{d}t - \int_{x}^{+\infty} \frac{e^{-t}(t-x)^{n-1}}{t^{n}} \mathrm{d}t \right) \\
+                        & = n n! \left( G_{n}(x) - n G_{n-1}(x) \right) \\
+                        & = n G_{n}(x)-n^{2} G_{n-1}(x)
+                    \end{aligned}
+                    $$
                 </p>
             </li>
             <li>
