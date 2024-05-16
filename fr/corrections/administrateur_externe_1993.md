@@ -84,8 +84,9 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                     On utilise une intégration par parties.
                     <br><br>
                     Pour ce faire, on s'appuie sur le résultat de convergence montré dans les questions précédentes, et on note que :
-                    - ...
-                    - ...
+                    - la fonction \( t \mapsto e^{-t} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
+                    - pour tout \( n \in \mathbb{N} \), la fonction \( t \mapsto \frac{1}{t^{n+1}} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
+                    - \( \lim_{t \rightarrow +\infty} \frac{e^{-t}}{t^{n+1}} = 0 \)
                     On obtient ainsi pour tout \( n \in \mathbb{N} \) :
                     $$
                     \begin{aligned}
@@ -276,7 +277,27 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                 G_n'(x) = n G_{n-1}(x) + n G_{n-1}'(x).
                 $$
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    ...
+                    On utilise une intégration par parties.
+                    <br><br>
+                    Pour ce faire, on note que :
+                    - la fonction \( t \mapsto e^{-t} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
+                    - pour tout \( n \geq 1 \) et tout \( x > 0 \), la fonction \( t \mapsto \frac{(t-x)^(n-1)}{t^{n+1}} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
+                    - \( \lim_{t \rightarrow +\infty } \frac{e^{-t}(t-x)^(n-1)}{t^{n+1}} = 0 \)
+                    On obtient ainsi pour tout \( n \geq 1 \) et \( x > 0 \) :
+                    $$
+                    \begin{aligned}
+                        \lim_{b\rightarrow +\infty} \int_{x}^{b} \frac{e^{-t}(t-x)^{n-1}}{t^{n}} \mathrm{d}t & = \lim_{b\rightarrow +\infty} \left( \left[-\frac{e^{-t}(t-x)^{n-1}}{t^{n}}\right]_{x}^{b} +\int_{x}^{b} e^{-t}\left(\frac{(n-1)(t-x)^{n-2}}{t^{n}}-\frac{n(t-x)^{n-1}}{t^{n+1}}\right) \mathrm{d}t \right) \\
+                        & = (n-1) \int_{x}^{+\infty} \frac{e^{-t}(t-x)^{n-2}}{t^{n}} \mathrm{d}t - n \int_{x}^{+\infty} \frac{e^{-t}(t-x)^{n-1}}{t^{n+1}} \mathrm{d}t
+                    \end{aligned}
+                    $$
+                    On en déduit alors :
+                    $$
+                    G_{n-1}(x) = -G_{n-1}'(x) + \frac{1}{n} G_n'(x)
+                    $$
+                    En réarrangeant les termes, on obtient :
+                    $$
+                    G_n'(x) = n G_{n-1}(x) + n G_{n-1}'(x)
+                    $$
                 </p>
             </li>
             <li>
