@@ -20,7 +20,7 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
 ## Problème 1
 
 <p>
-Dans tout le problème \( x \) désigne un réel _strictement positif_, et \( n \) un entier naturel.
+Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et \( n \) un entier naturel.
 </p>
 
 ### Partie 1
@@ -471,7 +471,7 @@ Dans tout le problème \( x \) désigne un réel _strictement positif_, et \( n 
 
 <p>
 Dans tout le problème, \( n \) désigne un entier naturel, et \( \mathcal{M}_3(\mathbb{R}) \) l'espace vectoriel réel des matrices carrées d'ordre \( 3 \) à coefficients réels.
-
+<br><br>
 On note \( I \) la matrice de l'identité de \( \mathbb{R}_3 \) et \( M \) la matrice :
 $$
 M = \begin{pmatrix} -7 & 0 & -8 \\ 4 & 1 & 4 \\ 4 & 0 & 5 \end{pmatrix}.
@@ -482,19 +482,22 @@ $$
     <li>
         <ol type="a" start="1">
             <li>
-                ...
+                Calculer \( A = \frac{1}{4}(M - I) \) puis \( A^2 \).
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li>
-                ...
+                Démontrer qu'il existe une suite \( \{ u_n \}_{n\in\mathbb{N}} \) de nombres réels tels que :
+                $$
+                \forall n \in \mathbb{N} : M^n = I + u_n A
+                $$
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li>
-                ...
+                Calculer \( u_n \) en fonction de \( n \) et en déduire l'expression de \( M^n \).
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -502,27 +505,38 @@ $$
         </ol>
     </li>
     <li>
-        ...
+        Soit \( J \) la matrice :
+        $$
+        J = \begin{pmatrix} -1 & 0 & -2 \\ 1 & 1 & 1 \\ 1 & 0 & 2 \end{pmatrix}.
+        $$
+        Calculer \( J^2 \) puis \( J^n \) et montrer que \( J \) n'est pas inversible.
         <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -30px;">
             ...
         </p>
     </li>
     <li>
+        <p>
+        On considère l'ensemble \( E = \{ aI + bJ, (a, b) \in \mathbb{R}^2 \} \incl \mathcal{M}_3(\mathbb{R}) \).
+        </p>
         <ol type="a" start="1">
             <li>
-                ...
+                Montrer que \( E \) est stable par le produit de matrices. Montrer aussi que \( E \) est un espace vectoriel réel, en donner une base et préciser sa dimension.
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li>
-                ...
+                Déterminer quels sont les éléments de \( E \) admettant un inverse dans \( E \), et préciser celui-ci.
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li>
-                ...
+                Résoudre dans \( E \) les équations d'inconnue \( X \) suivantes :
+                <br><br>
+                •  \( X^2 = I \),
+                <br><br>
+                •  \( X^2 = X \).
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -532,13 +546,13 @@ $$
     <li>
         <ol type="a" start="1">
             <li>
-                ...
+                Montrer que \( M \in E \).
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li>
-                ...
+                En déduire que \( M^n = [1 - (-3)^n]J + (-3)^n I \) et comparer avec le résultat obtenu à la première question.
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -546,33 +560,41 @@ $$
         </ol>
     </li>
     <li>
+        <p>
+        Soit \(j\) l'endomorphisme de \(\mathbb{R}^3\) associé à \(J\) dans la base canonique de \(\mathbb{R}^3\).
+        </p>
         <ol type="a" start="1">
             <li>
-                ...
+                Pour quelles valeurs de \(X\) le noyau de l'endomorphisme \(j - X I\) n'est-il pas réduit au vecteur nul ?
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li>
-                ...
+                En déduire une base \(\mathcal{B}\) de \(\mathbb{R}^3\} dans laquelle la matrice de \(j\) soit égale à :
+                $$
+                J' = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 0 \end{pmatrix}.
+                $$
+                <br>
+                Déterminer la matrice de passage \(P\) de la base canonique à \(\mathcal{B}\).
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li>
-                ...
+                Donner dans la base \(\mathcal{B}\),la matrice \(N\) de l'endomorphisme \(f\) de matrice \(M\) dans la base canonique.
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li>
-                ...
+                Déterminer la matrice de \(f^n = f \circ ... \circ f\) dans cette base.
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li>
-                ...
+                Retrouver à nouveau l'expression de \( M^n \).
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
