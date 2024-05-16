@@ -376,35 +376,28 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
     <li>
         <ol type="a" start="1">
             <li>
-                ..
+                Étant donné l'entier \( n\geq 1 \), on cherche à déterminer les réels \( \alpha_{n,0}, \alpha_{n,1}, ..., \alpha_{n,n-1},  \) pour que le polynôme \( P_n \) :
+                $$
+                P_n(x) = x^n + \alpha_{n,n-1} x^{n-1} + ... + \alpha_{n, 1}x + \alpha_{n,0}
+                $$
+                vérifie l'équation (dite <i>équation différentielle</i>) pour tout \( x>0 \) :
+                $$
+                P_n\prime\prime(x) + (x+1) P_n'(x) - nP_n(x) = 0.
+                $$
+                <br><br>
+                Montrer que les $\alpha_{n,p}$ doivent vérifier la relation de récurrence \( (p+1)^2 \alpha_{n, p+1} = (n-p)\alpha_{n, p}\) pour \( p \in \{ 0, 1, ..., n-1 \} \) où l'on a posé \( \alpha_{n, n} = 1 \).
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li>
-                ..
+                En déduire que \( \alpha_{n, p} = \frac{n!}{p!}\mathcal{C}_{n}^{p} \) puis que \( \alpha_{n, p} \) est entier.
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li>
-                ..
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    ...
-                </p>
-            </li>
-        </ol>
-    </li>
-    <li>
-        <ol type="a" start="1">
-            <li>
-                ..
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    ...
-                </p>
-            </li>
-            <li>
-                ..
+                Expliciter les polynômes \( P_1, P_2 \) et \( P_3 \).
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -414,13 +407,50 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
     <li>
         <ol type="a" start="1">
             <li>
-                ..
+                En utilisant les questions précédentes, montrer que pour \( n\in \mathbb{N}^\star \), il existe un unique polynôme \( Q_n \) tel que pour tout \( x > 0 \) on ait :
+                $$
+                G_n(x) = P_n(x) F_0(x) - Q_n(x) e^{-x}
+                $$
+                <br><br>
+                Vérifier que Q_n(x) = \sum_{p=0}^n \alpha_{n, p} x^p f_p(x).
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li>
-                ...
+                Expliciter les polynômes \( Q_1, Q_2 \) et \( Q_3 \).
+                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
+            </li>
+        </ol>
+    </li>
+    <li>
+        <ol type="a" start="1">
+            <li>
+                Établir pour \( n\in \mathbb{N} \) et \( x > 0 \) l'inégalité :
+                $$
+                0 < G_n(x) < \frac{n! e^{-x}}{x}.
+                $$
+                <br><br>
+                Puis, établir pour \( n\in \mathbb{N} \) et \( x > 0 \) l'inégalité :
+                $$
+                P_n(x) > n! n x.
+                $$
+                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
+            </li>
+            <li>
+                Montrer que pour \( x > 0 \) fixé, on a \( \lim_{n \rightarrow +\infty} \frac{G_n(x)}{P_n(x)}e^x = 0 \).
+                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
+            </li>
+            <li>
+                En déduire pour \( x > 0 \) fixé \( \varphi(x) = \lim_{n \rightarrow +\infty} \frac{Q_n(x)}{P_n(x)} \).
+                <br><br>
+                Puis, calculer \( \frac{Q_3(10)}{P_3(10)} \) et en dédurie une valeur approchée de \( \varphi(10) \).
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
