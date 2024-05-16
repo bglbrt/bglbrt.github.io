@@ -488,7 +488,7 @@ $$
                 </p>
             </li>
             <li>
-                Démontrer qu'il existe une suite \( \{ u_n \}_{n\in\mathbb{N}} \) de nombres réels tels que :
+                Démontrer qu'il existe une suite \( (u_n)_{n\in\mathbb{N}} \) de nombres réels tels que :
                 $$
                 \forall n \in \mathbb{N} : M^n = I + u_n A
                 $$
