@@ -354,7 +354,7 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                     $$
                     Puis, en dérivant la relation mise en évidence à la question <b>2. a.</b>, on a pour tout \( n\geq 1 \) et \( x > 0 \) :
                     $$
-                    G_{n}'(x) + x G_{n}\prime\prime(x) = n G_n'(x) - n^2 G_{n-1}'(x)
+                    G_{n}'(x) + x G_{n}^{\prime\prime}(x) = n G_n'(x) - n^2 G_{n-1}'(x)
                     $$
                     En insérant la deuxième équation dans la première, on obtient :
                     $$
@@ -382,10 +382,14 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                 $$
                 vérifie l'équation (dite <i>équation différentielle</i>) pour tout \( x>0 \) :
                 $$
-                P_n\prime\prime(x) + (x+1) P_n'(x) - nP_n(x) = 0.
+                P_n^{\prime\prime}(x) + (x+1) P_n'(x) - nP_n(x) = 0.
                 $$
-                <br><br>
-                Montrer que les $\alpha_{n,p}$ doivent vérifier la relation de récurrence \( (p+1)^2 \alpha_{n, p+1} = (n-p)\alpha_{n, p}\) pour \( p \in \{ 0, 1, ..., n-1 \} \) où l'on a posé \( \alpha_{n, n} = 1 \).
+                <br>
+                Montrer que pour \( p \in \{ 0, 1, ..., n-1 \} \) les \( \alpha_{n,p} \) doivent vérifier la relation de récurrence :
+                $$
+                (p+1)^2 \alpha_{n, p+1} = (n-p)\alpha_{n, p}
+                $$
+                où l'on a posé \( \alpha_{n, n} = 1 \).
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -411,8 +415,8 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                 $$
                 G_n(x) = P_n(x) F_0(x) - Q_n(x) e^{-x}
                 $$
-                <br><br>
-                Vérifier que Q_n(x) = \sum_{p=0}^n \alpha_{n, p} x^p f_p(x).
+                <br>
+                Vérifier que \( Q_n(x) = \sum_{p=0}^n \alpha_{n, p} x^p f_p(x) \).
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
