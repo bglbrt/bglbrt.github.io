@@ -272,7 +272,7 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                 </p>
             </li>
             <li>
-                À l'aide d'une intégration par partie qu'on justifiera de \( \int_{x}^{+\infty} \frac{e^{-t (t-x)^{n-1}}}{t^n} \mathrm{d}t \), montrer que pour \( n \geq 1 \) et \( x > 0 \) on a :
+                À l'aide d'une intégration par partie — qu'on justifiera — de \( \int_{x}^{+\infty} \frac{e^{-t (t-x)^{n-1}}}{t^n} \mathrm{d}t \), montrer que pour \( n \geq 1 \) et \( x > 0 \) on a :
                 $$
                 G_n'(x) = n G_{n-1}(x) + n G_{n-1}'(x).
                 $$
