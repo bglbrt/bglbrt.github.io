@@ -83,13 +83,13 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     On utilise une intégration par parties.
                     <br><br>
-                    Pour ce faire, on s'appuie sur le résultat de convergence montré dans les questions précédentes, et on note que :
+                    Pour ce faire, on s'appuie sur le résultat de convergence montré dans les questions précédentes et on note que :
                     <br><br>
-                    • la fonction \( t \mapsto e^{-t} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
+                    •  la fonction \( t \mapsto e^{-t} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
                     <br><br>
-                    • pour tout \( n \in \mathbb{N} \), la fonction \( t \mapsto \frac{1}{t^{n+1}} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
+                    •  pour tout \( n \in \mathbb{N} \), la fonction \( t \mapsto \frac{1}{t^{n+1}} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
                     <br><br>
-                    • \( \lim_{t \rightarrow +\infty} \frac{e^{-t}}{t^{n+1}} = 0 \)
+                    •  \( \lim_{t \rightarrow +\infty} \frac{e^{-t}}{t^{n+1}} = 0 \)
                     <br><br>
                     On obtient ainsi pour tout \( n \in \mathbb{N} \) :
                     $$
@@ -285,11 +285,11 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                     <br><br>
                     Pour ce faire, on note que :
                     <br><br>
-                    • la fonction \( t \mapsto e^{-t} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
+                    •  la fonction \( t \mapsto e^{-t} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
                     <br><br>
-                    • pour tout \( n \geq 1 \) et tout \( x > 0 \), la fonction \( t \mapsto \frac{(t-x)^{n-1}}{t^{n+1}} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
+                    •  pour tout \( n \geq 1 \) et tout \( x > 0 \), la fonction \( t \mapsto \frac{(t-x)^{n-1}}{t^{n+1}} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
                     <br><br>
-                    • \( \lim_{t \rightarrow +\infty } \frac{e^{-t}(t-x)^{n-1}}{t^{n+1}} = 0 \)
+                    •  \( \lim_{t \rightarrow +\infty } \frac{e^{-t}(t-x)^{n-1}}{t^{n+1}} = 0 \)
                     <br><br>
                     On obtient ainsi pour tout \( n \geq 1 \) et \( x > 0 \) :
                     $$
@@ -316,7 +316,30 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                 G_{n+1}(x) = (x+2n+1) G_n(x) - n^2 G_{n-1}(x).
                 $$
                  <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    ...
+                    En utilisant les résultats précédents, on a pour \( n\geq 1 \) et \( x > 0 \) :
+                    $$
+                    x G_{n+1}'(x) = x (n+1) G_{n}(x) + x(n+1) G_{n}'(x)
+                    $$
+                    Or, on a aussi pour \( n\geq 1 \) et \( x > 0 \) :
+                    $$
+                    x G_{n+1}'(x) = (n+1) G_{n+1}(x) - (n+1)^{2} G_{n}(x)
+                    $$
+                    En combinant ces deux égalités, on obtient :
+                    $$
+                    x (n+1) G_{n}(x) + x(n+1) G_{n}'(x) = (n+1) G_{n+1}(x) - (n+1)^{2} G_{n}(x)
+                    $$
+                    En réarrangeant les termes, on obtient :
+                    $$
+                    G_{n+1}(x) = x G_{n}(x) + x G_{n}'(x) + (n+1) G_{n}(x)
+                    $$
+                    En substituant la relation mise en évidence à la question *2. a.* dans l'équation, on obtient :
+                    $$
+                    G_{n+1}(x) = x G_{n}(x) + \left( n G_n(x) - n^2 G_{n-1}(x) \right) + (n+1) G_{n}(x)
+                    $$
+                    En réarrangeant les termes, on obtient finalement :
+                    $$
+                    G_{n+1}(x) = (x+2n+1) G_n(x) - n^2 G_{n-1}(x)
+                    $$
                 </p>
             </li>
             <li>
