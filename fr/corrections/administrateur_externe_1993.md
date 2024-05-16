@@ -300,7 +300,7 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                         & = (n-1) \int_{x}^{+\infty} \frac{e^{-t}(t-x)^{n-2}}{t^{n}} \mathrm{d}t - n \int_{x}^{+\infty} \frac{e^{-t}(t-x)^{n-1}}{t^{n+1}} \mathrm{d}t
                     \end{aligned}
                     $$
-                    On en déduit alors en multipliant par \( (n-1)! \):
+                    On en déduit alors en multipliant par \( (n-1)! \) :
                     $$
                     G_{n-1}(x) = -G_{n-1}'(x) + \frac{1}{n} G_n'(x)
                     $$
@@ -332,7 +332,7 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                     $$
                     G_{n+1}(x) = x G_{n}(x) + x G_{n}'(x) + (n+1) G_{n}(x)
                     $$
-                    En substituant la relation mise en évidence à la question *2. a.* dans l'équation, on obtient :
+                    En substituant la relation mise en évidence à la question <b>2. a.</b> dans l'équation, on obtient :
                     $$
                     G_{n+1}(x) = x G_{n}(x) + \left( n G_n(x) - n^2 G_{n-1}(x) \right) + (n+1) G_{n}(x)
                     $$
@@ -352,9 +352,9 @@ Dans tout le problème $$x$$ désigne un réel _strictement positif_, et $$n$$ u
                     $$
                     n G_{n}(x) = x G_n'(x) + n^{2} G_{n-1}(x) = x G_n'(x) + n \left( G_n'(x) - n G_{n-1}'(x)\right)
                     $$
-                    Puis, en dérivant la relation mise en évidence à la question *2. a.*, on a pour tout \( n\geq 1 \) et \( x > 0 \) :
+                    Puis, en dérivant la relation mise en évidence à la question <b>2. a.</b>, on a pour tout \( n\geq 1 \) et \( x > 0 \) :
                     $$
-                    G_{n}'(x) + x G_{n}''(x) = n G_{n}'(x) - n^{2} G_{n-1}^'(x)
+                    G_{n}'(x) + x G_{n}\prime\prime(x) = n G_n'(x) - n^2 G_{n-1}'(x)
                     $$
                     En insérant la deuxième équation dans la première, on obtient :
                     $$
