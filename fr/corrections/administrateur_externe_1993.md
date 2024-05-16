@@ -516,7 +516,7 @@ $$
     </li>
     <li>
         <p>
-        On considère l'ensemble \( E = \{ aI + bJ, (a, b) \in \mathbb{R}^2 \} \incl \mathcal{M}_3(\mathbb{R}) \).
+        On considère l'ensemble \( E = \{ aI + bJ, (a, b) \in \mathbb{R}^2 \} \subset \mathcal{M}_3(\mathbb{R}) \).
         </p>
         <ol type="a" start="1">
             <li>
@@ -565,13 +565,13 @@ $$
         </p>
         <ol type="a" start="1">
             <li>
-                Pour quelles valeurs de \(X\) le noyau de l'endomorphisme \(j - X I\) n'est-il pas réduit au vecteur nul ?
+                Pour quelles valeurs de \(X\) le noyau de l'endomorphisme \(j - X I_{d}\) n'est-il pas réduit au vecteur nul ?
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li>
-                En déduire une base \(\mathcal{B}\) de \(\mathbb{R}^3\} dans laquelle la matrice de \(j\) soit égale à :
+                En déduire une base \(\mathcal{B}\) de \(\mathbb{R}^3\) dans laquelle la matrice de \(j\) soit égale à :
                 $$
                 J' = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 0 \end{pmatrix}.
                 $$
@@ -582,7 +582,7 @@ $$
                 </p>
             </li>
             <li>
-                Donner dans la base \(\mathcal{B}\),la matrice \(N\) de l'endomorphisme \(f\) de matrice \(M\) dans la base canonique.
+                Donner dans la base \(\mathcal{B}\) la matrice \(N\) de l'endomorphisme \(f\) de matrice \(M\) dans la base canonique.
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
