@@ -490,11 +490,24 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     On obtient les polynômes suivants :
                     <br><br>
-                    • &nbsp; pour tout \( x > 0 \) : \( \begin{aligned} Q_1(x) = x f_{1}(x) + f_{0}(x)=1 \end{aligned} \) ;
+                    • &nbsp; pour tout \( x > 0 \) : 
+                    $$
+                    \begin{aligned} Q_1(x) = x f_{1}(x) + f_{0}(x)=1
+                    \end{aligned}
+                    $$
                     <br><br>
-                    • &nbsp; pour tout \( x > 0 \) : \( \begin{aligned} Q_2(x) = x^{2} f_{2}(x)+4 x f_{1}(x)+2 f_{0}(x) \\ & =x^{2}\left(\frac{1}{x}-\frac{1}{x^{2}}\right)+4 \\ & =x+3 \end{aligned} \) ;
+                    • &nbsp; pour tout \( x > 0 \) :
+                    $$
+                    \begin{aligned} Q_2(x) = x^{2} f_{2}(x)+4 x f_{1}(x)+2 f_{0}(x) \\ & =x^{2}\left(\frac{1}{x}-\frac{1}{x^{2}}\right)+4 \\ & =x+3
+                    \end{aligned}
+                    $$
                     <br><br>
-                    • &nbsp; pour tout \( x > 0 \) : \( \begin{aligned} Q_3(x) = x^{3} f_{3}(x)+9 x^{2} f_{2}(x)+18 x f_{1}(x)+6 f_{0}(x) \\ & =x^{3}\left(\frac{1}{x}-\frac{1}{x^{2}}+\frac{2}{x^{3}}\right)+9 x^{2}\left(\frac{1}{x}-\frac{1}{x^{2}}\right)+18 \\ & =x^{2}+8 x+11 \end{aligned} \).
+                    • &nbsp; pour tout \( x > 0 \) :
+                    $$
+                    \begin{aligned}
+                    Q_3(x) = x^{3} f_{3}(x)+9 x^{2} f_{2}(x)+18 x f_{1}(x)+6 f_{0}(x) \\ & =x^{3}\left(\frac{1}{x}-\frac{1}{x^{2}}+\frac{2}{x^{3}}\right)+9 x^{2}\left(\frac{1}{x}-\frac{1}{x^{2}}\right)+18 \\ & =x^{2}+8 x+11
+                    \end{aligned}
+                    $$
                 </p>
             </li>
         </ol>
