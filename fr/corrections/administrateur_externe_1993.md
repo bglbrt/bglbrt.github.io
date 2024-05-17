@@ -87,11 +87,11 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                     <br><br>
                     Pour ce faire, on s'appuie sur le résultat de convergence montré dans les questions précédentes et on note que :
                     <br><br>
-                    •    la fonction \( t \mapsto e^{-t} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
+                    • &nbsp; &nbsp; la fonction \( t \mapsto e^{-t} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
                     <br><br>
-                    •    pour tout \( n \in \mathbb{N} \), la fonction \( t \mapsto \frac{1}{t^{n+1}} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
+                    • &nbsp; &nbsp; pour tout \( n \in \mathbb{N} \), la fonction \( t \mapsto \frac{1}{t^{n+1}} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
                     <br><br>
-                    •    \( \lim_{t \rightarrow +\infty} \frac{e^{-t}}{t^{n+1}} = 0 \)
+                    • &nbsp; &nbsp; \( \lim_{t \rightarrow +\infty} \frac{e^{-t}}{t^{n+1}} = 0 \)
                     <br><br>
                     On obtient ainsi pour tout \( n \in \mathbb{N} \) :
                     $$
@@ -287,11 +287,11 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                     <br><br>
                     Pour ce faire, on note que :
                     <br><br>
-                    •    la fonction \( t \mapsto e^{-t} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
+                    • &nbsp; &nbsp; la fonction \( t \mapsto e^{-t} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
                     <br><br>
-                    •    pour tout \( n \geq 1 \) et tout \( x > 0 \), la fonction \( t \mapsto \frac{(t-x)^{n-1}}{t^{n+1}} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
+                    • &nbsp; &nbsp; pour tout \( n \geq 1 \) et tout \( x > 0 \), la fonction \( t \mapsto \frac{(t-x)^{n-1}}{t^{n+1}} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
                     <br><br>
-                    •    \( \lim_{t \rightarrow +\infty } \frac{e^{-t}(t-x)^{n-1}}{t^{n+1}} = 0 \)
+                    • &nbsp; &nbsp; \( \lim_{t \rightarrow +\infty } \frac{e^{-t}(t-x)^{n-1}}{t^{n+1}} = 0 \)
                     <br><br>
                     On obtient ainsi pour tout \( n \geq 1 \) et \( x > 0 \) :
                     $$
@@ -424,7 +424,7 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                 </p>
             </li>
             <li>
-                En déduire que \( \alpha_{n, p} = \frac{n!}{p!} \binom{n, p} \) puis que \( \alpha_{n, p} \) est entier.
+                En déduire que \( \alpha_{n, p} = \frac{n!}{p!} \binom{n}{p} \) puis que \( \alpha_{n, p} \) est entier.
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     En utilisant le résulat précédent, on peut écrire pour tout \( p \in \{ 0, ..., n-1\} \) :
                     $$
@@ -437,11 +437,11 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                     <br>
                     Puis, pour montrer que pour tout \( p \in \{ 0, ..., n\} \), \( \alpha_{n, p} \) est un entier naturel, on note que :
                     <br><br>
-                    •    pour tout \( n \geq 1, p \in \{ 0, ..., n\} \) : \( \frac{n!}{p!} \in \mathbb{N} \) en tant que produit de \( n - p \) entiers naturels ;
+                    • &nbsp; &nbsp; pour tout \( n \geq 1, p \in \{ 0, ..., n\} \) : \( \frac{n!}{p!} \in \mathbb{N} \) en tant que produit de \( n - p \) entiers naturels ;
                     <br><br>
-                    •    pour tout \( n \geq 1, p \in \{ 0, ..., n \} \) : \( \binom{n, p} \in \mathbb{N} \) par récurrence immédiate en utilisation le fait que \( \binom{0, 0} = 1 \) et \( \binom{1, 0} = 1 \) ainsi que la propriété du triangle de Pascal, donnée par :
+                    • &nbsp; &nbsp; pour tout \( n \geq 1, p \in \{ 0, ..., n \} \) : \( \binom{n}{p} \in \mathbb{N} \) par récurrence immédiate en utilisation le fait que \( \binom{0}{0} = 1 \) et \( \binom{1}{0} = 1 \) ainsi que la propriété du triangle de Pascal, donnée par :
                     $$ 
-                    \binom{n, p} = \binom{n-1, p-1} + \binom{n-1, p}
+                    \binom{n}{p} = \binom{n-1}{p-1} + \binom{n-1}{p}
                     $$
                     <br><br>
                     On en déduit que \( \alpha_{n, p} \) est un produit naturel en tant que produit d'entiers naturels.
@@ -452,11 +452,11 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     On obtient les polynômes suivants :
                     <br><br>
-                    •    pour tout \( x > 0 \) : \( P_{1}(x)=x+1 \)
+                    • &nbsp; &nbsp; pour tout \( x > 0 \) : \( P_{1}(x)=x+1 \)
                     <br><br>
-                    •    pour tout \( x > 0 \) : \( P_{2}(x)=x^{2}+4 x+2 \)
+                    • &nbsp; &nbsp; pour tout \( x > 0 \) : \( P_{2}(x)=x^{2}+4 x+2 \)
                     <br><br>
-                    •    pour tout \( x > 0 \) : \( P_{3}(x)=x^{3}+9 x^{2}+18 x+6 \)
+                    • &nbsp; &nbsp; pour tout \( x > 0 \) : \( P_{3}(x)=x^{3}+9 x^{2}+18 x+6 \)
                 </p>
             </li>
         </ol>
@@ -585,9 +585,9 @@ $$
             <li>
                 Résoudre dans \( E \) les équations d'inconnue \( X \) suivantes :
                 <br><br>
-                •    \( X^2 = I \),
+                • &nbsp; &nbsp; \( X^2 = I \),
                 <br><br>
-                •    \( X^2 = X \).
+                • &nbsp; &nbsp; \( X^2 = X \).
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
