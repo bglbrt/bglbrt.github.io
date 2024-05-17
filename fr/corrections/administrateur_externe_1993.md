@@ -432,7 +432,7 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                     $$
                     Par récurrence immédiate sur \( p \), en notant que \( \alpha_{n, n} = 1 \), on obtient :
                     $$
-                    \alpha_{n, p} =\prod_{k=p}^{n} \frac{(k-1)^{2}}{(n-k)} =\frac{\left(\frac{n!}{p!}\right)^{2}}{(n-p)!} = \frac{n!}{p!}\binom{n}{p}
+                    \alpha_{n, p} =\prod_{k=p}^{n} \frac{(k-1)^{2}}{(n-k)} =\frac{\left(\frac{n!}{p!}\right)^{2}}{(n-p)!} = \frac{n!}{p!} \frac{n!}{p!(n-p)!} = \frac{n!}{p!}\binom{n}{p}
                     $$
                     <br>
                     Puis, pour montrer que pour tout \( p \in \{ 0, ..., n\} \), \( \alpha_{n, p} \) est un entier naturel, on note que :
