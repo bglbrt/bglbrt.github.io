@@ -393,7 +393,34 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                 $$
                 où l'on a posé \( \alpha_{n, n} = 1 \).
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    ...
+                    En dérivant, on note qu'on a pour tout \(n \geq 1 \) et \( x > 0 \) :
+                    $$
+                    P_{n}'(x) = \sum_{p=1}^{n} \alpha_{n, p} p x^{p-1}
+                    $$ 
+                    De la même manière, on calcule la dérivée seconde : 
+                    $$
+                    P_{n}^{\prime\prime}(x) = \sum_{p=2}^{n} \alpha_{n, p} p (p-1) x^{p^{-2}}
+                    $$
+                    L'équation différentielle est donc vérifiée si et seulement si :
+                    $$
+                    \sum_{p=0}^{n} \alpha_{n}, p \left[x p(p-1) x^{p-2}+(x-1) p x^{p-1}-n x^{p}\right] = 0
+                    $$
+                    En réarrangeant les termes de l'équation, on obtient :
+                    $$
+                    \sum_{p=0}^{n} \alpha_{n, p}(p)^{2} x^{p-1} + \sum_{p=0}^{n} \alpha_{n, p}(p-n) x^{p}=0
+                    $$
+                    Par un changement de variable dans la somme de gauche, on obtient :
+                    $$
+                    \sum_{q=0}^{n-1} \alpha_{n, q+1}(q+1)^{2} x^{q} + \sum_{p=0}^{n} \alpha_{n, p}(p-n) x^{p}=0
+                    $$
+                    On en déduit en rassemblant les termes :
+                    $$
+                    \sum_{p=0}^{n-1} \left( \alpha_{n, p+1}(p-1)^{2} + \alpha_{n, p}(p-n) \right) x^{p} = 0
+                    $$
+                    Or, on sait que les polynômes unitaires \( x^{0}, x, x^{1}, \ldots, x^{n} \) constituent une famille libre dans l'espace des polynômes de degré \( n \) $\mathbb{R}_{n}[x]$. On en déduit que \(P_n\) vérifie l'équation différentielle si et seulement si :
+                    $$
+                    \forall p \in \{0, \ldots, n-1 \} : (p+1)^{2} \alpha_{n, p+1} = (n-p) \alpha_{n, p}
+                    $$
                 </p>
             </li>
             <li>
