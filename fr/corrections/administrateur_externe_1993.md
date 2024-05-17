@@ -87,11 +87,11 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                     <br><br>
                     Pour ce faire, on s'appuie sur le résultat de convergence montré dans les questions précédentes et on note que :
                     <br><br>
-                    • &nbsp&nbsp la fonction \( t \mapsto e^{-t} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
+                    •    la fonction \( t \mapsto e^{-t} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
                     <br><br>
-                    • &nbsp&nbsp pour tout \( n \in \mathbb{N} \), la fonction \( t \mapsto \frac{1}{t^{n+1}} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
+                    •    pour tout \( n \in \mathbb{N} \), la fonction \( t \mapsto \frac{1}{t^{n+1}} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
                     <br><br>
-                    • &nbsp&nbsp \( \lim_{t \rightarrow +\infty} \frac{e^{-t}}{t^{n+1}} = 0 \)
+                    •    \( \lim_{t \rightarrow +\infty} \frac{e^{-t}}{t^{n+1}} = 0 \)
                     <br><br>
                     On obtient ainsi pour tout \( n \in \mathbb{N} \) :
                     $$
@@ -287,11 +287,11 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                     <br><br>
                     Pour ce faire, on note que :
                     <br><br>
-                    • &nbsp&nbsp la fonction \( t \mapsto e^{-t} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
+                    •    la fonction \( t \mapsto e^{-t} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
                     <br><br>
-                    • &nbsp&nbsp pour tout \( n \geq 1 \) et tout \( x > 0 \), la fonction \( t \mapsto \frac{(t-x)^{n-1}}{t^{n+1}} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
+                    •    pour tout \( n \geq 1 \) et tout \( x > 0 \), la fonction \( t \mapsto \frac{(t-x)^{n-1}}{t^{n+1}} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
                     <br><br>
-                    • &nbsp&nbsp \( \lim_{t \rightarrow +\infty } \frac{e^{-t}(t-x)^{n-1}}{t^{n+1}} = 0 \)
+                    •    \( \lim_{t \rightarrow +\infty } \frac{e^{-t}(t-x)^{n-1}}{t^{n+1}} = 0 \)
                     <br><br>
                     On obtient ainsi pour tout \( n \geq 1 \) et \( x > 0 \) :
                     $$
@@ -417,14 +417,14 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                     $$
                     \sum_{p=0}^{n-1} \left( \alpha_{n, p+1}(p-1)^{2} + \alpha_{n, p}(p-n) \right) x^{p} = 0
                     $$
-                    Or, on sait que les polynômes unitaires \( x^{0}, x, x^{1}, \ldots, x^{n} \) constituent une famille libre dans l'espace des polynômes de degré \( n \) $\mathbb{R}_{n}[x]$. On en déduit que \(P_n\) vérifie l'équation différentielle si et seulement si :
+                    Or, on sait que les polynômes unitaires \( x^{0}, x, x^{1}, \ldots, x^{n} \) constituent une famille libre dans l'espace des polynômes de degré \( n \) \( \mathbb{R}_{n}[x] \). On en déduit que \(P_n\) vérifie l'équation différentielle si et seulement si :
                     $$
                     \forall p \in \{0, \ldots, n-1 \} : (p+1)^{2} \alpha_{n, p+1} = (n-p) \alpha_{n, p}
                     $$
                 </p>
             </li>
             <li>
-                En déduire que \( \alpha_{n, p} = \frac{n!}{p!}\binom{n, p} \) puis que \( \alpha_{n, p} \) est entier.
+                En déduire que \( \alpha_{n, p} = \frac{n!}{p!} \binom{n, p} \) puis que \( \alpha_{n, p} \) est entier.
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     En utilisant le résulat précédent, on peut écrire pour tout \( p \in \{ 0, ..., n-1\} \) :
                     $$
@@ -434,11 +434,12 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                     $$
                     \alpha_{n, p} =\prod_{k=p}^{n} \frac{(k-1)^{2}}{(n-k)} =\frac{\left(\frac{n!}{p!}\right)^{2}}{(n-p)!} = \frac{n!}{p!}\binom{n}{p}
                     $$
-                    Pour montrer que pour tout \( p \in \{ 0, ..., n\} \), \( \alpha_{n, p} \) est un entier naturel, on note que :
+                    <br>
+                    Puis, pour montrer que pour tout \( p \in \{ 0, ..., n\} \), \( \alpha_{n, p} \) est un entier naturel, on note que :
                     <br><br>
-                    • &nbsp&nbsp pour tout \( n \geq 1, p \in \{ 0, ..., n\} \) : \( \frac{n!}{p!} \in \mathbb{N} \) en tant que produit de \( n - p \) entiers naturels ;
+                    •    pour tout \( n \geq 1, p \in \{ 0, ..., n\} \) : \( \frac{n!}{p!} \in \mathbb{N} \) en tant que produit de \( n - p \) entiers naturels ;
                     <br><br>
-                    • &nbsp&nbsp pour tout \( n \geq 1, p \in \{ 0, ..., n\} \) : \( \binom{n, p} \in \mathbb{N} \) par récurrence immédiate en utilisation le fait que \( \binom{0, 0} = 1 \) et \( \binom{1, 0} = 1 \) ainsi que la propriété du triangle de Pascal, donnée par :
+                    •    pour tout \( n \geq 1, p \in \{ 0, ..., n \} \) : \( \binom{n, p} \in \mathbb{N} \) par récurrence immédiate en utilisation le fait que \( \binom{0, 0} = 1 \) et \( \binom{1, 0} = 1 \) ainsi que la propriété du triangle de Pascal, donnée par :
                     $$ 
                     \binom{n, p} = \binom{n-1, p-1} + \binom{n-1, p}
                     $$
@@ -451,11 +452,11 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     On obtient les polynômes suivants :
                     <br><br>
-                    • &nbsp&nbsp pour tout \( x > 0 \) : \( P_{1}(x)=x+1 \)
+                    •    pour tout \( x > 0 \) : \( P_{1}(x)=x+1 \)
                     <br><br>
-                    • &nbsp&nbsp pour tout \( x > 0 \) : \( P_{2}(x)=x^{2}+4 x+2 \)
+                    •    pour tout \( x > 0 \) : \( P_{2}(x)=x^{2}+4 x+2 \)
                     <br><br>
-                    • &nbsp&nbsp pour tout \( x > 0 \) : \( P_{3}(x)=x^{3}+9 x^{2}+18 x+6 \)
+                    •    pour tout \( x > 0 \) : \( P_{3}(x)=x^{3}+9 x^{2}+18 x+6 \)
                 </p>
             </li>
         </ol>
@@ -584,9 +585,9 @@ $$
             <li>
                 Résoudre dans \( E \) les équations d'inconnue \( X \) suivantes :
                 <br><br>
-                • &nbsp&nbsp \( X^2 = I \),
+                •    \( X^2 = I \),
                 <br><br>
-                • &nbsp&nbsp \( X^2 = X \).
+                •    \( X^2 = X \).
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
