@@ -403,11 +403,11 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                     $$
                     L'équation différentielle est donc vérifiée si et seulement si :
                     $$
-                    \sum_{p=0}^{n} \alpha_{n}, p \left[x p(p-1) x^{p-2}+(x-1) p x^{p-1}-n x^{p}\right] = 0
+                    \sum_{p=0}^{n} \alpha_{n, p} \left[x p(p-1) x^{p-2}+(x-1) p x^{p-1}-n x^{p}\right] = 0
                     $$
-                    En réarrangeant les termes de l'équation, on obtient :
+                    En développant et réarrangeant les termes de l'équation, on obtient :
                     $$
-                    \sum_{p=0}^{n} \alpha_{n, p}(p)^{2} x^{p-1} + \sum_{p=0}^{n} \alpha_{n, p}(p-n) x^{p}=0
+                    \sum_{p=0}^{n} \alpha_{n, p}p^{2} x^{p-1} + \sum_{p=0}^{n} \alpha_{n, p}(p-n) x^{p}=0
                     $$
                     Par un changement de variable dans la somme de gauche, on obtient :
                     $$
@@ -432,7 +432,7 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                     $$
                     Par récurrence immédiate sur \( p \), en notant que \( \alpha_{n, n} = 1 \), on obtient :
                     $$
-                    \alpha_{n, p} & =\prod_{k=p}^{n} \frac{(k-1)^{2}}{(n-k)} =\frac{\left(\frac{n!}{p!}\right)^{2}}{(n-p)!} = \frac{n!}{p!}\binom{n}{p}
+                    \alpha_{n, p} =\prod_{k=p}^{n} \frac{(k-1)^{2}}{(n-k)} =\frac{\left(\frac{n!}{p!}\right)^{2}}{(n-p)!} = \frac{n!}{p!}\binom{n}{p}
                     $$
                     Pour montrer que pour tout \( p \in \{ 0, ..., n\} \), \( \alpha_{n, p} \) est un entier naturel, on note que :
                     <br><br>
