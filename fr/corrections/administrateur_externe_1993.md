@@ -437,14 +437,14 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                     <br>
                     Puis, pour montrer que pour tout \( p \in \{ 0, ..., n\} \), \( \alpha_{n, p} \) est un entier naturel, on note que :
                     <br><br>
-                    • &nbsp; &nbsp; pour tout \( n \geq 1, p \in \{ 0, ..., n\} \) : \( \frac{n!}{p!} \in \mathbb{N} \) en tant que produit de \( n - p \) entiers naturels ;
+                    • &nbsp; &nbsp; pour tout \( n \geq 1, p \in \{ 0, ..., n\} \) : \( \frac{n!}{p!} \in \mathbb{N} \) comme produit de \( n - p \) entiers naturels ;
                     <br><br>
                     • &nbsp; &nbsp; pour tout \( n \geq 1, p \in \{ 0, ..., n \} \) : \( \binom{n}{p} \in \mathbb{N} \) par récurrence immédiate en utilisation le fait que \( \binom{0}{0} = 1 \) et \( \binom{1}{0} = 1 \) ainsi que la propriété du triangle de Pascal, donnée par :
                     $$ 
                     \binom{n}{p} = \binom{n-1}{p-1} + \binom{n-1}{p}
                     $$
                     <br><br>
-                    On en déduit que \( \alpha_{n, p} \) est un produit naturel en tant que produit d'entiers naturels.
+                    On en déduit que \( \alpha_{n, p} \) est un produit naturel comme produit d'entiers naturels.
                 </p>
             </li>
             <li>
