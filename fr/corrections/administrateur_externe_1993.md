@@ -228,7 +228,7 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                 </p>
             </li>
             <li>
-                Justifier que pour \( n\geq 1 \), on a \( \sum_{p=0}^n (-1)^p C_n^p = 0 \).
+                Justifier que pour \( n\geq 1 \), on a \( \sum_{p=0}^n (-1)^p \binom{n, p} = 0 \).
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     Par la formule du binôme de Newton, on a :
                     $$
@@ -424,15 +424,38 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                 </p>
             </li>
             <li>
-                En déduire que \( \alpha_{n, p} = \frac{n!}{p!}\mathcal{C}_{n}^{p} \) puis que \( \alpha_{n, p} \) est entier.
+                En déduire que \( \alpha_{n, p} = \frac{n!}{p!}\binom{n, p} \) puis que \( \alpha_{n, p} \) est entier.
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    ...
+                    En utilisant le résulat précédent, on peut écrire pour tout \( p \in \{ 0, ..., n-1\} \) :
+                    $$
+                    \alpha_{n, p} = \frac{(p+1)^{2}}{(n-p)} \alpha_{n, p+1}
+                    $$
+                    Par récurrence immédiate sur \( p \), en notant que \( \alpha_{n, n} = 1 \), on obtient :
+                    $$
+                    \alpha_{n, p} & =\prod_{k=p}^{n} \frac{(k-1)^{2}}{(n-k)} =\frac{\left(\frac{n!}{p!}\right)^{2}}{(n-p)!} = \frac{n!}{p!}\binom{n}{p}
+                    $$
+                    Pour montrer que pour tout \( p \in \{ 0, ..., n\} \), \( \alpha_{n, p} \) est un entier naturel, on note que :
+                    <br><br>
+                    •  pour tout \( n \geq 1, p \in \{ 0, ..., n\} \) : \( \frac{n!}{p!} \in \mathbb{N} \) en tant que produit de \( n - p \) entiers naturels ;
+                    <br><br>
+                    •  pour tout \( n \geq 1, p \in \{ 0, ..., n\} \) : \( \binom{n, p} \in \mathbb{N} \) par récurrence immédiate en utilisation le fait que \( \binom{0, 0} = 1 \) et \( \binom{1, 0} = 1 \) ainsi que la propriété du triangle de Pascal, donnée par :
+                    $$ 
+                    \binom{n, p} = \binom{n-1, p-1} + \binom{n-1, p}
+                    $$
+                    <br><br>
+                    On en déduit que \( \alpha_{n, p} \) est un produit naturel en tant que produit d'entiers naturels.
                 </p>
             </li>
             <li>
                 Expliciter les polynômes \( P_1, P_2 \) et \( P_3 \).
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    ...
+                    On obtient les polynômes suivants :
+                    <br><br>
+                    •  pour tout \( x > 0 \) : \( P_{1}(x)=x+1 \)
+                    <br><br>
+                    •  pour tout \( x > 0 \) : \( P_{2}(x)=x^{2}+4 x+2 \)
+                    <br><br>
+                    •  pour tout \( x > 0 \) : \( P_{3}(x)=x^{3}+9 x^{2}+18 x+6 \)
                 </p>
             </li>
         </ol>
