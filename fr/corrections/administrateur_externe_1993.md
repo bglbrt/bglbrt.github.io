@@ -87,11 +87,11 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                     <br><br>
                     Pour ce faire, on s'appuie sur le résultat de convergence montré dans les questions précédentes et on note que :
                     <br><br>
-                    • &nbsp; &nbsp; la fonction \( t \mapsto e^{-t} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
+                    • &nbsp; la fonction \( t \mapsto e^{-t} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
                     <br><br>
-                    • &nbsp; &nbsp; pour tout \( n \in \mathbb{N} \), la fonction \( t \mapsto \frac{1}{t^{n+1}} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
+                    • &nbsp; pour tout \( n \in \mathbb{N} \), la fonction \( t \mapsto \frac{1}{t^{n+1}} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
                     <br><br>
-                    • &nbsp; &nbsp; \( \lim_{t \rightarrow +\infty} \frac{e^{-t}}{t^{n+1}} = 0 \)
+                    • &nbsp; \( \lim_{t \rightarrow +\infty} \frac{e^{-t}}{t^{n+1}} = 0 \)
                     <br><br>
                     On obtient ainsi pour tout \( n \in \mathbb{N} \) :
                     $$
@@ -287,11 +287,11 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                     <br><br>
                     Pour ce faire, on note que :
                     <br><br>
-                    • &nbsp; &nbsp; la fonction \( t \mapsto e^{-t} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
+                    • &nbsp; la fonction \( t \mapsto e^{-t} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
                     <br><br>
-                    • &nbsp; &nbsp; pour tout \( n \geq 1 \) et tout \( x > 0 \), la fonction \( t \mapsto \frac{(t-x)^{n-1}}{t^{n+1}} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
+                    • &nbsp; pour tout \( n \geq 1 \) et tout \( x > 0 \), la fonction \( t \mapsto \frac{(t-x)^{n-1}}{t^{n+1}} \) est de classe \( \mathcal{C}^1 \) sur \( \mathbb{R}_{+}^{*} \)
                     <br><br>
-                    • &nbsp; &nbsp; \( \lim_{t \rightarrow +\infty } \frac{e^{-t}(t-x)^{n-1}}{t^{n+1}} = 0 \)
+                    • &nbsp; \( \lim_{t \rightarrow +\infty } \frac{e^{-t}(t-x)^{n-1}}{t^{n+1}} = 0 \)
                     <br><br>
                     On obtient ainsi pour tout \( n \geq 1 \) et \( x > 0 \) :
                     $$
@@ -437,13 +437,12 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                     <br>
                     Puis, pour montrer que pour tout \( p \in \{ 0, ..., n\} \), \( \alpha_{n, p} \) est un entier naturel, on note que :
                     <br><br>
-                    • &nbsp; &nbsp; pour tout \( n \geq 1, p \in \{ 0, ..., n\} \) : \( \frac{n!}{p!} \in \mathbb{N} \) comme produit de \( n - p \) entiers naturels ;
+                    • &nbsp; pour tout \( n \geq 1, p \in \{ 0, ..., n\} \) : \( \frac{n!}{p!} \in \mathbb{N} \) comme produit de \( n - p \) entiers naturels ;
                     <br><br>
-                    • &nbsp; &nbsp; pour tout \( n \geq 1, p \in \{ 0, ..., n \} \) : \( \binom{n}{p} \in \mathbb{N} \) par récurrence immédiate en utilisation le fait que \( \binom{0}{0} = 1 \) et \( \binom{1}{0} = 1 \) ainsi que la propriété du triangle de Pascal, donnée par :
+                    • &nbsp; pour tout \( n \geq 1, p \in \{ 0, ..., n \} \) : \( \binom{n}{p} \in \mathbb{N} \) par récurrence immédiate en utilisation le fait que \( \binom{0}{0} = 1 \) et \( \binom{1}{0} = 1 \) ainsi que la propriété du triangle de Pascal, donnée par :
                     $$ 
                     \binom{n}{p} = \binom{n-1}{p-1} + \binom{n-1}{p}
                     $$
-                    <br><br>
                     On en déduit que \( \alpha_{n, p} \) est un produit naturel comme produit d'entiers naturels.
                 </p>
             </li>
@@ -452,11 +451,11 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     On obtient les polynômes suivants :
                     <br><br>
-                    • &nbsp; &nbsp; pour tout \( x > 0 \) : \( P_{1}(x)=x+1 \)
+                    • &nbsp; pour tout \( x > 0 \) : \( P_{1}(x)=x+1 \)
                     <br><br>
-                    • &nbsp; &nbsp; pour tout \( x > 0 \) : \( P_{2}(x)=x^{2}+4 x+2 \)
+                    • &nbsp; pour tout \( x > 0 \) : \( P_{2}(x)=x^{2}+4 x+2 \)
                     <br><br>
-                    • &nbsp; &nbsp; pour tout \( x > 0 \) : \( P_{3}(x)=x^{3}+9 x^{2}+18 x+6 \)
+                    • &nbsp; pour tout \( x > 0 \) : \( P_{3}(x)=x^{3}+9 x^{2}+18 x+6 \)
                 </p>
             </li>
         </ol>
@@ -471,13 +470,31 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                 <br>
                 Vérifier que \( Q_n(x) = \sum_{p=0}^n \alpha_{n, p} x^p f_p(x) \).
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    ...
+                    On sait par les questions précédentes que pour tout \( n \in \mathbb{N} \) et \( x>0 \) on a :
+                    $$
+                    e^{x} F_{0}(x) = f_{n}(x) + (-1)^{n} n! e^{x} F_{n}(x)
+                    $$
+                    On en déduit que :
+                    $$
+                    \begin{aligned}
+                        G_{n}(x) & = n! \sum_{p=0}^{n} \binom{n}{p} (-1)^{p} x^{p} F_{p}(x) \\
+                        & = n! \sum_{p=0}^{n} \binom{n}{p} (-1)^{p} x^{p}  \frac{e^{x} F_{0}(x)-f_{p}(x)}{(-1)^p p!} \\
+                        & = \sum_{p=0}^{n} \alpha_{n, p} x^{p} \left( F_{0} - e^{-x} f_{p}(x) \right) \\
+                        & = P_{n}(x) F_{0}(x) - e^{-x} Q_{n}(x)
+                    \end{aligned}
+                    $$
                 </p>
             </li>
             <li>
                 Expliciter les polynômes \( Q_1, Q_2 \) et \( Q_3 \).
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    ...
+                    On obtient les polynômes suivants :
+                    <br><br>
+                    • &nbsp; pour tout \( x > 0 \) : \( \begin{aligned} Q_1(x) = x f_{1}(x) + f_{0}(x)=1 \end{aligned} \) ;
+                    <br><br>
+                    • &nbsp; pour tout \( x > 0 \) : \( \begin{aligned} Q_2(x) = x^{2} f_{2}(x)+4 x f_{1}(x)+2 f_{0}(x) \\ & =x^{2}\left(\frac{1}{x}-\frac{1}{x^{2}}\right)+4 \\ & =x+3 \end{aligned} \) ;
+                    <br><br>
+                    • &nbsp; pour tout \( x > 0 \) : \( \begin{aligned} Q_3(x) = x^{3} f_{3}(x)+9 x^{2} f_{2}(x)+18 x f_{1}(x)+6 f_{0}(x) \\ & =x^{3}\left(\frac{1}{x}-\frac{1}{x^{2}}+\frac{2}{x^{3}}\right)+9 x^{2}\left(\frac{1}{x}-\frac{1}{x^{2}}\right)+18 \\ & =x^{2}+8 x+11 \end{aligned} \).
                 </p>
             </li>
         </ol>
@@ -585,9 +602,9 @@ $$
             <li>
                 Résoudre dans \( E \) les équations d'inconnue \( X \) suivantes :
                 <br><br>
-                • &nbsp; &nbsp; \( X^2 = I \),
+                • &nbsp; \( X^2 = I \),
                 <br><br>
-                • &nbsp; &nbsp; \( X^2 = X \).
+                • &nbsp; \( X^2 = X \).
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
