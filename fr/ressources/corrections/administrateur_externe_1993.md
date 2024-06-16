@@ -492,20 +492,20 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                     <br><br>
                     • &nbsp; pour tout \( x > 0 \) : 
                     $$
-                    \begin{aligned} Q_1(x) = x f_{1}(x) + f_{0}(x)=1
+                    \begin{aligned} Q_1(x) & = x f_{1}(x) + f_{0}(x)=1
                     \end{aligned}
                     $$
                     <br><br>
                     • &nbsp; pour tout \( x > 0 \) :
                     $$
-                    \begin{aligned} Q_2(x) = x^{2} f_{2}(x)+4 x f_{1}(x)+2 f_{0}(x) \\ & =x^{2}\left(\frac{1}{x}-\frac{1}{x^{2}}\right)+4 \\ & =x+3
+                    \begin{aligned} Q_2(x) & = x^{2} f_{2}(x)+4 x f_{1}(x)+2 f_{0}(x) \\ & =x^{2}\left(\frac{1}{x}-\frac{1}{x^{2}}\right)+4 \\ & =x+3
                     \end{aligned}
                     $$
                     <br><br>
                     • &nbsp; pour tout \( x > 0 \) :
                     $$
                     \begin{aligned}
-                    Q_3(x) = x^{3} f_{3}(x)+9 x^{2} f_{2}(x)+18 x f_{1}(x)+6 f_{0}(x) \\ & =x^{3}\left(\frac{1}{x}-\frac{1}{x^{2}}+\frac{2}{x^{3}}\right)+9 x^{2}\left(\frac{1}{x}-\frac{1}{x^{2}}\right)+18 \\ & =x^{2}+8 x+11
+                    Q_3(x) & = x^{3} f_{3}(x)+9 x^{2} f_{2}(x)+18 x f_{1}(x)+6 f_{0}(x) \\ & =x^{3}\left(\frac{1}{x}-\frac{1}{x^{2}}+\frac{2}{x^{3}}\right)+9 x^{2}\left(\frac{1}{x}-\frac{1}{x^{2}}\right)+18 \\ & =x^{2}+8 x+11
                     \end{aligned}
                     $$
                 </p>
