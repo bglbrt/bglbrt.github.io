@@ -525,14 +525,16 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                 P_n(x) > n! n x.
                 $$
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    \( G_n(x) \) étant définie come une intégrale de fonctions strictement positives sur l'intervalle d'intégration, on a nécessairement pour \( n\in \mathbb{N} \) et \( x > 0 \) :
+                    \( G_n(x) \) étant définie comme une intégrale de fonctions strictement positives sur son intervalle d'intégration, on a nécessairement pour tout \( n\in \mathbb{N} \) et \( x > 0 \) :
                     $$
                     0 < G_n(x)
                     $$
                     <br><br>
-                    On peut ensuite remarquer que : 
+                    On rappelle ensuite que : 
                     • &nbsp; pour tout \( x > 0 \) : \( F_0(x) < \frac{e-{x}}{x}  \)
+                    <br>
                     • &nbsp; pour tout \( n\in \mathbb{N} \) et \( x > 0 \) : \( P_n(x) > 0 \) comme polynôme à coefficients positifs
+                    <br>
                     On en déduit en utilisant l'inégalité triangulaire que pour tout \( x > 0 \) : \( F_0(x) > 0  \) :
                     $$
                     \begin{aligned}
@@ -541,6 +543,7 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                     & = \frac{e-{x}}{x} \left( \sum_{p=0}^n \frac{n!}{p!} \binom{n}{p} \left( x^p - x^{p+1} f_0(x) \right) \right) \\
                     & \leq \frac{e-{x}}{x} \left( \sum_{p=0}^n \frac{n!}{p!} \binom{n}{p} \left| x^p - x^{p+1} f_0(x) \right| \right) \\
                     \leq \frac{n! e-{x}}{x}
+                    \end{aligned}
                     $$
                     On a donc bien pour tout \( x > 0 \) :
                     $$
