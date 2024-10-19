@@ -543,7 +543,7 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                     & < \frac{e-{x}}{x} \left( P_n(x) - nQ_n(x) \right) \\
                     & = \frac{e-{x}}{x} \left( \sum_{p=0}^n \frac{n!}{p!} \binom{n}{p} \left( x^p - x^{p+1} f_0(x) \right) \right) \\
                     & \leq \frac{e-{x}}{x} \left( \sum_{p=0}^n \frac{n!}{p!} \binom{n}{p} \left| x^p - x^{p+1} f_0(x) \right| \right) \\
-                    \leq \frac{n! e-{x}}{x}
+                    & \leq \frac{n! e-{x}}{x}
                     \end{aligned}
                     $$
                     On a donc bien pour tout \( x > 0 \) :
