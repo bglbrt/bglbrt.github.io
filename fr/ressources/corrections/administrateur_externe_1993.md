@@ -536,7 +536,7 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                     <br><br>
                     • &nbsp; pour tout \( n\in \mathbb{N} \) et \( x > 0 \) : \( P_n(x) > 0 \) comme polynôme à coefficients positifs.
                     <br><br>
-                    On en déduit en utilisant l'inégalité triangulaire que pour tout \( x > 0 \) : \( F_0(x) > 0  \) :
+                    On en déduit en utilisant l'inégalité triangulaire que pour tout \( x > 0 \) :
                     $$
                     \begin{aligned}
                     G_n(x) & = P_n(x) F_0(x) - Q_n(x) e^{-x} \\
