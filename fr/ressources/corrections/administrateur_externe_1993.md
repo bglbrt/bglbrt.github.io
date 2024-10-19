@@ -532,9 +532,9 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                     <br><br>
                     On rappelle ensuite que : 
                     • &nbsp; pour tout \( x > 0 \) : \( F_0(x) < \frac{e-{x}}{x}  \)
-                    <br>
+                    <br><br>
                     • &nbsp; pour tout \( n\in \mathbb{N} \) et \( x > 0 \) : \( P_n(x) > 0 \) comme polynôme à coefficients positifs
-                    <br>
+                    <br><br>
                     On en déduit en utilisant l'inégalité triangulaire que pour tout \( x > 0 \) : \( F_0(x) > 0  \) :
                     $$
                     \begin{aligned}
