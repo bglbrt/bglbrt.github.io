@@ -532,7 +532,7 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                     <br><br>
                     On rappelle ensuite que : 
                     <br><br>
-                    • &nbsp; pour tout \( x > 0 \) : \( F_0(x) < \frac{e-{x}}{x}  \) ;
+                    • &nbsp; pour tout \( x > 0 \) : \( F_0(x) < \frac{e^{-x}}{x}  \) ;
                     <br><br>
                     • &nbsp; pour tout \( n\in \mathbb{N} \) et \( x > 0 \) : \( P_n(x) > 0 \) comme polynôme à coefficients positifs.
                     <br><br>
@@ -540,15 +540,24 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                     $$
                     \begin{aligned}
                     G_n(x) & = P_n(x) F_0(x) - Q_n(x) e^{-x} \\
-                    & < \frac{e-{x}}{x} \left( P_n(x) - nQ_n(x) \right) \\
-                    & = \frac{e-{x}}{x} \left( \sum_{p=0}^n \frac{n!}{p!} \binom{n}{p} \left( x^p - x^{p+1} f_0(x) \right) \right) \\
-                    & \leq \frac{e-{x}}{x} \left( \sum_{p=0}^n \frac{n!}{p!} \binom{n}{p} \left| x^p - x^{p+1} f_0(x) \right| \right) \\
-                    & \leq \frac{n! e-{x}}{x}
+                    & < \frac{e^{-x}}{x} \left( P_n(x) - nQ_n(x) \right) \\
+                    & = \frac{e^{-x}}{x} \left( \sum_{p=0}^n \frac{n!}{p!} \binom{n}{p} \left( x^p - x^{p+1} f_0(x) \right) \right) \\
+                    & \leq \frac{e^{-x}}{x} \left( \sum_{p=0}^n \frac{n!}{p!} \binom{n}{p} \left| x^p - x^{p+1} f_0(x) \right| \right) \\
+                    & \leq \frac{n! e^{-x}}{x}.
                     \end{aligned}
                     $$
-                    On a donc bien pour tout \( x > 0 \) :
+                    En chaînant les inégalités, on a donc bien pour tout \( x > 0 \) :
                     $$
                     0 < G_n(x) < \frac{n! e^{-x}}{x}.
+                    $$
+                    <br><br>
+                    Puis, par minoration brute, on a pour tout \( n \geq 2 \) et \( x > 0 \) :
+                    $$
+                    P_n(x) = \sum_{p=0}^n \frac{n!}{p!} \binom{n}{p} x^p > n!\binom{n}{0} + n! \binom{n}{1} = n! nx 
+                    $$
+                    Les cas \( n \in \{ 0, 1, 2 \} \) étant triviaux pour tout \( x > 0 \), on en déduit que pour tout \( n\in \mathbb{N} \) et \( x > 0 \) :
+                    $$
+                    P_n(x) > n! n x.
                     $$
                 </p>
             </li>
