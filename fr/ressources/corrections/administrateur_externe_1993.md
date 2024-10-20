@@ -550,7 +550,7 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                     <br><br>
                     Puis, par minoration brute, on a pour tout \( n \geq 2 \) et \( x > 0 \) :
                     $$
-                    P_n(x) = \sum_{p=0}^n \frac{n!}{p!} \binom{n}{p} x^p > n!\binom{n}{0} + n! \binom{n}{1} = n! nx 
+                    P_n(x) = \sum_{p=0}^n \frac{n!}{p!} \binom{n}{p} x^p > n!\binom{n}{0} + n! \binom{n}{1} x = n! nx 
                     $$
                     Les cas \( n \in \{ 0, 1, 2 \} \) étant triviaux, on a pour tout \( n\in \mathbb{N} \) et \( x > 0 \) :
                     $$
