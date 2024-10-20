@@ -561,7 +561,14 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
             <li>
                 Montrer que pour \( x > 0 \) fixé, on a \( \lim_{n \rightarrow +\infty} \frac{G_n(x)}{P_n(x)}e^x = 0 \).
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    ...
+                    En notant que \( n\in \mathbb{N} \) et \( x > 0 \) : \( P_n(x) > 0 \) et \( G_n(x) > 0 \), on a pour \( x \) fixé :
+                    $$
+                    \lim_{n \rightarrow +\infty} \frac{G_n(x)}{P_n(x)} e^x \leq \lim_{n \rightarrow +\infty}  \frac{\frac{n! e^{-x}}{x} e^x}{n! n x} = \lim_{n \rightarrow +\infty} \frac{1}{nx^2} = 0
+                    $$
+                    Par majoration, on en déduit :
+                    $$
+                    \lim_{n \rightarrow +\infty} \frac{G_n(x)}{P_n(x)} e^x = 0
+                    $$
                 </p>
             </li>
             <li>
