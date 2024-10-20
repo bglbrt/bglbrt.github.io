@@ -525,16 +525,13 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                 P_n(x) > n! n x.
                 $$
                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
-                    \( G_n(x) \) étant définie comme une intégrale de fonctions strictement positives sur son intervalle d'intégration, on a nécessairement pour tout \( n\in \mathbb{N} \) et \( x > 0 \) :
-                    $$
-                    0 < G_n(x)
-                    $$
+                    \( G_n(x) \) étant définie comme une intégrale de fonctions strictement positives sur son intervalle d'intégration, on a nécessairement pour tout \( n\in \mathbb{N} \) et \( x > 0 \) : \( 0 < G_n(x) \).
                     <br><br>
                     On rappelle ensuite que : 
                     <br><br>
                     • &nbsp; pour tout \( x > 0 \) : \( F_0(x) < \frac{e^{-x}}{x}  \) ;
                     <br><br>
-                    • &nbsp; pour tout \( n\in \mathbb{N} \) et \( x > 0 \) : \( P_n(x) > 0 \) comme polynôme à coefficients positifs.
+                    • &nbsp; pour tout \( n\in \mathbb{N} \) et \( x > 0 \) : \( P_n(x) > 0 \) comme polynôme à coefficients strictement positifs.
                     <br><br>
                     On en déduit en utilisant l'inégalité triangulaire que pour tout \( x > 0 \) :
                     $$
@@ -546,7 +543,7 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                     & \leq \frac{n! e^{-x}}{x}.
                     \end{aligned}
                     $$
-                    En chaînant les inégalités, on a donc bien pour tout \( x > 0 \) :
+                    En chaînant les inégalités, on a donc bien pour tout \( n\in \mathbb{N} \) et \( x > 0 \) :
                     $$
                     0 < G_n(x) < \frac{n! e^{-x}}{x}.
                     $$
@@ -555,7 +552,7 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                     $$
                     P_n(x) = \sum_{p=0}^n \frac{n!}{p!} \binom{n}{p} x^p > n!\binom{n}{0} + n! \binom{n}{1} = n! nx 
                     $$
-                    Les cas \( n \in \{ 0, 1, 2 \} \) étant triviaux pour tout \( x > 0 \), on en déduit que pour tout \( n\in \mathbb{N} \) et \( x > 0 \) :
+                    Les cas \( n \in \{ 0, 1, 2 \} \) étant triviaux, on a pour tout \( n\in \mathbb{N} \) et \( x > 0 \) :
                     $$
                     P_n(x) > n! n x.
                     $$
