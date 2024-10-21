@@ -6,8 +6,8 @@ lang: "fr"
 katex: True
 ---
 
-<h2 style="font-weight: normal; margin-bottom: 10px"><em>Concours externe d'administrat·eur·ice de l'Insee</em></h2>
-<h1 style="margin-top: 0">Épreuve de mathématiques — 1993</h1>
+<h2 style="font-weight: normal; margin-bottom: 10px"><em>Concours externe d'administrat·eur·ice de l'Insee — 1993</em></h2>
+<h1 style="margin-top: 0">Épreuve de mathématiques</h1>
 
 ---
 
