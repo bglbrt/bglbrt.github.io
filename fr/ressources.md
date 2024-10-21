@@ -7,7 +7,7 @@ lang: "fr"
 
 <div style="text-align: justify"> 
 
-<p> Toutes les ressources des cours donnés actuellement ou par le passé, ainsi que toutes mes propositions de corrections d'épreuves de concours de la fonction publique sont consultables sur cette page. </p>
+<p> Toutes les ressources des cours que j'ai donnés, ainsi que toutes les propositions de corrections d'épreuves de concours de la fonction publique que j'ai écrites sont consultables sur cette page. </p>
 
 </div>
 
