@@ -7,7 +7,7 @@ katex: True
 ---
 
 <h2 style="font-weight: normal; margin-bottom: 10px"><em>Concours externe d'administrateur de l'Insee</em></h2>
-<h1 style="margin-top: 0">Annale de l'épreuve de mathématiques — 1993</h1>
+<h1 style="margin-top: 0">Épreuve de mathématiques — 1993</h1>
 
 ---
 
