@@ -24,7 +24,7 @@ lang: "fr"
 
 <p> Je partage aussi régulièrement des propositions de corrections d'épreuves de mathématiques de concours de la fonction publique, consultables à partir de <a href = "/fr/ressources">cette même page</a>. </p>
 
-<p> Ces corrections n'engagent que moi et peuvent comporter des erreurs ou des imprécisions. N'hésitez pas à me contacter si vous en repérez. </p>
+<p> Ces corrections n'engagent que leur auteur et peuvent comporter des erreurs ou imprécisions. N'hésitez pas à me contacter si vous en repérez. </p>
 
 </div>
 
@@ -50,5 +50,5 @@ lang: "fr"
 
 </div>
 
-* [Route de l'Ossau](/fr/maps/ossau) - France
-* [Tour du Mont Rose](/fr/maps/rose) - Suisse et Italie
+* [Route de l'Ossau](/fr/maps/ossau) — France
+* [Tour du Mont Rose](/fr/maps/rose) — Suisse et Italie

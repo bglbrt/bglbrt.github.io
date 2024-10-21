@@ -5,7 +5,7 @@ title: Benjamin GILBERT - Ressources
 lang: "fr"
 ---
 
-## Enseignements
+## Enseignement
 
 <div style="text-align: justify"> 
 
@@ -18,9 +18,9 @@ lang: "fr"
 </div>
 
 * 2024—2025:
-    * [La vie sociale des données](/fr/ressources/lectures/la_vie_sociale_des_donnees_2024_2025) - Sciences Po
+    * [La vie sociale des données](/fr/ressources/lectures/la_vie_sociale_des_donnees_2024_2025) — Sciences Po
 * 2023—2024:
-    * [La vie sociale des données](/fr/ressources/lectures/la_vie_sociale_des_donnees_2023_2024) - Sciences Po
+    * [La vie sociale des données](/fr/ressources/lectures/la_vie_sociale_des_donnees_2023_2024) — Sciences Po
     * [Introduction to sociology](/en/resources/lectures/introduction_to_sociology_2023_2024) — Sciences Po
 * 2022—2023:
     * [Introduction to sociology](/en/resources/lectures/introduction_to_sociology_2022_2023) — Sciences Po
