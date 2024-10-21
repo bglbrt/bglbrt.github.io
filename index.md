@@ -16,7 +16,7 @@ lang: "fr"
 
 ---
 
-## Ressources et propositions de corrections
+## Ressources et propositions de corrections d'épreuves
 
 <div style="text-align: justify">
 
