@@ -20,12 +20,9 @@ lang: "fr"
 
 <div style="text-align: justify">
 
-<p> Toutes les ressources des cours que j'enseigne actuellement ou que j'ai enseignés par le passé sont <a href = "/fr/enseignement">mises à disposition sur ce site</a>. </p>
+<p> Toutes les ressources des cours que j'enseigne actuellement ou que j'ai enseignés par le passé sont mises à disposition sur <a href = "/fr/enseignement">une page dédiée</a> de ce site. </p>
 
-<p> Je partage aussi régulièrement des propositions de corrections d'épreuves de mathématiques de concours de la fonction publique. </p>
-
-<p> La plupart de mes travaux sont accessibles publiquement sur ma page <a href = "https://github.com/bglbrt">GitHub</a>. </p>
-
+<p> Je partage aussi régulièrement des propositions de corrections d'épreuves de mathématiques de concours de la fonction publique, consultables à partir de <a href = "/fr/enseignement">cette même page</a>. </p>
 
 </div>
 
@@ -51,8 +48,5 @@ lang: "fr"
 
 </div>
 
-<div align="center" style="height: 400px; border: 2px solid black"><iframe src="https://footpathapp.com/routes/a4185161-d2a8-466a-9391-b63d0b1b2037?embed=1" style="width: 100%; height: 400px; border: 0"></iframe></div>
-
-<br>
-
-<div align="center" style="height: 400px; border: 2px solid black"><iframe src="https://footpathapp.com/routes/86FA014C-2E1C-4DCB-8B0F-A1D1010D779A?embed=1" style="width: 100%; height: 400px; border: 0"></iframe></div>
+* [Route de l'Ossau](/fr/maps/ossau) (France)
+* [Tour du Mont Rose](/fr/maps/rose) (Suisse et Italie)
