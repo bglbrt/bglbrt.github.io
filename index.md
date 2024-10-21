@@ -48,5 +48,5 @@ lang: "fr"
 
 </div>
 
-* [Route de l'Ossau](/fr/maps/ossau) (France)
-* [Tour du Mont Rose](/fr/maps/rose) (Suisse et Italie)
+* [Route de l'Ossau](/fr/maps/ossau) - France
+* [Tour du Mont Rose](/fr/maps/rose) - Suisse et Italie
