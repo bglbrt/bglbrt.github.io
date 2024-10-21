@@ -17,7 +17,7 @@ lang: "fr"
 
 <div style="text-align: justify"> 
 
-<p> Pour toute question relative à un des cours listés ci-dessous, ou si vous souhaitez réutiliser ces ressources, n'hésitez pas à <a href = "/fr/contact">m'envoyer un mail</a>. </p>
+<p> Pour toute question relative à un des cours listés ci-dessous, ou si vous souhaitez réutiliser ces ressources, n'hésitez pas à <a href = "/fr/contact">me contacter</a>. </p>
 
 <p> Les ressources des cours suivants sont disponibles :</p>
 
@@ -38,13 +38,15 @@ lang: "fr"
 
 <div style="text-align: justify"> 
 
-<p> Ces propositions de corrections n'engagent que leur auteur. Pour toute éventuelle erreur, imprécision ou question, n'hésitez pas à <a href = "/fr/contact">m'envoyer un mail</a>. </p>
+<p> Ces propositions de corrections n'engagent que leur auteur. </p>
+
+<p> Pour toute éventuelle erreur, imprécision ou question, n'hésitez pas à <a href = "/fr/contact">me contacter</a>. </p>
 
 <p> Les propositions de correction des épreuves suivantes sont disponibles :</p>
 
 </div>
 
-* Concours externe d'administrat·eur·ice l'Insee
+* Concours externe d'administrat·eur·ice de l'Insee
     * [Épreuve de mathématiques - 2023](/fr/ressources/corrections/insee_administrateur_externe_2023)
     * Épreuve de mathématiques - 2022
     * Épreuve de mathématiques - 2021
