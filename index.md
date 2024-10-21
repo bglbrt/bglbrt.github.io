@@ -6,9 +6,7 @@ lang: "fr"
 
 <div style="text-align: justify"> 
 
-<p> Je suis actuellement responsable de la section  « Expertise de la fonction publique » à l’<a href = "https://www.insee.fr/fr/accueil">Insee</a>, où j’encadre une équipe en charge de la production de données et d'études sur les caractéristiques d'emploi et les salaires des agents de la fonction publique.
-
-En parallèle, je suis doctorant en sociologie à <a href = "https://www.sciencespo.fr/fr/">Sciences Po</a> et à l'<a href = "https://u-paris.fr">Université Paris-Cité</a>. </p>
+<p> Je suis actuellement responsable de la section  « Expertise de la fonction publique » à l’<a href = "https://www.insee.fr/fr/accueil">Insee</a>, où j’encadre une équipe en charge de la production de données et d'études sur les caractéristiques d'emploi et les salaires des agents de la fonction publique. En parallèle, je suis depuis septembre 2022 doctorant en sociologie à <a href = "https://www.sciencespo.fr/fr/">Sciences Po</a> et à l'<a href = "https://u-paris.fr">Université Paris-Cité</a>. </p>
 
 <p> Dans ma thèse, je m'intéresse principalement aux catégorisations ordinaires de l'espace social dans les médias traditionnels, et à l'évolution de ces catégorisations depuis 1970. Dans le cadre de ces recherches, je me base essentiellement sur des méthodes computationnelles de <i>machine</i> et de <i>deep learning</i>, et sur des données issues de la presse écrite et d'émissions de radiophonie et de télévision. </p>
 
