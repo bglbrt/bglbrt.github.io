@@ -22,7 +22,7 @@ lang: "fr"
 
 <p> Toutes les ressources des cours que j'enseigne actuellement ou que j'ai enseignés par le passé sont mises à disposition sur <a href = "/fr/enseignement">une page dédiée</a> de ce site. </p>
 
-<p> Je partage aussi régulièrement des propositions de corrections d'épreuves de mathématiques de concours de la fonction publique, consultables à partir de <a href = "/fr/enseignement">cette même page</a>. </p>
+<p> Je partage aussi régulièrement des propositions de corrections d'épreuves de mathématiques de concours de la fonction publique, consultables à partir de <a href = "/fr/enseignement">cette même page</a>. Ces corrections n'engagent que moi et peuvent comporter des erreurs ou des imprécisions. N'hésitez pas à les relever le cas échéant. </p>
 
 </div>
 
@@ -44,7 +44,7 @@ lang: "fr"
 
 <div style="text-align: justify">
 
-<p> Je partage parfois des idées de parcours de randonnées itinérantes, à explorer ci dessous. </p>
+<p> Je partage parfois des idées de parcours de randonnées itinérantes, à explorer ci dessous : </p>
 
 </div>
 
