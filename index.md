@@ -42,7 +42,7 @@ lang: "fr"
 
 ---
 
-## Randonnée itinérante et alpinisme
+## Randonnées itinérantes et alpinisme
 
 <div style="text-align: justify">
 

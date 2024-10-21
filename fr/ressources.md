@@ -5,7 +5,7 @@ title: Benjamin GILBERT - Ressources
 lang: "fr"
 ---
 
-## Ressources
+## Propositions de corrections
 
 <div style="text-align: justify"> 
 
