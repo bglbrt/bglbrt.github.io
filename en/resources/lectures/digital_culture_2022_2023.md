@@ -25,8 +25,8 @@ The main assignment of the course will involve using both of these skills (knowl
 </div>
 
 * Material
-    * [Syllabus](/lectures/digital_culture_2022_2023/syllabus.pdf)
-    * [Slides](/lectures/digital_culture_2022_2023/lecture_1.pdf)
+    * [Syllabus](/pdfs/digital_culture_2022_2023/syllabus.pdf)
+    * [Slides](/pdfs/digital_culture_2022_2023/lecture_1.pdf)
 
 #### Lecture 2 - A brief history of the Internet and today’s digital landscapes
 
@@ -38,7 +38,7 @@ In the second half, you will be presented with various digital tools to explore 
 </div>
 
 * Material
-    * [Slides](/lectures/digital_culture_2022_2023/lecture_2.pdf)
+    * [Slides](/pdfs/digital_culture_2022_2023/lecture_2.pdf)
 * Homework (to do before the lecture)
     * read the syllabus
     * think about 2/3 topics for the digital exploration to share with the rest of the class
@@ -58,7 +58,7 @@ Finally, we will explore questions about the “digital divide”, access to the
 </div>
 
 * Material
-    * [Slides](/lectures/digital_culture_2022_2023/lecture_3.pdf)
+    * [Slides](/pdfs/digital_culture_2022_2023/lecture_3.pdf)
 * Homework (to do before the lecture)
     * watch [code.org's video on how the Internet works](https://www.youtube.com/watch?v=kBXQZMmiA4s)
     * watch [Yochai Benkler’s video on the Shared Economy](https://www.youtube.com/watch?v=mBF-GFDaCpE)
@@ -81,7 +81,7 @@ Then, you will have some time to work on your digital exploration and ask for fe
 </div>
 
 * Material
-    * [Slides](/lectures/digital_culture_2022_2023/lecture_4.pdf)
+    * [Slides](/pdfs/digital_culture_2022_2023/lecture_4.pdf)
 * Homework (to do before the lecture)
     * read [Danah Boyd and Nicole Ellison’s article on the definition of a social network](https://academic.oup.com/jcmc/article/13/1/210/4583062)
     * read about [the findings of the SelfieCity project](https://selfiecity.net/#findings)
@@ -103,7 +103,7 @@ In the second part, you will be presented with some tools you can use to documen
 </div>
 
 * Material
-    * [Slides](/lectures/digital_culture_2022_2023/lecture_5.pdf)
+    * [Slides](/pdfs/digital_culture_2022_2023/lecture_5.pdf)
 * Homework (to do before the lecture)
     * if you have access to it — watch [The Social Dilemma](https://www.thesocialdilemma.com)
     * read [First Draft’s guide to fake news](https://firstdraftnews.org/articles/fake-news-complicated/)
@@ -123,7 +123,7 @@ In this session, we will delve into what is hiding behind the words “big data�
 </div>
 
 * Material
-    * [Slides](/lectures/digital_culture_2022_2023/lecture_6.pdf)
+    * [Slides](/pdfs/digital_culture_2022_2023/lecture_6.pdf)
 * Homework (to do before the lecture)
     * read [Gideon Lewis-Kraus’s article on the changes of AI on translation](https://www.nytimes.com/2016/12/14/magazine/the-great-ai-awakening.html)
     * read [Dylan Gurran’s article on the data collected by Google and Facebook](https://www.theguardian.com/commentisfree/2018/mar/28/all-the-data-facebook-google-has-on-you-privacy)
@@ -142,7 +142,7 @@ Reviewing some legal cases from U.S. Case Law, we will look into existing framew
 </div>
 
 * Material
-    * [Slides](/lectures/digital_culture_2022_2023/lecture_7.pdf)
+    * [Slides](/pdfs/digital_culture_2022_2023/lecture_7.pdf)
 * Homework (to do before the lecture)
     * read about [GDPR](https://gdpr.eu/what-is-gdpr/)
     * read about [the UK University admissions algorithm during the COVID-19 pandemic](https://www.washingtonpost.com/world/europe/the-uk-used-an-algorithm-to-estimate-exam-results-the-calculations-favored-elites/2020/08/17/2b116d48-e091-11ea-82d8-5e55d47e90ca_story.html)
@@ -161,6 +161,6 @@ These presentations will not serve as an evaluation exercise and will not be use
 </div>
 
 * Material
-    * [Slides](/lectures/digital_culture_2022_2023/lecture_8.pdf)
+    * [Slides](/pdfs/digital_culture_2022_2023/lecture_8.pdf)
 * Homework (to do before the lecture)
     * finish the ~10min presentation on your final exploration

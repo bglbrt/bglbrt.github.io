@@ -26,7 +26,7 @@ lang: "fr"
 
 <p> Ces corrections n'engagent que leur auteur et peuvent comporter des erreurs ou imprécisions. </p>
 
-<p> N'hésitez pas à <a href = "/fr/contact">me contacter</a> si vous en repérez. </p>
+<p> N'hésitez pas à <a href = "mailto:benjamin.gilbert@sciencespo.fr">me contacter</a> si vous en repérez. </p>
 
 </div>
 

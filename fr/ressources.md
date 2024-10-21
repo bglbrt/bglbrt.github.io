@@ -17,7 +17,7 @@ lang: "fr"
 
 <div style="text-align: justify"> 
 
-<p> Pour toute question relative à un des cours listés ci-dessous, ou si vous souhaitez réutiliser ces ressources, n'hésitez pas à <a href = "/fr/contact">me contacter</a>. </p>
+<p> Pour toute question relative à un des cours listés ci-dessous, ou si vous souhaitez réutiliser ces ressources, n'hésitez pas à <a href = "mailto:benjamin.gilbert@sciencespo.fr">me contacter</a>. </p>
 
 <p> Les ressources des cours suivants sont disponibles :</p>
 
@@ -40,7 +40,7 @@ lang: "fr"
 
 <p> Ces propositions de corrections n'engagent que leur auteur. </p>
 
-<p> Pour toute éventuelle erreur, imprécision ou question, n'hésitez pas à <a href = "/fr/contact">me contacter</a>. </p>
+<p> Pour toute éventuelle erreur, imprécision ou question, n'hésitez pas à <a href = "mailto:benjamin.gilbert@sciencespo.fr">me contacter</a>. </p>
 
 <p> Les propositions de correction des épreuves suivantes sont disponibles :</p>
 
