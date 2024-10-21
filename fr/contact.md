@@ -8,7 +8,7 @@ is_contact: true
 
 <div style="text-align: justify">
 
-<p> N'hésitez pas à m'envoyer un mail à l'adresse suivante : </p>
+<p> Pour toute question, merci de m'envoyer un mail à l'adresse suivante : </p>
 
 <p style="text-align:center"><a href = "mailto:benjamin.gilbert@sciencespo.fr">benjamin.gilbert@sciencespo.fr</a></p>
 
@@ -18,7 +18,7 @@ is_contact: true
 
 <div style="text-align: justify">
 
-<p> Je suis aussi disponible la plupart du temps au médialab à Sciences Po :</p>
+<p> Je suis aussi disponible fréquemment au médialab à Sciences Po :</p>
 
 <p style="text-align:center">Sciences Po - médialab</p>
 
