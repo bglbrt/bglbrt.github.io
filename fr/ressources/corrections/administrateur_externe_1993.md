@@ -588,7 +588,7 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                     $$
                     \frac{Q_3(10)}{P_3(10)} = \frac{10^2 + 8 \times 10 + 11}{10^3 + 9 \times 10^2 + 18 \times 10 + 6} = \frac{191}{2086}
                     $$
-                    On peut donc donner une valeur approchée de \( \varphi(10) \) : \( \varphi(10) \approx \frac{191}{2086} \)
+                    On peut donc donner une valeur approchée de \( \varphi(10) \) par \( \varphi(10) \approx \frac{191}{2086} \).
                 </p>
             </li>
         </ol>
