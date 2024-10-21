@@ -6,21 +6,11 @@ lang: "fr"
 
 <div style="text-align: justify"> 
 
-<p> Je suis actuellement responsable de la section <i>Expertise de la fonction publique</i> à l’<a href = "https://www.insee.fr/fr/accueil">Insee</a>, où j’encadre une équipe qui produit des données et des études sur les caractéristiques d'emploi et les salaires des agents de la fonction publique. En parallèle, je suis doctorant en sociologie à <a href = "https://www.sciencespo.fr/fr/">Sciences Po</a> et à l'<a href = "https://u-paris.fr">Université Paris-Cité</a>. </p>
+<p> Je suis actuellement responsable de la section  « Expertise de la fonction publique » à l’<a href = "https://www.insee.fr/fr/accueil">Insee</a>, où j’encadre une équipe en charge de la production de données et d'études sur les caractéristiques d'emploi et les salaires des agents de la fonction publique. En parallèle, je suis depuis 2022 doctorant en sociologie à <a href = "https://www.sciencespo.fr/fr/">Sciences Po</a> et à l'<a href = "https://u-paris.fr">Université Paris-Cité</a>. </p>
 
-<p> Dans ma thèse, je m'intéresse principalement aux catégorisations ordinaires de l'espace social dans les médias, et à l'évolution de ces catégorisations ces dernières décennies. Dans le cadre de ces recherches, je me base essentiellement sur des méthodes computationnelles de <i>machine</i> et de <i>deep-learning</i>, et sur des données issues de la presse écrite et d'émissions de radiophonie et de télévision. </p>
+<p> Dans ma thèse, je m'intéresse principalement aux catégorisations ordinaires de l'espace social dans les médias, et à l'évolution de ces catégorisations ces dernières décennies. Dans le cadre de ces recherches, je me base essentiellement sur des méthodes computationnelles de <i>machine</i> et de <i>deep learning</i>, et sur des données issues de la presse écrite et d'émissions de radiophonie et de télévision. </p>
 
 <p> Bien que celles-ci ne soient que très indirectement reliées à ma thèse, je m'intéresse aussi à des questions de recherche en mathématiques et sciences computationnnelles. Je suis en particulier intéressé par la théorie des grandes matrices aléatoires, les fondements théoriques de l'apprentissage profond, et les méthodes de chiffrement homomorphe. </p>
-
-</div>
-
----
-
-## Thème de recherche
-
-<div style="text-align: justify">
-
-<p> Une présentation plus détaillée de mon sujet de thèse ainsi qu'une liste des publications et projets de recherche auxquels j'ai participé ou sur lesquels je travaille sont <a href = "/fr/recherche">disponibles sur ce site</a>.</p>
 
 </div>
 
