@@ -1,7 +1,7 @@
 ---
 layout: default
-description: Enseignement
-title: Benjamin GILBERT - Enseignement
+description: Ressources
+title: Benjamin GILBERT - Ressources
 lang: "fr"
 ---
 
@@ -14,6 +14,8 @@ lang: "fr"
 <p> Pour toute erreur, imprécision ou question, n'hésitez pas à <a href = "/fr/contact">m'envoyer un mail</a>. </p>
 
 <p> Les propositions de correction des épreuves suivantes sont disponibles :</p>
+
+</div>
 
 * Concours externe d'administrateur•ice de l'Insee
     * [Épreuve de mathématiques - 2023](/fr/ressources/corrections/insee_administrateur_externe_2023)
