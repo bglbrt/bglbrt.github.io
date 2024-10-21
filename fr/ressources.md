@@ -5,11 +5,17 @@ title: Benjamin GILBERT - Ressources
 lang: "fr"
 ---
 
+<div style="text-align: justify"> 
+
+<p> Toutes les ressources des cours donnés actuellement ou par le passé, ainsi que toutes mes propositions de corrections d'épreuves de concours de la fonction publique sont consultables sur cette page. </p>
+
+</div>
+
+---
+
 ## Enseignement
 
 <div style="text-align: justify"> 
-
-<p> Toutes les ressources des cours donnés actuellement ou par le passé sont à votre disposition, par ordre du plus récent au plus ancien et listés par année scolaire sur cette page. </p>
 
 <p> Pour toute question relative à un de ces cours ou si vous souhaitez réutiliser ces ressources, n'hésitez pas à <a href = "/fr/contact">m'envoyer un mail</a>. </p>
 
@@ -32,15 +38,13 @@ lang: "fr"
 
 <div style="text-align: justify"> 
 
-<p> Toutes mes propositions de corrections d'épreuves de concours de la fonction publique sont consultables sur cette page. Celles-ci n'engagent que leur auteur. </p>
-
-<p> Pour toute erreur, imprécision ou question, n'hésitez pas à <a href = "/fr/contact">m'envoyer un mail</a>. </p>
+<p> Ces propositions de corrections n'engagent que leur auteur. Pour toute erreur, imprécision ou question, n'hésitez pas à <a href = "/fr/contact">m'envoyer un mail</a>. </p>
 
 <p> Les propositions de correction des épreuves suivantes sont disponibles :</p>
 
 </div>
 
-* Concours externe d'administrateur de l'Insee
+* Concours externe d'administrat·eur·ice l'Insee
     * [Épreuve de mathématiques - 2023](/fr/ressources/corrections/insee_administrateur_externe_2023)
     * Épreuve de mathématiques - 2022
     * Épreuve de mathématiques - 2021
