@@ -17,7 +17,7 @@ lang: "fr"
 
 </div>
 
-* Concours externe d'administrateur•ice de l'Insee
+* Concours externe d'administrateur de l'Insee
     * [Épreuve de mathématiques - 2023](/fr/ressources/corrections/insee_administrateur_externe_2023)
     * Épreuve de mathématiques - 2022
     * Épreuve de mathématiques - 2021
