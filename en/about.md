@@ -53,5 +53,5 @@ lang: "en"
 
 </div>
 
-* Route of the Ossau](/en/maps/ossau) - France
-* Tour of the Monte Rosa](/en/maps/rose) - Switzerland and Italy
+* [Route of the Ossau](/en/maps/ossau) - France
+* [Tour of the Monte Rosa](/en/maps/rosa) - Switzerland and Italy
