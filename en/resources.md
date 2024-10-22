@@ -40,7 +40,7 @@ lang: "en"
 
 <p> These proposed corrections are written in French and are the sole responsibility of their author. </p>
 
-<p> For any errors, inaccuracies or questions, please do not hesitate to <a href = ‘mailto:benjamin.gilbert@sciencespo.fr’>email me</a>. </p>
+<p> For any errors, inaccuracies or questions, please do not hesitate to <a href = "mailto:benjamin.gilbert@sciencespo.fr">email me</a>. </p>
 
 <p> The following corrections are available: :</p>
 
