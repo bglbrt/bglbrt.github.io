@@ -42,38 +42,39 @@ lang: "en"
 
 <p> For any errors, inaccuracies or questions, please do not hesitate to <a href = "mailto:benjamin.gilbert@sciencespo.fr">email me</a>. </p>
 
-<p> The following corrections are available: :</p>
+<p> The following corrections are available :</p>
 
 </div>
 
 * Concours externe d'administrat·eur·ice de l'Insee
-    * [Mathematics paper - 2023](/fr/ressources/corrections/insee_administrateur_externe_2023)
-    * Mathematics paper - 2022
-    * Mathematics paper - 2021
-    * Mathematics paper - 2020
-    * Mathematics paper - 2019
-    * Mathematics paper - 2018
-    * Mathematics paper - 2017
-    * Mathematics paper - 2016
-    * Mathematics paper - 2015
-    * Mathematics paper - 2014
-    * Mathematics paper - 2013
-    * Mathematics paper - 2012
-    * Mathematics paper - 2011
-    * Mathematics paper - 2010
-    * Mathematics paper - 2009
-    * Mathematics paper - 2008
-    * Mathematics paper - 2007
-    * Mathematics paper - 2006
-    * Mathematics paper - 2005
-    * Mathematics paper - 2004
-    * Mathematics paper - 2003
-    * Mathematics paper - 2002
-    * Mathematics paper - 2001
-    * Mathematics paper - 1999
-    * Mathematics paper - 1998
-    * Mathematics paper - 1997
-    * Mathematics paper - 1996
-    * Mathematics paper - 1995
-    * Mathematics paper - 1994
-    * [Mathematics paper - 1993](/fr/ressources/corrections/insee_administrateur_externe_1993)
+    * [Épreuve de mathématiques - 2023](/fr/ressources/corrections/insee_administrateur_externe_2023)
+    * [Épreuve de mathématiques - 2022](/fr/ressources/corrections/insee_administrateur_externe_2022)
+    * [Épreuve de mathématiques - 2021](/fr/ressources/corrections/insee_administrateur_externe_2021)
+    * [Épreuve de mathématiques - 2020](/fr/ressources/corrections/insee_administrateur_externe_2020)
+    * [Épreuve de mathématiques - 2019](/fr/ressources/corrections/insee_administrateur_externe_2019)
+    * [Épreuve de mathématiques - 2018](/fr/ressources/corrections/insee_administrateur_externe_2018)
+    * [Épreuve de mathématiques - 2017](/fr/ressources/corrections/insee_administrateur_externe_2017)
+    * [Épreuve de mathématiques - 2016](/fr/ressources/corrections/insee_administrateur_externe_2016)
+    * [Épreuve de mathématiques - 2015](/fr/ressources/corrections/insee_administrateur_externe_2015)
+    * [Épreuve de mathématiques - 2014](/fr/ressources/corrections/insee_administrateur_externe_2014)
+    * [Épreuve de mathématiques - 2013](/fr/ressources/corrections/insee_administrateur_externe_2013)
+    * [Épreuve de mathématiques - 2012](/fr/ressources/corrections/insee_administrateur_externe_2012)
+    * [Épreuve de mathématiques - 2011](/fr/ressources/corrections/insee_administrateur_externe_2011)
+    * [Épreuve de mathématiques - 2010](/fr/ressources/corrections/insee_administrateur_externe_2010)
+    * [Épreuve de mathématiques - 2009](/fr/ressources/corrections/insee_administrateur_externe_2009)
+    * [Épreuve de mathématiques - 2008](/fr/ressources/corrections/insee_administrateur_externe_2008)
+    * [Épreuve de mathématiques - 2007](/fr/ressources/corrections/insee_administrateur_externe_2007)
+    * [Épreuve de mathématiques - 2006](/fr/ressources/corrections/insee_administrateur_externe_2006)
+    * [Épreuve de mathématiques - 2005](/fr/ressources/corrections/insee_administrateur_externe_2005)
+    * [Épreuve de mathématiques - 2004](/fr/ressources/corrections/insee_administrateur_externe_2004)
+    * [Épreuve de mathématiques - 2003](/fr/ressources/corrections/insee_administrateur_externe_2003)
+    * [Épreuve de mathématiques - 2002](/fr/ressources/corrections/insee_administrateur_externe_2002)
+    * [Épreuve de mathématiques - 2001](/fr/ressources/corrections/insee_administrateur_externe_2001)
+    * [Épreuve de mathématiques - 2000](/fr/ressources/corrections/insee_administrateur_externe_2000)
+    * [Épreuve de mathématiques - 1999](/fr/ressources/corrections/insee_administrateur_externe_1999)
+    * [Épreuve de mathématiques - 1998](/fr/ressources/corrections/insee_administrateur_externe_1998)
+    * [Épreuve de mathématiques - 1997](/fr/ressources/corrections/insee_administrateur_externe_1997)
+    * [Épreuve de mathématiques - 1996](/fr/ressources/corrections/insee_administrateur_externe_1996)
+    * [Épreuve de mathématiques - 1995](/fr/ressources/corrections/insee_administrateur_externe_1995)
+    * [Épreuve de mathématiques - 1994](/fr/ressources/corrections/insee_administrateur_externe_1994)
+    * [Épreuve de mathématiques - 1993](/fr/ressources/corrections/insee_administrateur_externe_1993)
