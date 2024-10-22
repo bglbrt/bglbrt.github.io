@@ -39,7 +39,7 @@ nav:
     link: "/fr/ressources"
     lang: "fr"
   - name: "CV"
-    link: "/fr/CV.pdf"
+    link: "/fr/cv.pdf"
     lang: "fr"
   - name: "Contact"
     link: "mailto:benjamin.gilbert@sciencespo.fr"
