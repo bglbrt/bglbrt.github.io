@@ -7,7 +7,7 @@ lang: "en"
 
 <div style="text-align: justify"> 
 
-<p> I am currently working in the Civil Service Expertise section at <a href = "https://www.insee.fr/fr/accueil">Insee</a>, where I manage a team in charge of producing data and studies on the employment characteristics and wages of civil service employees. Simultaneously, I am pursuing a PhD in sociology at <a href = "https://www.sciencespo.fr/fr/">Sciences Po</a> and <a href = "https://u-paris.fr">Université Paris-Cité</a>. </p>
+<p> I am currently working at <a href = "https://www.insee.fr/fr/accueil">Insee</a>, where I manage a team in charge of producing data and studies on the employment characteristics and wages of civil service employees. Simultaneously, I am pursuing a PhD in sociology at <a href = "https://www.sciencespo.fr/fr/">Sciences Po</a> and <a href = "https://u-paris.fr">Université Paris-Cité</a>. </p>
 
 <p> In my research, I am mainly interested in ordinary categorisations of social space in French traditional media, and how these categorisations have changed since the 1970s. As part of this research, I rely mainly on computational methods of <i>machine</i> and <i>deep learning</i>, and on data from the written press and radio and television broadcasts. </p>
 
