@@ -52,50 +52,52 @@ lang: "fr"
 
 <table border="0">
   <tr>
-    <td>2024</td>
-    <td>2023</td>
-    <td>2022</td>
-    <td>2021</td>
-    <td>2020</td>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2024">2024</a></td>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2023">2023</a></td>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2022">2022</a></td>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2021">2021</a></td>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2020">2020</a></td>
   </tr>
   <tr>
-    <td>2019</td>
-    <td>2018</td>
-    <td>2017</td>
-    <td>2016</td>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2023">2015</a></td>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2019">2019</a></td>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2018">2018</a></td>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2017">2017</a></td>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2016">2016</a></td>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2015">2015</a></td>
+  </tr>
+  <tr>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2014">2014</a></td>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2013">2013</a></td>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2012">2012</a></td>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2011">2011</a></td>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2010">2010</a></td>
+  </tr>
+  <tr>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2009">2009</a></td>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2008">2008</a></td>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2007">2007</a></td>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2006">2006</a></td>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2005">2005</a></td>
+  </tr>
+  <tr>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2004">2004</a></td>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2003">2003</a></td>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2002">2002</a></td>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2001">2001</a></td>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2000">2000</a></td>
+  </tr>
+  <tr>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_1999">1999</a></td>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_1998">1998</a></td>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_1997">1997</a></td>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_1996">1996</a></td>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_1995">1995</a></td>
+  </tr>
+  <tr>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_1994">1994</a></td>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_1993">1993</a></td>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_1992">1992</a></td>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_1991">1991</a></td>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_1990">1990</a></td>
   </tr>
 </table>
-
-</div>
-    * [Épreuve de mathématiques - 2023](/fr/ressources/corrections/insee_administrateur_externe_2023)
-    * [Épreuve de mathématiques - 2022](/fr/ressources/corrections/insee_administrateur_externe_2022)
-    * [Épreuve de mathématiques - 2021](/fr/ressources/corrections/insee_administrateur_externe_2021)
-    * [Épreuve de mathématiques - 2020](/fr/ressources/corrections/insee_administrateur_externe_2020)
-    * [Épreuve de mathématiques - 2019](/fr/ressources/corrections/insee_administrateur_externe_2019)
-    * [Épreuve de mathématiques - 2018](/fr/ressources/corrections/insee_administrateur_externe_2018)
-    * [Épreuve de mathématiques - 2017](/fr/ressources/corrections/insee_administrateur_externe_2017)
-    * [Épreuve de mathématiques - 2016](/fr/ressources/corrections/insee_administrateur_externe_2016)
-    * [Épreuve de mathématiques - 2015](/fr/ressources/corrections/insee_administrateur_externe_2015)
-    * [Épreuve de mathématiques - 2014](/fr/ressources/corrections/insee_administrateur_externe_2014)
-    * [Épreuve de mathématiques - 2013](/fr/ressources/corrections/insee_administrateur_externe_2013)
-    * [Épreuve de mathématiques - 2012](/fr/ressources/corrections/insee_administrateur_externe_2012)
-    * [Épreuve de mathématiques - 2011](/fr/ressources/corrections/insee_administrateur_externe_2011)
-    * [Épreuve de mathématiques - 2010](/fr/ressources/corrections/insee_administrateur_externe_2010)
-    * [Épreuve de mathématiques - 2009](/fr/ressources/corrections/insee_administrateur_externe_2009)
-    * [Épreuve de mathématiques - 2008](/fr/ressources/corrections/insee_administrateur_externe_2008)
-    * [Épreuve de mathématiques - 2007](/fr/ressources/corrections/insee_administrateur_externe_2007)
-    * [Épreuve de mathématiques - 2006](/fr/ressources/corrections/insee_administrateur_externe_2006)
-    * [Épreuve de mathématiques - 2005](/fr/ressources/corrections/insee_administrateur_externe_2005)
-    * [Épreuve de mathématiques - 2004](/fr/ressources/corrections/insee_administrateur_externe_2004)
-    * [Épreuve de mathématiques - 2003](/fr/ressources/corrections/insee_administrateur_externe_2003)
-    * [Épreuve de mathématiques - 2002](/fr/ressources/corrections/insee_administrateur_externe_2002)
-    * [Épreuve de mathématiques - 2001](/fr/ressources/corrections/insee_administrateur_externe_2001)
-    * [Épreuve de mathématiques - 2000](/fr/ressources/corrections/insee_administrateur_externe_2000)
-    * [Épreuve de mathématiques - 1999](/fr/ressources/corrections/insee_administrateur_externe_1999)
-    * [Épreuve de mathématiques - 1998](/fr/ressources/corrections/insee_administrateur_externe_1998)
-    * [Épreuve de mathématiques - 1997](/fr/ressources/corrections/insee_administrateur_externe_1997)
-    * [Épreuve de mathématiques - 1996](/fr/ressources/corrections/insee_administrateur_externe_1996)
-    * [Épreuve de mathématiques - 1995](/fr/ressources/corrections/insee_administrateur_externe_1995)
-    * [Épreuve de mathématiques - 1994](/fr/ressources/corrections/insee_administrateur_externe_1994)
-    * [Épreuve de mathématiques - 1993](/fr/ressources/corrections/insee_administrateur_externe_1993)
