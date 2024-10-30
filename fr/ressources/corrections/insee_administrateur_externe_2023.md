@@ -176,6 +176,24 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
 
 <ol type="1" start="1">
     <li>
+        ...
+                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -30px;">
+                    ...
+                </p>
+    </li>
+    <li>
+        ...
+                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -30px;">
+                    ...
+                </p>
+    </li>
+    <li>
+        ...
+                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -30px;">
+                    ...
+                </p>
+    </li>
+    <li>
         <ol type="a" start="1">
             <li>
                 ...
@@ -197,7 +215,7 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
             </li>
         </ol>
     </li>
-    <li> ...
+    <li>
         <ol type="a" start="1">
             <li>
                 ...
@@ -205,7 +223,25 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
                     ...
                 </p>
             </li>
+            <li> 
+                ...
+                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                 </p>
+            </li>
         </ol>
+    </li>
+    <li>
+        ...
+                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -30px;">
+                    ...
+                </p>
+    </li>
+    <li>
+        ...
+                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -30px;">
+                    ...
+                </p>
     </li>
 </ol>
 
