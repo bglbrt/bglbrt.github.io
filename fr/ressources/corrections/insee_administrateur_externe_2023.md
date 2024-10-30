@@ -27,7 +27,7 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
 
 <ol type="1" start="1">
     <p>
-    On note \( V=M_{n}(\mathbb{C}) \) l'espace vectoriel des matrices carrées de taille \( n \times n \) à coefficients complexes et \( E=\mathbb{C}^{n} \) identifié à \( M_{n, 1}(\mathbb{C}) pour \(n \geq 2) \). On notera \( tr \) la trace d'une matrice.
+    On note \( V=M_{n}(\mathbb{C}) \) l'espace vectoriel des matrices carrées de taille \( n \times n \) à coefficients complexes et \( E=\mathbb{C}^{n} \) identifié à \( M_{n, 1}(\mathbb{C}) \) pour \(n \geq 2) \). On notera \( \mathrm{tr} \) la trace d'une matrice.
     <br><br>
     Une matrice \( N \) est dite nilpotente si et seulement s'il existe \( q \geq 2 \) tel que : \( N^{q} = 0 \).
     </p>
