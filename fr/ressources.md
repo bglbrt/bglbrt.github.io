@@ -42,11 +42,7 @@ lang: "fr"
 
 <p> Pour toute éventuelle erreur, imprécision ou question, n'hésitez pas à <a href = "mailto:benjamin.gilbert@sciencespo.fr">me contacter</a>. </p>
 
-<p> Les propositions de correction des épreuves suivantes sont disponibles. </p>
-
-<p> Les années en <span style="color: #e79e31">jaune</span> aux épreuves où le sujet est mis en ligne et où la correction est en cours de rédaction, et celles en <span style="color: #318CE7">bleu</span> à celles pour lesquelles une correction est d'ores et déjà mise en ligne.</p>
-
-<p> Les liens en <span style="color: #000000">noir</span> correspondent aux années manquantes. </p>
+<p> Les années en <span style="color: #e79e31">jaune</span> correspondent aux épreuves où le sujet est mis en ligne et où la correction est en cours de rédaction, et celles en <span style="color: #318CE7">bleu</span> à celles pour lesquelles une correction est mise en ligne.</p>
 
 </div>
 
