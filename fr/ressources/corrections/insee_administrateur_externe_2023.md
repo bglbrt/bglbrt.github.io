@@ -249,6 +249,8 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
 
 ## Partie 2
 
+### Exercice 1
+
 <p>
 ...
 </p>
@@ -325,3 +327,4 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
     </li>
 </ol>
 
+### Exercice 2
