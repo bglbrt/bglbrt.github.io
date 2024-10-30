@@ -1,12 +1,12 @@
 ---
 layout: default
-description: Concours externe d'administrat·eur·ice de l'Insee — 1993
+description: Concours externe d'administrat·eur·rice de l'Insee — 1993
 title: Benjamin GILBERT - Corrections
 lang: "fr"
 katex: True
 ---
 
-<h2 style="font-weight: normal; margin-bottom: 10px"><em>Concours externe d'administrat·eur·ice de l'Insee — 1993</em></h2>
+<h2 style="font-weight: normal; margin-bottom: 10px"><em>Concours externe d'administrat·eur·rice de l'Insee — 1993</em></h2>
 <h1 style="margin-top: 0">Épreuve de mathématiques</h1>
 
 ---
