@@ -42,7 +42,7 @@ lang: "fr"
 
 <p> Pour toute éventuelle erreur, imprécision ou question, n'hésitez pas à <a href = "mailto:benjamin.gilbert@sciencespo.fr">me contacter</a>. </p>
 
-<p> Les propositions de correction des épreuves suivantes sont disponibles :</p>
+<p> Les propositions de correction des épreuves suivantes sont disponibles.</p>
 
 </div>
 
@@ -52,7 +52,7 @@ lang: "fr"
 
 <table border="0">
   <tr>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2024">2024</a></td>
+    <td><a style="color:#e7cc31;" href = "/fr/ressources/corrections/insee_administrateur_externe_2024">2024</a></td>
     <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2023">2023</a></td>
     <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2022">2022</a></td>
     <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2021">2021</a></td>
@@ -87,17 +87,17 @@ lang: "fr"
     <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2000">2000</a></td>
   </tr>
   <tr>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_1999">1999</a></td>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_1998">1998</a></td>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_1997">1997</a></td>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_1996">1996</a></td>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_1995">1995</a></td>
+    <td><a style="color:#e73131;" href = "/fr/ressources/corrections/insee_administrateur_externe_1999">1999</a></td>
+    <td><a style="color:#e73131;" href = "/fr/ressources/corrections/insee_administrateur_externe_1998">1998</a></td>
+    <td><a style="color:#e73131;" href = "/fr/ressources/corrections/insee_administrateur_externe_1997">1997</a></td>
+    <td><a style="color:#696969;" href = "/fr/ressources/corrections/insee_administrateur_externe_1996">1996</a></td>
+    <td><a style="color:#e73131;" href = "/fr/ressources/corrections/insee_administrateur_externe_1995">1995</a></td>
   </tr>
   <tr>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_1994">1994</a></td>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_1993">1993</a></td>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_1992">1992</a></td>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_1991">1991</a></td>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_1990">1990</a></td>
+    <td><a style="color:#696969;" href = "/fr/ressources/corrections/insee_administrateur_externe_1994">1994</a></td>
+    <td><a style="color:#e7cc31;" href = "/fr/ressources/corrections/insee_administrateur_externe_1993">1993</a></td>
+    <td><a style="color:#696969;" href = "/fr/ressources/corrections/insee_administrateur_externe_1992">1992</a></td>
+    <td><a style="color:#696969;" href = "/fr/ressources/corrections/insee_administrateur_externe_1991">1991</a></td>
+    <td><a style="color:#696969;" href = "/fr/ressources/corrections/insee_administrateur_externe_1990">1990</a></td>
   </tr>
 </table>
