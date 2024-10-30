@@ -46,7 +46,7 @@ lang: "fr"
 
 </div>
 
-### Concours externe d'administrat·eur·ice de l'Insee
+### Concours externe d'administrat·eur·rice de l'Insee
 
 <div>
 
