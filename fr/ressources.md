@@ -52,52 +52,52 @@ lang: "fr"
 
 <table border="0">
   <tr>
-    <td><a style="color:#e7cc31;" href = "/fr/ressources/corrections/insee_administrateur_externe_2024">2024</a></td>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2023">2023</a></td>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2022">2022</a></td>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2021">2021</a></td>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2020">2020</a></td>
+    <td><a style="color:#000000;" href = "/fr/ressources/corrections/insee_administrateur_externe_2024">2024</a></td>
+    <td><a style="color:#e79e31;" href = "/fr/ressources/corrections/insee_administrateur_externe_2023">2023</a></td>
+    <td><a style="color:#e79e31;" href = "/fr/ressources/corrections/insee_administrateur_externe_2022">2022</a></td>
+    <td><a style="color:#e79e31;" href = "/fr/ressources/corrections/insee_administrateur_externe_2021">2021</a></td>
+    <td><a style="color:#e79e31;" href = "/fr/ressources/corrections/insee_administrateur_externe_2020">2020</a></td>
   </tr>
   <tr>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2019">2019</a></td>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2018">2018</a></td>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2017">2017</a></td>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2016">2016</a></td>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2015">2015</a></td>
+    <td><a style="color:#e79e31;" href = "/fr/ressources/corrections/insee_administrateur_externe_2019">2019</a></td>
+    <td><a style="color:#e79e31;" href = "/fr/ressources/corrections/insee_administrateur_externe_2018">2018</a></td>
+    <td><a style="color:#e79e31;" href = "/fr/ressources/corrections/insee_administrateur_externe_2017">2017</a></td>
+    <td><a style="color:#e79e31;" href = "/fr/ressources/corrections/insee_administrateur_externe_2016">2016</a></td>
+    <td><a style="color:#e79e31;" href = "/fr/ressources/corrections/insee_administrateur_externe_2015">2015</a></td>
   </tr>
   <tr>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2014">2014</a></td>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2013">2013</a></td>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2012">2012</a></td>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2011">2011</a></td>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2010">2010</a></td>
+    <td><a style="color:#e79e31;" href = "/fr/ressources/corrections/insee_administrateur_externe_2014">2014</a></td>
+    <td><a style="color:#e79e31;" href = "/fr/ressources/corrections/insee_administrateur_externe_2013">2013</a></td>
+    <td><a style="color:#e79e31;" href = "/fr/ressources/corrections/insee_administrateur_externe_2012">2012</a></td>
+    <td><a style="color:#e79e31;" href = "/fr/ressources/corrections/insee_administrateur_externe_2011">2011</a></td>
+    <td><a style="color:#e79e31;" href = "/fr/ressources/corrections/insee_administrateur_externe_2010">2010</a></td>
   </tr>
   <tr>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2009">2009</a></td>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2008">2008</a></td>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2007">2007</a></td>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2006">2006</a></td>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2005">2005</a></td>
+    <td><a style="color:#e79e31;" href = "/fr/ressources/corrections/insee_administrateur_externe_2009">2009</a></td>
+    <td><a style="color:#e79e31;" href = "/fr/ressources/corrections/insee_administrateur_externe_2008">2008</a></td>
+    <td><a style="color:#e79e31;" href = "/fr/ressources/corrections/insee_administrateur_externe_2007">2007</a></td>
+    <td><a style="color:#e79e31;" href = "/fr/ressources/corrections/insee_administrateur_externe_2006">2006</a></td>
+    <td><a style="color:#000000;" href = "/fr/ressources/corrections/insee_administrateur_externe_2005">2005</a></td>
   </tr>
   <tr>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2004">2004</a></td>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2003">2003</a></td>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2002">2002</a></td>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2001">2001</a></td>
-    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_2000">2000</a></td>
+    <td><a style="color:#000000;" href = "/fr/ressources/corrections/insee_administrateur_externe_2004">2004</a></td>
+    <td><a style="color:#000000;" href = "/fr/ressources/corrections/insee_administrateur_externe_2003">2003</a></td>
+    <td><a style="color:#e79e31;" href = "/fr/ressources/corrections/insee_administrateur_externe_2002">2002</a></td>
+    <td><a style="color:#e79e31;" href = "/fr/ressources/corrections/insee_administrateur_externe_2001">2001</a></td>
+    <td><a style="color:#e79e31;" href = "/fr/ressources/corrections/insee_administrateur_externe_2000">2000</a></td>
   </tr>
   <tr>
-    <td><a style="color:#e73131;" href = "/fr/ressources/corrections/insee_administrateur_externe_1999">1999</a></td>
-    <td><a style="color:#e73131;" href = "/fr/ressources/corrections/insee_administrateur_externe_1998">1998</a></td>
-    <td><a style="color:#e73131;" href = "/fr/ressources/corrections/insee_administrateur_externe_1997">1997</a></td>
-    <td><a style="color:#696969;" href = "/fr/ressources/corrections/insee_administrateur_externe_1996">1996</a></td>
-    <td><a style="color:#e73131;" href = "/fr/ressources/corrections/insee_administrateur_externe_1995">1995</a></td>
+    <td><a style="color:#e79e31;" href = "/fr/ressources/corrections/insee_administrateur_externe_1999">1999</a></td>
+    <td><a style="color:#e79e31;" href = "/fr/ressources/corrections/insee_administrateur_externe_1998">1998</a></td>
+    <td><a style="color:#e79e31;" href = "/fr/ressources/corrections/insee_administrateur_externe_1997">1997</a></td>
+    <td><a style="color:#000000;" href = "/fr/ressources/corrections/insee_administrateur_externe_1996">1996</a></td>
+    <td><a style="color:#e79e31;" href = "/fr/ressources/corrections/insee_administrateur_externe_1995">1995</a></td>
   </tr>
   <tr>
-    <td><a style="color:#696969;" href = "/fr/ressources/corrections/insee_administrateur_externe_1994">1994</a></td>
-    <td><a style="color:#e7cc31;" href = "/fr/ressources/corrections/insee_administrateur_externe_1993">1993</a></td>
-    <td><a style="color:#696969;" href = "/fr/ressources/corrections/insee_administrateur_externe_1992">1992</a></td>
-    <td><a style="color:#696969;" href = "/fr/ressources/corrections/insee_administrateur_externe_1991">1991</a></td>
-    <td><a style="color:#696969;" href = "/fr/ressources/corrections/insee_administrateur_externe_1990">1990</a></td>
+    <td><a style="color:#000000;" href = "/fr/ressources/corrections/insee_administrateur_externe_1994">1994</a></td>
+    <td><a href = "/fr/ressources/corrections/insee_administrateur_externe_1993">1993</a></td>
+    <td><a style="color:#000000;" href = "/fr/ressources/corrections/insee_administrateur_externe_1992">1992</a></td>
+    <td><a style="color:#000000;" href = "/fr/ressources/corrections/insee_administrateur_externe_1991">1991</a></td>
+    <td><a style="color:#000000;" href = "/fr/ressources/corrections/insee_administrateur_externe_1990">1990</a></td>
   </tr>
 </table>
