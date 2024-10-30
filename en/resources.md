@@ -42,7 +42,7 @@ lang: "en"
 
 <p> For any errors, inaccuracies or questions, please do not hesitate to <a href = "mailto:benjamin.gilbert@sciencespo.fr">email me</a>. </p>
 
-<p> Years in <span style=“color: #e79e31”>yellow</span> correspond to tests where the subject is online and the correction is not yet written, those in <span style=“color: #318CE7”>blue</span> to those for which a correction is made available online.</p>
+<p> Years in <span style="color: #e79e31">yellow</span> correspond to tests where the subject is online and the correction is not yet written, those in <span style="color: #318CE7">blue</span> to those for which a correction is made available online.</p>
 
 </div>
 
