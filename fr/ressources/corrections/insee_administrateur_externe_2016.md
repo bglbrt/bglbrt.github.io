@@ -45,7 +45,7 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
         <!-- Answer placeholder -->
         <p style="border: solid 2px; border-radius: 10px; 
                   background-color:rgba(152, 180, 212, .1); 
-                  padding: 10px; margin: 15px 0 15px -60px;">
+                  padding: 10px; margin: 15px 0 15px -30px;">
             ...
         </p>
     </li>
@@ -297,7 +297,7 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
         <!-- Answer placeholder -->
         <p style="border: solid 2px; border-radius: 10px; 
                   background-color:rgba(152, 180, 212, .1); 
-                  padding: 10px; margin: 15px 0 15px -60px;">
+                  padding: 10px; margin: 15px 0 15px -30px;">
             ...
         </p>
     </li>
@@ -366,7 +366,7 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
         <!-- Answer placeholder -->
         <p style="border: solid 2px; border-radius: 10px; 
                   background-color:rgba(152, 180, 212, .1); 
-                  padding: 10px; margin: 15px 0 15px -60px;">
+                  padding: 10px; margin: 15px 0 15px -30px;">
             ...
         </p>
     </li>
@@ -388,7 +388,7 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
         <!-- Answer placeholder -->
         <p style="border: solid 2px; border-radius: 10px; 
                   background-color:rgba(152, 180, 212, .1); 
-                  padding: 10px; margin: 15px 0 15px -60px;">
+                  padding: 10px; margin: 15px 0 15px -30px;">
             ...
         </p>
     </li>
@@ -411,7 +411,7 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
         <!-- Answer placeholder -->
         <p style="border: solid 2px; border-radius: 10px; 
                   background-color:rgba(152, 180, 212, .1); 
-                  padding: 10px; margin: 15px 0 15px -60px;">
+                  padding: 10px; margin: 15px 0 15px -30px;">
             ...
         </p>
     </li>
@@ -857,7 +857,7 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
         <!-- Answer placeholder -->
         <p style="border: solid 2px; border-radius: 10px; 
                   background-color:rgba(152, 180, 212, .1); 
-                  padding: 10px; margin: 15px 0 15px -60px;">
+                  padding: 10px; margin: 15px 0 15px -30px;">
             ...
         </p>
     </li>
@@ -955,7 +955,7 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
         <!-- Answer placeholder -->
         <p style="border: solid 2px; border-radius: 10px; 
                   background-color:rgba(152, 180, 212, .1); 
-                  padding: 10px; margin: 15px 0 15px -60px;">
+                  padding: 10px; margin: 15px 0 15px -30px;">
             ...
         </p>
     </li>
