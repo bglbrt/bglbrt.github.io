@@ -31,11 +31,12 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
 <p>
 On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J\) la fonction \(h\) par :
 </p>
-$$
-\forall x \in J, \quad h(x) \;=\;\int_{0}^{+\infty} \frac{x \cos t}{x^{2} + t^{2}} \,\mathrm{d}t.
-$$
 
 <ol type="1" start="1">
+
+    $$
+    \forall x \in J, \quad h(x) \;=\;\int_{0}^{+\infty} \frac{x \cos t}{x^{2} + t^{2}} \,\mathrm{d}t.
+    $$
 
     <!-- 1. -->
     <li>
