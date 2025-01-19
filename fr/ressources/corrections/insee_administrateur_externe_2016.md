@@ -28,15 +28,16 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
 
 ### Exercice 1
 
+<p>
+On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J\) la fonction \(h\) par :
+</p>
+$$
+\forall x \in J, \quad h(x) \;=\;\int_{0}^{+\infty} \frac{x \cos t}{x^{2} + t^{2}} \,\mathrm{d}t.
+$$
+
 <ol type="1" start="1">
 
     <!-- 1. -->
-    <p>
-        On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J\) la fonction \(h\) par :
-        </p>
-        $$
-        \forall x \in J, \quad h(x) \;=\;\int_{0}^{+\infty} \frac{x \cos t}{x^{2} + t^{2}} \,\mathrm{d}t.
-        $$
     <li>
         <p>
         Montrer que la fonction \(h\) est bien définie.
@@ -115,7 +116,7 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
             <li>
                 <p>
                 À l’aide d’un changement de variable, montrer que, pour tout 
-                \(x \in J\),
+                \(x \in J\) :
                 </p>
                 $$
                 h(x) \;=\; \int_{0}^{+\infty} \frac{\cos (xt)}{1 + t^{2}} \,\mathrm{d}t.
