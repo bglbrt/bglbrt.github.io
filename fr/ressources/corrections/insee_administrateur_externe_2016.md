@@ -20,12 +20,11 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
 </p>
 
 ---
-
 <!-- ========================================= -->
-<!-- Partie 1 - Analyse et algèbre -->
+<!-- Partie 1 — Analyse et algèbre             -->
 <!-- ========================================= -->
 
-## Partie 1 - Analyse et algèbre
+## Partie 1 — Analyse et algèbre
 
 ### Exercice 1
 
@@ -36,11 +35,18 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
         <p>
         On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J\) la fonction \(h\) par :
         </p>
-        $$ 
+        $$
         \forall x \in J, \quad h(x) \;=\;\int_{0}^{+\infty} \frac{x \cos t}{x^{2} + t^{2}} \,\mathrm{d}t.
         $$
         <p>
         Montrer que la fonction \(h\) est bien définie.
+        </p>
+
+        <!-- Answer placeholder -->
+        <p style="border: solid 2px; border-radius: 10px; 
+                  background-color:rgba(152, 180, 212, .1); 
+                  padding: 10px; margin: 15px 0 15px -60px;">
+            ...
         </p>
     </li>
 
@@ -58,6 +64,13 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
                 \frac{t \,\sin t}{\bigl(x^{2} + t^{2}\bigr)^{2}} 
                 \,\mathrm{d}t.
                 $$
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
             </li>
 
             <!-- (b) -->
@@ -68,12 +81,26 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
                 $$
                 \forall x \in J,\quad |h(x)| \;\leqslant\; \frac{1}{x}.
                 $$
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
             </li>
 
             <!-- (c) -->
             <li>
                 <p>
                 Donner la limite de \(h(x)\) quand \(x\) tend vers \(+\infty\).
+                </p>
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
                 </p>
             </li>
 
@@ -93,6 +120,13 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
                 $$
                 h(x) \;=\; \int_{0}^{+\infty} \frac{\cos (xt)}{1 + t^{2}} \,\mathrm{d}t.
                 $$
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
             </li>
 
             <!-- (b) -->
@@ -103,6 +137,13 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
                 $$
                 0 \;\leqslant\; 1 - \cos a \;\leqslant\; \frac{a^{2}}{2}.
                 $$
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
             </li>
 
             <!-- (c) -->
@@ -116,12 +157,26 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
                 \frac{x^{2}}{2} \int_{0}^{A} \frac{t^{2}}{1+t^{2}} \,\mathrm{d}t
                 \;+\; 2 \int_{A}^{+\infty} \frac{1}{1 + t^{2}} \,\mathrm{d}t.
                 $$
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
             </li>
 
             <!-- (d) -->
             <li>
                 <p>
                 Déterminer la limite de \(h(x)\) quand \(x\) tend vers \(0\) par valeurs supérieures.
+                </p>
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
                 </p>
             </li>
 
@@ -146,12 +201,26 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
                 \frac{\partial^2 \Phi}{\partial x^2}(x,t) \;+\;
                 \frac{\partial^2 \Phi}{\partial t^2}(x,t).\)
                 </p>
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
             </li>
 
             <!-- (b) -->
             <li>
                 <p>
                 En déduire que, pour tout \(x \in J,\; h''(x) = h(x)\).
+                </p>
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
                 </p>
             </li>
 
@@ -170,6 +239,13 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
                 <p>
                 Calculer \(k'(x)\).
                 </p>
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
             </li>
 
             <!-- (b) -->
@@ -177,6 +253,13 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
                 <p>
                 En déduire que, pour tout \(x \in J,\; 
                 h(x)=\frac{\pi}{2}\, e^{-x}\).
+                </p>
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
                 </p>
             </li>
 
@@ -210,6 +293,13 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
         Montrer que \(\langle \,\cdot\,,\,\cdot\,\rangle\) est 
         un produit scalaire.
         </p>
+
+        <!-- Answer placeholder -->
+        <p style="border: solid 2px; border-radius: 10px; 
+                  background-color:rgba(152, 180, 212, .1); 
+                  padding: 10px; margin: 15px 0 15px -60px;">
+            ...
+        </p>
     </li>
 
     <!-- 2. -->
@@ -230,12 +320,26 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
                 \(\bigl(x_0, y_0\bigr)\) tel que 
                 \(f(x_0, y_0)=\displaystyle\inf_{(x,y)\in \mathbb{R}^2} f(x,y)\).
                 </p>
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
             </li>
 
             <!-- (b) -->
             <li>
                 <p>
                 Déterminer \(\bigl(x_0, y_0\bigr)\).
+                </p>
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
                 </p>
             </li>
 
@@ -258,6 +362,13 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
         (de \(E_{n}\) vers \(\mathcal{L}(E_{n}, \mathbb{R})\)) 
         est un isomorphisme d’espaces vectoriels.
         </p>
+
+        <!-- Answer placeholder -->
+        <p style="border: solid 2px; border-radius: 10px; 
+                  background-color:rgba(152, 180, 212, .1); 
+                  padding: 10px; margin: 15px 0 15px -60px;">
+            ...
+        </p>
     </li>
 
     <!-- 4. -->
@@ -272,6 +383,13 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
         <p>
         Montrer que \(\Phi\) est une forme bilinéaire symétrique 
         sur \(E_{n}\). Est-ce un produit scalaire sur \(E_{n}\)?
+        </p>
+
+        <!-- Answer placeholder -->
+        <p style="border: solid 2px; border-radius: 10px; 
+                  background-color:rgba(152, 180, 212, .1); 
+                  padding: 10px; margin: 15px 0 15px -60px;">
+            ...
         </p>
     </li>
 
@@ -289,6 +407,13 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
         définie par \(\varphi(P)=A\). On a donc 
         \(\forall(P,Q)\in E_{n}^2, \;\Phi(P,Q)=\langle\varphi(P),\,Q\rangle\).
         </p>
+
+        <!-- Answer placeholder -->
+        <p style="border: solid 2px; border-radius: 10px; 
+                  background-color:rgba(152, 180, 212, .1); 
+                  padding: 10px; margin: 15px 0 15px -60px;">
+            ...
+        </p>
     </li>
 
     <!-- 6. -->
@@ -299,11 +424,25 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
                 <p>
                 Montrer que \(\varphi\) est un endomorphisme de \(E_{n}\).
                 </p>
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
             </li>
             <li>
                 <p>
                 Montrer que, pour tout polynôme \(P\) de \(E_{n}\) 
                 avec \(\deg P \leqslant n-1,\; \varphi(P)=X\,P\).
+                </p>
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
                 </p>
             </li>
 
@@ -321,10 +460,24 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
                 <p>
                 Donner la matrice de \(\varphi\) dans la base canonique de \(E_{2}\).
                 </p>
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
             </li>
             <li>
                 <p>
                 Donner les valeurs propres de \(\varphi\).
+                </p>
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
                 </p>
             </li>
 
@@ -334,10 +487,10 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
 </ol>
 
 <!-- ========================================= -->
-<!-- Partie 2 - Probabilités et statistiques -->
+<!-- Partie 2 — Probabilités et statistiques   -->
 <!-- ========================================= -->
 
-## Partie 2 - Probabilités et statistiques
+## Partie 2 — Probabilités et statistiques
 
 ### Exercice 3
 
@@ -362,6 +515,13 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
                 \;=\; \int_{0}^{x}\bigl[\,1 - F(t)\bigr]\mathrm{d}t 
                       \;-\; x\,\mathbb{P}(X > x).
                 $$
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
             </li>
 
             <!-- (b) -->
@@ -376,6 +536,13 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
                 \mathbb{E}(X) 
                 \;=\;\int_{0}^{+\infty}\bigl[\,1 - F(t)\bigr]\mathrm{d}t.
                 $$
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
             </li>
 
         </ol>
@@ -401,20 +568,25 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
 
         <ol type="a" start="1">
             
-            <!-- (i) -->
             <li>
                 <p>
-                Déterminer la fonction de répartition \(F_{n}\) de \(S_{n}\).
+                (i) Déterminer la fonction de répartition \(F_{n}\) de \(S_{n}\).
                 <br>
-                En déduire que \(S_{n}\) est une variable aléatoire à densité 
+                (ii) En déduire que \(S_{n}\) est une variable aléatoire à densité 
                 et déterminer une densité \(f_{n}\) de \(S_{n}\).
+                </p>
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
                 </p>
             </li>
 
-            <!-- (ii) -->
             <li>
                 <p>
-                On pose, pour tout entier \(n \ge 1\):
+                (i) On pose, pour tout entier \(n \ge 1\):
                 </p>
                 $$
                 J_{n} \;=\; \int_{0}^{+\infty}\bigl[\,1 - F_{n}(t)\bigr]\mathrm{d}t.
@@ -422,13 +594,23 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
 
                 <ol type="i" start="1">
                     <li>
-                        <p>
-                        Montrer que l’intégrale \(J_{n}\) est convergente.
+                        <p>Montrer que l’intégrale \(J_{n}\) est convergente.</p>
+
+                        <!-- Answer placeholder -->
+                        <p style="border: solid 2px; border-radius: 10px; 
+                                  background-color:rgba(152, 180, 212, .1); 
+                                  padding: 10px; margin: 15px 0 15px -60px;">
+                            ...
                         </p>
                     </li>
                     <li>
-                        <p>
-                        En déduire que \(S_{n}\) admet une espérance mathématique.
+                        <p>En déduire que \(S_{n}\) admet une espérance mathématique.</p>
+
+                        <!-- Answer placeholder -->
+                        <p style="border: solid 2px; border-radius: 10px; 
+                                  background-color:rgba(152, 180, 212, .1); 
+                                  padding: 10px; margin: 15px 0 15px -60px;">
+                            ...
                         </p>
                     </li>
                 </ol>
@@ -453,12 +635,26 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
                 Déterminer une densité de la variable aléatoire 
                 \(\dfrac{X_{n+1}}{n+1}\).
                 </p>
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
             </li>
 
             <li>
                 <p>
                 Montrer que, pour tout \(n \ge 1,\; f_{n}\) est une densité 
                 de \(T_{n}\).
+                </p>
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
                 </p>
             </li>
 
@@ -467,6 +663,13 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
                 En déduire l’expression de \(\mathbb{E}\bigl(S_{n}\bigr)\) et 
                 un équivalent de \(\mathbb{E}\bigl(S_{n}\bigr)\) quand 
                 \(n\) tend vers \(+\infty\).
+                </p>
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
                 </p>
             </li>
 
@@ -496,17 +699,38 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
                 <p>
                 Donner la densité de \(Z_{1}\).
                 </p>
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
             </li>
 
             <li>
                 <p>
                 Calculer, pour tout réel \(s\), \(\mathbb{E}\bigl(e^{sX_{1}}\bigr)\).
                 </p>
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
             </li>
 
             <li>
                 <p>
                 En déduire que \(\mathbb{E}\bigl(Z_{1}\bigr) = e^{\tfrac12}\).
+                </p>
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
                 </p>
             </li>
 
@@ -538,6 +762,7 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
         \quad\text{et}\quad
         \overline{X_{n}} = \frac{1}{n}\sum_{i=1}^{n}X_{i}.
         $$
+
     </li>
 
     <!-- 3. -->
@@ -548,11 +773,25 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
                 Proposer un estimateur convergent de \(\mathbb{E}(Y)\), 
                 obtenu à partir des \(Y_{i}\).
                 </p>
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
             </li>
             <li>
                 <p>
                 Calculer la variance de cet estimateur, en fonction de 
                 \(m\) et de \(\sigma^{2}\).
+                </p>
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
                 </p>
             </li>
         </ol>
@@ -570,16 +809,37 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
                 Proposer un estimateur convergent de \(m\) obtenu à partir 
                 des \(X_{i}\).
                 </p>
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
             </li>
             <li>
                 <p>
                 En déduire un nouvel estimateur convergent de \(\mathbb{E}(Y)\), 
                 fonction de \(\overline{X_{n}}\) et de \(\sigma_{0}^2\).
                 </p>
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
             </li>
             <li>
                 <p>
                 Cet estimateur est-il sans biais ?
+                </p>
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
                 </p>
             </li>
         </ol>
@@ -592,6 +852,13 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
         de \(\mathbb{E}(Y)\) obtenus en 3.(a) et en 4.(b). 
         On pourra effectuer des développements limités des variances 
         considérées en puissances de \(\tfrac1n\).
+        </p>
+
+        <!-- Answer placeholder -->
+        <p style="border: solid 2px; border-radius: 10px; 
+                  background-color:rgba(152, 180, 212, .1); 
+                  padding: 10px; margin: 15px 0 15px -60px;">
+            ...
         </p>
     </li>
 
@@ -621,6 +888,13 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
                 \frac{\mathrm{Cov}\bigl(T_{2,n}-T_{1,n},\,T_{2,n}\bigr)}
                      {\mathrm{Var}\bigl(T_{2,n}-T_{1,n}\bigr)}.
                 $$
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
             </li>
 
             <li>
@@ -628,11 +902,25 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
                 Pour tout \(i\) fixé, calculer 
                 \(\mathrm{Cov}\bigl(Y_{i},\,e^{\overline{X_{n}}}\bigr)\).
                 </p>
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
+                </p>
             </li>
 
             <li>
                 <p>
                 En déduire l’expression explicite de l’estimateur optimal obtenu.
+                </p>
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
                 </p>
             </li>
 
@@ -642,6 +930,13 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
                 <br>
                 (On effectuera à nouveau des développements limités 
                  des variances considérées en puissances de \(1/n\).)
+                </p>
+
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    ...
                 </p>
             </li>
         </ol>
@@ -655,6 +950,13 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
         à la fois, de \(\overline{X_{n}}\) et de \(\overline{Y_{n}}\). 
         Connaissez-vous d’autres estimateurs de la variance 
         dans un échantillon normal ?
+        </p>
+
+        <!-- Answer placeholder -->
+        <p style="border: solid 2px; border-radius: 10px; 
+                  background-color:rgba(152, 180, 212, .1); 
+                  padding: 10px; margin: 15px 0 15px -60px;">
+            ...
         </p>
     </li>
 
