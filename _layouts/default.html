@@ -21,7 +21,8 @@
         {% assign url = site.url | append: site.baseurl | append: page.url %}
     {% endif %}
     <meta name="description" content="{{ desc }}">
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <meta name="theme-color" content="#253951">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Noto+Sans:400,700&display=swap" rel="stylesheet" type="text/css">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="/feed.xml" />
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
@@ -55,9 +56,9 @@
                     {% endif %}
                 {% endfor %}
                 {% if page.lang == "en" %}
-                    <li class="alignable pull-left nav-list"><a class="lang" style="color: black" href="/">FR</a>
+                    <li class="alignable pull-left nav-list"><a class="lang" href="/">FR</a>
                 {% else %}
-                    <li class="alignable pull-left nav-list"><a class="lang" style="color: black" href="/en/about">EN</a>
+                    <li class="alignable pull-left nav-list"><a class="lang" href="/en/about">EN</a>
                 {% endif %}
                             </li>
             </ul>
