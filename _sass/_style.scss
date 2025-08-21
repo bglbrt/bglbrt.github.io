@@ -12,8 +12,15 @@ html {
 body {
     margin: 0;
     font-family: "Noto Sans", sans-serif;
+    color: $accent;
+    background: #fff;
     height: auto;
-    padding-bottom: 50px;
+    padding: 5.625rem 0 50px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    color: $accent;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -21,17 +28,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #particles-js canvas {
-    opacity: 1;
+    opacity: 0.3;
 }
 
 #particles-js {
-    padding-top: 50px;
     width: 100vw;
     height: 100vh;
     position: fixed;
     z-index: -1 !important;
     top: 0;
-    left: 0
+    left: 0;
 }
 
 a {
@@ -57,46 +63,59 @@ hr {
  */
 
 #author-name {
-    font-size: 30px;
-    color: #fff;
-    display: inline-block;
+    font-size: 2rem;
+    font-weight: bold;
+    color: $accent;
+    font-family: "Montserrat", sans-serif;
 }
+
 .navbar {
-    background-color: $accent;
-    padding: 20px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5.625rem;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(37,57,81,.15);
+    z-index: 1000;
 }
+
+.navbar .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .navbar-ul {
-    display: inline-block;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
     margin: 0;
-    padding: 5px 0 5px 0;
-    margin-left: 20px;
+    padding: 0;
 }
+
 .navbar-ul a {
-    color: #fff;
-    text-decoration: none;
+    color: $accent;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    line-height: 5.625rem;
+    padding: 0;
 }
+
 .navbar-ul a:hover {
-    opacity: 0.8;
+    border-color: $accent;
     text-decoration: none;
 }
+
 .nav-list {
-    list-style-type: none;
-    margin: 5px 5px 0 10px;
-}
-.alignable {
-    display: inline-block;
-}
-.pull-left {
-    @extend .alignable;
-    float: left;
-}
-.pull-right {
-    @extend .alignable;
-    float: right;
+    margin: 0;
 }
 
 /* Divs */
+
 
 .container {
     max-width: $max-width;
@@ -126,39 +145,27 @@ hr {
         max-width: 83%;
     }
     .navbar-ul {
-        margin-top: 5px;
+        gap: 1rem;
     }
 }
 
 @media (max-width: 500px) {
-    body {
-        background-image: none;
-      }
-	.navbar {
-		text-align: center;
-		padding: 50px 0px 100px 0px;
-	}
-	#author-name {
-		width: 100%;
-		float: none;
-	}
-	#navlist {
-		padding: 10px 0 10px 0;
-		margin: 0;
-		display: block;
-		float: none;
-		text-align: center;
-		width: 100%;
-	}
-	#navlist li.alignable {
-		display: inline-block;
-	}
-	#navlist li.pull-left {
-		float: none;
-	}
-	#navlist li.nav-list {
-		margin: 0;
-	}
+    .navbar {
+        height: auto;
+        padding: 1rem 0;
+    }
+    .navbar .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar-ul {
+        flex-wrap: wrap;
+        line-height: 1.5;
+    }
+    .navbar-ul a {
+        line-height: 1.5;
+        padding: 0.5rem 0;
+    }
 }
 
 @import "typography";
