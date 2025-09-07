@@ -89,6 +89,23 @@
     /* Seamless mode tweaks */
     .topbar, .helper { display:none !important; }
     
+  
+    /* Pastel / Zelda-ish map filters */
+    .base-pane { will-change: filter; transition: filter .35s ease; }
+    .base-pane.original { filter: none; }
+    .base-pane.pastel { filter: saturate(0.8) sepia(0.12) hue-rotate(315deg) brightness(1.08) contrast(0.95); }
+    .base-pane.gray { filter: saturate(0.25) brightness(1.08) contrast(0.9); }
+
+    /* Pretty select */
+    .select {
+      appearance: none;
+      background: var(--glass);
+      border: 1px solid var(--border);
+      color: var(--fg);
+      border-radius: 10px;
+      padding: 8px 10px;
+      font-weight: 600;
+    }
   </style>
 </head>
 <body>
@@ -103,7 +120,16 @@
     <div class="row" style="flex-wrap:wrap; gap:10px;">
   <div class="pill" id="statusPill" title="Status"><div class="dot"></div><span id="statusText">Idle</span></div>
 </div>
-    <div class="hint">Default tries to load <code>/data/france_1km_pop_centroids.csv</code> (columns: <code>lon,lat,pop</code>). If not found, a tiny demo dataset is used.</div>
+    <div class="hint">Default tries to load <code>data/france_1km_pop_centroids.csv</code> (columns: <code>lon,lat,pop</code>). If not found, a tiny demo dataset is used.</div>
+    <div class="row" style="justify-content:space-between;">
+      <span class="hint">Map style</span>
+      <select id="styleSelect" class="select">
+        <option value="pastel" selected>Pastel (Zelda-ish)</option>
+        <option value="original">Original</option>
+        <option value="gray">Soft gray</option>
+      </select>
+    </div>
+
     <div class="row" style="justify-content:space-between;">
       <label class="row" style="gap:8px">
         <input type="checkbox" id="gridToggle" checked>
@@ -222,12 +248,19 @@ function initMap(){
     attributionControl: true,
     minZoom: 4,
     maxZoom: 17,
-    preferCanvas: true
+    preferCanvas: true,
+    maxBounds: FR_BOUNDS.pad(0.05),
+    maxBoundsViscosity: 1.0
   }).setView(START_VIEW, START_ZOOM);
 
   L.control.zoom({position:'bottomleft'}).addTo(map);
 
-  base = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  // Create a separate pane for base tiles so we can color-grade it
+  map.createPane('basePane');
+  map.getPane('basePane').classList.add('base-pane');
+
+  base = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { pane: 'basePane',
+    noWrap: true,
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> contributors'
   }).addTo(map);
 
@@ -243,6 +276,29 @@ function initMap(){
 
   // Fit to France on first load
   map.fitBounds(FR_BOUNDS, { paddingTopLeft:[20,60], paddingBottomRight:[20,120]});
+  addFranceMask();
+  setMapStyle('pastel');
+}
+
+// Add a dark mask outside metropolitan France
+let maskLayer;
+async function addFranceMask(){
+  try{
+    const res = await fetch('data/france_metropole.geojson');
+    if(!res.ok) throw new Error('mask geojson not found');
+    const fr = await res.json();
+    const mask = turf.mask(fr); // world minus France
+    if(!map.getPane('maskPane')){
+      map.createPane('maskPane');
+      map.getPane('maskPane').style.zIndex = 350; // between tiles(200) and overlays(400)
+    }
+    maskLayer = L.geoJSON(mask, {
+      pane: 'maskPane', interactive: false,
+      style: { stroke: false, fillColor: '#0b1020', fillOpacity: 0.55 }
+    }).addTo(map);
+  }catch(e){
+    console.warn('Mask not loaded (data/france_metropole.geojson missing?)', e);
+  }
 }
 
 // Try to prefetch CSV to see if it exists
@@ -342,6 +398,15 @@ function animateSelection(lon, lat, pop){
   }, 1200);
 }
 
+function setMapStyle(mode){
+  const pane = map && map.getPane('basePane');
+  if(!pane) return;
+  pane.classList.remove('original','pastel','gray');
+  if(mode === 'gray') pane.classList.add('gray');
+  else if(mode === 'original') pane.classList.add('original');
+  else pane.classList.add('pastel');
+}
+
 // UI wiring
 window.addEventListener('DOMContentLoaded', () => {
   initMap();
@@ -358,6 +423,9 @@ window.addEventListener('DOMContentLoaded', () => {
     if(e.target.checked){ gridLayer.addTo(map); }
     else { map.removeLayer(gridLayer); }
   });
+
+  const styleEl = document.getElementById('styleSelect');
+  if(styleEl){ styleEl.addEventListener('change', (e) => setMapStyle(e.target.value)); }
 
   // Allow manual CSV upload
   const __fileEl = document.getElementById('fileInput');
