@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>France 1km² Random Square Picker</title>
+  <meta name="description" content="Beautiful, animated picker for a 1km x 1km square in metropolitan France, weighted by log(population)."/>
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="anonymous">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="anonymous"></script>
+
+  <!-- Turf for geodesic calculations -->
+  <script src="https://unpkg.com/@turf/turf@6.5.0/turf.min.js" crossorigin="anonymous"></script>
+
+  <!-- PapaParse for streaming CSV -->
+  <script src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js" crossorigin="anonymous"></script>
+
+  <!-- Fonts & icons -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --bg:#0b1020;            /* deep navy */
+      --fg:#e7ecff;            /* near-white */
+      --muted:#9aa4bf;         /* muted text */
+      --accent:#6ae6a9;        /* mint */
+      --accent-2:#6ab8ff;      /* sky */
+      --danger:#ff6a8c;        /* coral */
+      --glass:rgba(13,18,34,0.55);
+      --glass-strong:rgba(13,18,34,0.75);
+      --border:rgba(255,255,255,0.15);
+    }
+    html,body,#app{height:100%;margin:0;background:var(--bg);color:var(--fg);font-family:Inter,sans-serif;}
+    #map{position:absolute;inset:0;}
+    .hud{position:absolute;inset:0;pointer-events:none;}
+
+    /* Top bar */
+    .topbar{position:absolute;top:16px;left:50%;transform:translateX(-50%);display:flex;gap:12px;align-items:center;background:var(--glass);backdrop-filter: blur(12px);border:1px solid var(--border);border-radius:16px;padding:10px 14px;box-shadow:0 10px 30px rgba(0,0,0,0.25);pointer-events:auto}
+    .brand{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:0.2px}
+    .brand .logo{width:26px;height:26px;border-radius:8px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:grid;place-items:center;color:#08131a;font-weight:800}
+    .brand small{color:var(--muted);font-weight:600}
+
+    /* Control panel */
+    .panel{position:absolute;right:16px;bottom:16px;display:flex;flex-direction:column;gap:10px;min-width:260px;background:var(--glass-strong);backdrop-filter: blur(16px);border:1px solid var(--border);border-radius:16px;padding:14px;box-shadow:0 10px 30px rgba(0,0,0,0.35);pointer-events:auto}
+    .row{display:flex;align-items:center;justify-content:space-between;gap:8px}
+    .hint{color:var(--muted);font-size:12px}
+
+    .btn{appearance:none;border:none;border-radius:12px;padding:10px 14px;font-weight:700;cursor:pointer;transition:.2s transform,.2s box-shadow;display:inline-flex;align-items:center;gap:8px}
+    .btn:active{transform:translateY(1px)}
+    .primary{background:linear-gradient(135deg,var(--accent),var(--accent-2));color:#061017;box-shadow:0 10px 24px rgba(106,232,190,.25)}
+    .ghost{background:transparent;border:1px solid var(--border);color:var(--fg)}
+    .danger{background:var(--danger);color:#1b0910}
+
+    input[type=file]{display:none}
+    .file-label{border:1px dashed var(--border);border-radius:10px;padding:8px 10px;font-size:13px;color:var(--muted);cursor:pointer}
+
+    .badge{border:1px solid var(--border);border-radius:999px;padding:4px 8px;font-size:11px;color:var(--muted)}
+
+    /* Progress pill */
+    .pill{display:flex;align-items:center;gap:8px;background:rgba(0,0,0,.35);border:1px solid var(--border);border-radius:999px;padding:6px 10px;font-size:12px}
+    .dot{width:8px;height:8px;border-radius:999px;background:conic-gradient(from 0deg, var(--accent), var(--accent-2))}
+
+    /* Selected square pulsing */
+    .pulse{
+      animation:pulse 1.2s ease-in-out infinite;
+      transform-origin:center;
+    }
+    @keyframes pulse {
+      0% { filter: drop-shadow(0 0 0 rgba(106,232,190,0.0)); }
+      50%{ filter: drop-shadow(0 0 16px rgba(106,232,190,0.85)); }
+      100%{ filter: drop-shadow(0 0 0 rgba(106,232,190,0.0)); }
+    }
+
+    /* Tooltip */
+    .tooltip {background: var(--glass-strong); color: var(--fg); border:1px solid var(--border); padding:6px 8px; border-radius: 8px;}
+
+    /* Bottom left helper */
+    .helper{position:absolute;left:16px;bottom:16px;display:flex;gap:10px;align-items:center;background:var(--glass-strong);border:1px solid var(--border);border-radius:14px;padding:10px 12px;pointer-events:auto}
+
+    a, a:visited{color:var(--accent-2)}
+  </style>
+</head>
+<body>
+  <div id="app">
+    <div id="map" aria-label="Map of metropolitan France"></div>
+    <div class="hud" aria-hidden="true">
+      <div class="topbar">
+        <div class="brand">
+          <div class="logo">FR</div>
+          <div>1km² Picker<br><small>Weighted by log(pop)</small></div>
+        </div>
+        <span class="badge">Metropolitan France</span>
+      </div>
+
+      <div class="panel" id="panel">
+        <div class="row" style="justify-content:flex-start; gap:10px; flex-wrap:wrap;">
+          <button id="pickBtn" class="btn primary">🎲 Pick a random square</button>
+          <button id="resetBtn" class="btn ghost">↺ Reset</button>
+        </div>
+        <div class="row" style="flex-wrap:wrap; gap:10px;">
+          <label class="file-label">📄 Load CSV (lon,lat,pop)
+            <input type="file" id="fileInput" accept=".csv,text/csv">
+          </label>
+          <div class="pill" id="statusPill" title="Status"><div class="dot"></div><span id="statusText">Idle</span></div>
+        </div>
+        <div class="hint">Default tries to load <code>/data/france_1km_pop_centroids.csv</code> (columns: <code>lon,lat,pop</code>). If not found, a tiny demo dataset is used.</div>
+        <div class="row" style="justify-content:space-between;">
+          <label class="row" style="gap:8px">
+            <input type="checkbox" id="gridToggle" checked>
+            <span>Show 1km-ish grid overlay</span>
+          </label>
+          <span class="hint">visual only</span>
+        </div>
+      </div>
+
+      <div class="helper">
+        <span>How it works: we stream the dataset and sample one square with probability 
+        proportional to <code>ln(1 + pop)</code>.</span>
+      </div>
+    </div>
+  </div>
+
+<script>
+// --- Constants & helpers ----------------------------------------------------
+const FR_BOUNDS = L.latLngBounds([ [41.0,-5.8], [51.7,9.9] ]); // Metropole + Corsica
+const START_VIEW = [46.7, 2.5];
+const START_ZOOM = 5.3; // shows all of France nicely
+
+function setStatus(msg){
+  const el = document.getElementById('statusText');
+  if(el) el.textContent = msg;
+}
+
+// Weighted reservoir sampling (Efraimidis-Spirakis): For item i with weight w_i>0,
+// draw key k = U^{1/w_i}, keep the maximum key.
+class WeightedSampler {
+  constructor(){ this.bestKey = -Infinity; this.bestItem = null; this.total = 0; this.pos = 0; }
+  consider(item, weight){
+    this.total++;
+    if(!(weight>0)) return;
+    this.pos++;
+    const u = Math.random();
+    const key = Math.pow(u, 1/weight);
+    if(key > this.bestKey){
+      this.bestKey = key;
+      this.bestItem = item;
+    }
+  }
+}
+
+// Build a 1km square polygon centered at [lon,lat], aligned to cardinal directions.
+function buildSquarePolygon(lon, lat){
+  const center = [lon, lat];
+  const d = Math.SQRT1_2 / 1.0; // km; distance from center to each corner: ~0.707106 km
+  const bearings = [45,135,225,315,45];
+  const coords = bearings.map(b => turf.destination(center, d, b, {units:'kilometers'}).geometry.coordinates);
+  return turf.polygon([coords]);
+}
+
+// Leaflet layer that draws a dynamic ~1km grid in screen space (visual only).
+const GridLayer = L.GridLayer.extend({
+  createTile: function(coords){
+    const tile = L.DomUtil.create('canvas', 'leaflet-tile');
+    const size = this.getTileSize();
+    tile.width = size.x; tile.height = size.y;
+    const ctx = tile.getContext('2d');
+
+    // Determine meters per pixel at tile Y (approx)
+    const map = this._map;
+    const zoom = this._tileZoom;
+    const nwPoint = coords.multiplyBy(size.x);
+    const sePoint = nwPoint.add([size.x, size.y]);
+    const nw = map.unproject(nwPoint, zoom);
+    const se = map.unproject(sePoint, zoom);
+    const lat = (nw.lat + se.lat)/2;
+    const metersPerPixel = 156543.03392 * Math.cos(lat * Math.PI/180) / Math.pow(2, zoom);
+    const pxStep = 1000 / metersPerPixel; // 1km in pixels
+
+    ctx.strokeStyle = 'rgba(255,255,255,0.13)';
+    ctx.lineWidth = 1;
+
+    if(pxStep > 6) { // avoid overdraw when zoomed way out
+      // Draw vertical lines
+      for(let x=0; x<=size.x; x += pxStep){
+        ctx.beginPath(); ctx.moveTo(x+0.5, 0); ctx.lineTo(x+0.5, size.y); ctx.stroke();
+      }
+      // Draw horizontal lines
+      for(let y=0; y<=size.y; y += pxStep){
+        ctx.beginPath(); ctx.moveTo(0, y+0.5); ctx.lineTo(size.x, y+0.5); ctx.stroke();
+      }
+    }
+
+    return tile;
+  }
+});
+
+// Minimal demo dataset if CSV missing
+const SAMPLE = [
+  { lon: 2.3522, lat: 48.8566, pop: 2140000 },   // Paris
+  { lon: 5.3698, lat: 43.2965, pop: 870000  },   // Marseille
+  { lon: 4.8357, lat: 45.7640, pop: 515000  },   // Lyon
+  { lon: -1.5536, lat: 47.2184, pop: 314000 },   // Nantes
+  { lon: 7.2619, lat: 43.7102, pop: 342000  },   // Nice
+];
+
+// --- App state --------------------------------------------------------------
+let map, base, gridLayer, selectionLayer, selectedFeature, selectedMarker;
+let csvUrl = '/data/france_1km_pop_centroids.csv';
+let usingSample = false;
+
+function initMap(){
+  map = L.map('map', {
+    zoomControl: false,
+    attributionControl: true,
+    minZoom: 4,
+    maxZoom: 17,
+    preferCanvas: true
+  }).setView(START_VIEW, START_ZOOM);
+
+  L.control.zoom({position:'bottomleft'}).addTo(map);
+
+  base = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> contributors'
+  }).addTo(map);
+
+  gridLayer = new GridLayer();
+  gridLayer.addTo(map);
+
+  selectionLayer = L.geoJSON(null, {
+    style: {
+      color: '#6ae6a9', weight: 2.5, fillColor: '#6ae6a9', fillOpacity: 0.18,
+      className: 'pulse'
+    }
+  }).addTo(map);
+
+  // Fit to France on first load
+  map.fitBounds(FR_BOUNDS, { paddingTopLeft:[20,60], paddingBottomRight:[20,120]});
+}
+
+// Try to prefetch CSV to see if it exists
+async function tryPrefetchCsv(){
+  try{
+    const res = await fetch(csvUrl, {method:'HEAD'});
+    if(!res.ok) throw new Error('CSV not found');
+    setStatus('Dataset ready');
+  }catch(e){
+    usingSample = true;
+    setStatus('Demo mode (sample data)');
+  }
+}
+
+// Main: pick a random square weighted by ln(1 + pop)
+function pickRandomSquare(){
+  clearSelection();
+  setStatus('Sampling...');
+
+  const sampler = new WeightedSampler();
+  const onComplete = () => {
+    if(!sampler.bestItem){
+      setStatus('No eligible squares found');
+      return;
+    }
+    const { lon, lat, pop } = sampler.bestItem;
+    animateSelection(lon, lat, pop);
+  };
+
+  if(usingSample){
+    // Synchronously sample from the small in-memory array
+    SAMPLE.forEach(row => {
+      const w = Math.log(1 + Math.max(0, Number(row.pop)||0));
+      sampler.consider(row, w);
+    });
+    onComplete();
+    return;
+  }
+
+  Papa.parse(csvUrl, {
+    download: true,
+    header: true,
+    dynamicTyping: true,
+    worker: true,
+    step: function(row){
+      const r = row.data;
+      const lon = Number(r.lon), lat = Number(r.lat), pop = Number(r.pop);
+      if(Number.isFinite(lon) && Number.isFinite(lat) && Number.isFinite(pop)){
+        const w = Math.log(1 + Math.max(0, pop));
+        sampler.consider({lon,lat,pop}, w);
+      }
+    },
+    complete: function(){ onComplete(); },
+    error: function(err){
+      console.error(err);
+      setStatus('CSV error; using demo data');
+      usingSample = true; pickRandomSquare();
+    }
+  });
+}
+
+function clearSelection(){
+  selectionLayer.clearLayers();
+  if(selectedMarker){ map.removeLayer(selectedMarker); selectedMarker = null; }
+  selectedFeature = null;
+}
+
+function animateSelection(lon, lat, pop){
+  setStatus('Selected. Animating...');
+  // 1) Flash a quick zoom toward the area
+  const dest = L.latLng(lat, lon);
+  map.flyTo(dest, 8.5, {duration: 1.2});
+
+  // 2) After first fly, draw the 1km square and zoom to its bounds
+  setTimeout(() => {
+    const poly = buildSquarePolygon(lon, lat);
+    selectedFeature = poly;
+    const layer = L.geoJSON(poly, {
+      style: {
+        color: '#6ae6a9', weight: 3, fillColor:'#6ae6a9', fillOpacity:0.20,
+        className: 'pulse'
+      }
+    }).addTo(selectionLayer);
+
+    const b = layer.getBounds();
+    map.flyToBounds(b, {padding: [40,40], duration: 1.6});
+
+    // 3) Drop a tiny info marker
+    setTimeout(() => {
+      const html = `<div class="tooltip"><strong>Selected square</strong><br/>Center: ${lat.toFixed(5)}, ${lon.toFixed(5)}<br/>Pop: ${Math.round(pop).toLocaleString('en')}</div>`;
+      selectedMarker = L.marker([lat,lon], {
+        icon: L.divIcon({ html, className: '', iconSize: [220, 54], iconAnchor: [110, 60] })
+      }).addTo(map);
+      setStatus('Done');
+    }, 900);
+
+  }, 1200);
+}
+
+// UI wiring
+window.addEventListener('DOMContentLoaded', () => {
+  initMap();
+  tryPrefetchCsv();
+
+  document.getElementById('pickBtn').addEventListener('click', pickRandomSquare);
+  document.getElementById('resetBtn').addEventListener('click', () => {
+    clearSelection();
+    map.flyToBounds(FR_BOUNDS, { paddingTopLeft:[20,60], paddingBottomRight:[20,120], duration:1.0 });
+    setStatus('Idle');
+  });
+
+  document.getElementById('gridToggle').addEventListener('change', (e) => {
+    if(e.target.checked){ gridLayer.addTo(map); }
+    else { map.removeLayer(gridLayer); }
+  });
+
+  // Allow manual CSV upload
+  document.getElementById('fileInput').addEventListener('change', (ev) => {
+    const file = ev.target.files && ev.target.files[0];
+    if(!file) return;
+    usingSample = false; // we will parse the provided file
+    setStatus('Reading CSV...');
+
+    const sampler = new WeightedSampler();
+    Papa.parse(file, {
+      header: true,
+      dynamicTyping: true,
+      worker: true,
+      step: function(row){
+        const r = row.data;
+        const lon = Number(r.lon), lat = Number(r.lat), pop = Number(r.pop);
+        if(Number.isFinite(lon) && Number.isFinite(lat) && Number.isFinite(pop)){
+          const w = Math.log(1 + Math.max(0, pop));
+          sampler.consider({lon,lat,pop}, w);
+        }
+      },
+      complete: function(){
+        const best = sampler.bestItem;
+        if(!best){ setStatus('CSV had no valid rows'); return; }
+        animateSelection(best.lon, best.lat, best.pop);
+      },
+      error: function(err){ console.error(err); setStatus('Failed to parse CSV'); }
+    });
+  });
+});
+</script>
+
+</body>
+</html>
