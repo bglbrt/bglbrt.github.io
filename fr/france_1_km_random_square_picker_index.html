@@ -239,53 +239,34 @@ let csvUrl = 'data/france_1km_pop_centroids.csv';
 let usingSample = false;
 
 function initMap(){
-  // Create map with smoother interactions
   map = L.map('map', {
     zoomControl: false,
     attributionControl: true,
     minZoom: 4,
-    maxZoom: 19,
-    preferCanvas: true,
-    zoomSnap: 0,
-    zoomDelta: 0.25,
-    easeLinearity: 0.18,
-    zoomAnimation: true,
-    fadeAnimation: true,
-    inertia: true,
-    wheelDebounceTime: 25,
-    wheelPxPerZoomLevel: 140
+    maxZoom: 18,
+    preferCanvas: true
   }).setView(START_VIEW, START_ZOOM);
 
   L.control.zoom({position:'bottomleft'}).addTo(map);
 
-  // Ensure base pane exists for clean coloring without artifacts
-  if(!map.getPane('basePane')) map.createPane('basePane');
-  map.getPane('basePane').classList.add('base-pane');
-
-  // Base OSM layer only (no selector)
+  // Base OSM layer only
   base = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    pane: 'basePane',
-    attribution: '&copy; OpenStreetMap contributors'
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> contributors'
   }).addTo(map);
 
   // Grid overlay
   gridLayer = new GridLayer();
-  const gridToggle = document.getElementById('gridToggle');
-  if(!gridToggle || gridToggle.checked){ gridLayer.addTo(map); }
+  gridLayer.addTo(map);
 
-  // Selection layer (recreate to be safe)
-  if(selectionLayer && map.hasLayer(selectionLayer)) map.removeLayer(selectionLayer);
+  // Selection layer
   selectionLayer = L.geoJSON(null, {
-    style: {
-      color: '#6ae6a9', weight: 2.5, fillColor: '#6ae6a9', fillOpacity: 0.18,
-      className: 'pulse'
-    },
-    pane: 'overlayPane'
+    style: { color: '#6ae6a9', weight: 2.5, fillColor: '#6ae6a9', fillOpacity: 0.18, className: 'pulse' }
   }).addTo(map);
 
   // Fit to France on first load
   map.fitBounds(FR_BOUNDS, { paddingTopLeft:[20,60], paddingBottomRight:[20,120]});
 }
+
 
 
 // Add a dark mask outside metropolitan France
@@ -378,7 +359,7 @@ function animateSelection(lon, lat, pop){
   setStatus('Selected. Animating...');
   // 1) Flash a quick zoom toward the area
   const dest = L.latLng(lat, lon);
-  map.flyTo(dest, 9.5, {duration: 0.8, easeLinearity: 0.18});
+  map.flyTo(dest, 8.5, {duration: 1.2});
 
   // 2) After first fly, draw the 1km square and zoom to its bounds
   setTimeout(() => {
@@ -393,7 +374,7 @@ function animateSelection(lon, lat, pop){
     layer.bringToFront();
 
     const b = layer.getBounds();
-    map.flyToBounds(b, {padding: [40,40], duration: 0.9, easeLinearity: 0.18, maxZoom: 15.5});
+    map.flyToBounds(b, {padding: [40,40], duration: 1.6});
 
     // 3) Drop a tiny info marker
     setTimeout(() => {
