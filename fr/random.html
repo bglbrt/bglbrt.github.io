@@ -82,8 +82,8 @@
     a, a:visited{color:var(--accent-2)}
   
     /* ===== Fix: ensure overlays are above the map ===== */
-    #map { z-index: 0; }
-    .leaflet-container { z-index: 0 !important; }
+    #map{position:absolute;inset:0;z-index:1;}
+    .leaflet-container {}
     .hud, .panel { z-index: 10000; }
   
     /* Seamless mode tweaks */
