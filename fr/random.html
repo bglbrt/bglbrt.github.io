@@ -372,7 +372,7 @@ function animateSelection(lon, lat, pop){
   }, 800);
 }
 
-{
+function setMapStyle(mode){
   const pane = map && map.getPane('basePane');
   if(!pane) return;
   pane.classList.remove('original','pastel','gray');
