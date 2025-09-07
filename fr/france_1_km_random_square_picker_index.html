@@ -80,6 +80,11 @@
     .helper{position:absolute;left:16px;bottom:16px;display:flex;gap:10px;align-items:center;background:var(--glass-strong);border:1px solid var(--border);border-radius:14px;padding:10px 12px;pointer-events:auto}
 
     a, a:visited{color:var(--accent-2)}
+  
+    /* ===== Fix: ensure overlays are above the map ===== */
+    #map { z-index: 0; }
+    .leaflet-container { z-index: 0 !important; }
+    .hud, .topbar, .panel, .helper { z-index: 10000; }
   </style>
 </head>
 <body>
