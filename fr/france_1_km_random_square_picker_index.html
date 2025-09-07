@@ -122,12 +122,21 @@
 </div>
     <div class="hint">Default tries to load <code>data/france_1km_pop_centroids.csv</code> (columns: <code>lon,lat,pop</code>). If not found, a tiny demo dataset is used.</div>
     <div class="row" style="justify-content:space-between;">
-      <span class="hint">Map style</span>
+      <span class="hint">Basemap</span>
       <select id="styleSelect" class="select">
-        <option value="pastel" selected>Pastel (Zelda-ish)</option>
-        <option value="original">Original</option>
-        <option value="gray">Soft gray</option>
+        <option value="voyager" selected>Voyager (greenish)</option>
+        <option value="opentopo">OpenTopoMap (topography)</option>
+        <option value="osm">OSM Standard</option>
+        <option value="thunderforest">Thunderforest Outdoors (needs key)</option>
       </select>
+    </div>
+
+    <div class="row" style="justify-content:space-between;">
+      <label class="row" style="gap:8px">
+        <input type="checkbox" id="tintToggle" checked>
+        <span>Pastel tint</span>
+      </label>
+      <span class="hint">visual only</span>
     </div>
 
     <div class="row" style="justify-content:space-between;">
@@ -145,6 +154,7 @@
 const FR_BOUNDS = L.latLngBounds([ [41.0,-5.8], [51.7,9.9] ]); // Metropole + Corsica
 const START_VIEW = [46.7, 2.5];
 const START_ZOOM = 5.3; // shows all of France nicely
+const THUNDERFOREST_API_KEY = ''; // optional: paste your Thunderforest API key to enable Thunderforest Outdoors
 
 function setStatus(msg){
   const el = document.getElementById('statusText');
@@ -247,10 +257,17 @@ function initMap(){
     zoomControl: false,
     attributionControl: true,
     minZoom: 4,
-    maxZoom: 17,
+    maxZoom: 18,
     preferCanvas: true,
-    maxBounds: FR_BOUNDS.pad(0.05),
-    maxBoundsViscosity: 1.0
+    // smoother feel
+    zoomSnap: 0,
+    zoomDelta: 0.25,
+    easeLinearity: 0.15,
+    zoomAnimation: true,
+    fadeAnimation: true,
+    inertia: true,
+    wheelDebounceTime: 25,
+    wheelPxPerZoomLevel: 120
   }).setView(START_VIEW, START_ZOOM);
 
   L.control.zoom({position:'bottomleft'}).addTo(map);
@@ -259,10 +276,8 @@ function initMap(){
   map.createPane('basePane');
   map.getPane('basePane').classList.add('base-pane');
 
-  base = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { pane: 'basePane',
-    noWrap: true,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> contributors'
-  }).addTo(map);
+  base = createBaseLayer('voyager');
+  if(base) base.addTo(map);
 
   gridLayer = new GridLayer();
   gridLayer.addTo(map);
@@ -277,7 +292,7 @@ function initMap(){
   // Fit to France on first load
   map.fitBounds(FR_BOUNDS, { paddingTopLeft:[20,60], paddingBottomRight:[20,120]});
   addFranceMask();
-  setMapStyle('pastel');
+  setBaseMap('voyager'); setPastelTint(true);
 }
 
 // Add a dark mask outside metropolitan France
@@ -370,7 +385,7 @@ function animateSelection(lon, lat, pop){
   setStatus('Selected. Animating...');
   // 1) Flash a quick zoom toward the area
   const dest = L.latLng(lat, lon);
-  map.flyTo(dest, 8.5, {duration: 1.2});
+  map.flyTo(dest, 8.8, {duration: 0.9, easeLinearity: 0.15});
 
   // 2) After first fly, draw the 1km square and zoom to its bounds
   setTimeout(() => {
@@ -384,7 +399,7 @@ function animateSelection(lon, lat, pop){
     }).addTo(selectionLayer);
 
     const b = layer.getBounds();
-    map.flyToBounds(b, {padding: [40,40], duration: 1.6});
+    map.flyToBounds(b, {padding: [40,40], duration: 1.1, easeLinearity: 0.15});
 
     // 3) Drop a tiny info marker
     setTimeout(() => {
@@ -393,9 +408,9 @@ function animateSelection(lon, lat, pop){
         icon: L.divIcon({ html, className: '', iconSize: [220, 54], iconAnchor: [110, 60] })
       }).addTo(map);
       setStatus('Done');
-    }, 900);
+    }, 600);
 
-  }, 1200);
+  }, 800);
 }
 
 function setMapStyle(mode){
@@ -405,6 +420,46 @@ function setMapStyle(mode){
   if(mode === 'gray') pane.classList.add('gray');
   else if(mode === 'original') pane.classList.add('original');
   else pane.classList.add('pastel');
+}
+
+// === Basemap + tint utilities ===
+function createBaseLayer(mode){
+  const pane = 'basePane';
+  if(mode === 'thunderforest' && THUNDERFOREST_API_KEY){
+    return L.tileLayer(`https://{s}.tile.thunderforest.com/outdoors/{z}/{x}/{y}.png?apikey=${THUNDERFOREST_API_KEY}`, {
+      pane,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://www.thunderforest.com/">Thunderforest</a>'
+    });
+  }
+  if(mode === 'opentopo'){
+    return L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+      pane,
+      attribution: 'Map data: &copy; OpenStreetMap contributors, SRTM | Map style: &copy; OpenTopoMap (CC-BY-SA)'
+    });
+  }
+  if(mode === 'osm'){
+    return L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      pane,
+      attribution: '&copy; OSM contributors'
+    });
+  }
+  return L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png', {
+    pane,
+    attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
+  });
+}
+
+function setBaseMap(mode){
+  if(base){ map.removeLayer(base); }
+  base = createBaseLayer(mode) || createBaseLayer('voyager');
+  if(base) base.addTo(map);
+}
+
+function setPastelTint(on){
+  const pane = map && map.getPane('basePane');
+  if(!pane) return;
+  pane.classList.remove('pastel','original','gray');
+  if(on) pane.classList.add('pastel');
 }
 
 // UI wiring
@@ -425,7 +480,9 @@ window.addEventListener('DOMContentLoaded', () => {
   });
 
   const styleEl = document.getElementById('styleSelect');
-  if(styleEl){ styleEl.addEventListener('change', (e) => setMapStyle(e.target.value)); }
+  if(styleEl){ styleEl.addEventListener('change', (e) => setBaseMap(e.target.value)); }
+  const tintEl = document.getElementById('tintToggle');
+  if(tintEl){ tintEl.addEventListener('change', (e) => setPastelTint(e.target.checked)); }
 
   // Allow manual CSV upload
   const __fileEl = document.getElementById('fileInput');
