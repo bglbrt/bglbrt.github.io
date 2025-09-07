@@ -85,25 +85,24 @@
     #map { z-index: 0; }
     .leaflet-container { z-index: 0 !important; }
     .hud, .topbar, .panel, .helper { z-index: 10000; }
+  
+    /* Seamless mode tweaks */
+    .topbar, .helper { display:none !important; }
+    #pickBtn, #resetBtn { display:none !important; }
   </style>
 </head>
 <body>
   <div id="app">
     <div id="map" aria-label="Map of metropolitan France"></div>
     <div class="hud" aria-hidden="true">
-      <div class="topbar">
-        <div class="brand">
-          <div class="logo">FR</div>
+      
           <div>1km² Picker<br><small>Weighted by log(pop)</small></div>
         </div>
         <span class="badge">Metropolitan France</span>
       </div>
 
       <div class="panel" id="panel">
-        <div class="row" style="justify-content:flex-start; gap:10px; flex-wrap:wrap;">
-          <button id="pickBtn" class="btn primary">🎲 Pick a random square</button>
-          <button id="resetBtn" class="btn ghost">↺ Reset</button>
-        </div>
+        
         <div class="row" style="flex-wrap:wrap; gap:10px;">
           <label class="file-label">📄 Load CSV (lon,lat,pop)
             <input type="file" id="fileInput" accept=".csv,text/csv">
@@ -120,10 +119,7 @@
         </div>
       </div>
 
-      <div class="helper">
-        <span>How it works: we stream the dataset and sample one square with probability 
-        proportional to <code>ln(1 + pop)</code>.</span>
-      </div>
+      
     </div>
   </div>
 
@@ -344,7 +340,7 @@ function animateSelection(lon, lat, pop){
 // UI wiring
 window.addEventListener('DOMContentLoaded', () => {
   initMap();
-  tryPrefetchCsv();
+  tryPrefetchCsv(); setTimeout(pickRandomSquare, 400);
 
   document.getElementById('pickBtn').addEventListener('click', pickRandomSquare);
   document.getElementById('resetBtn').addEventListener('click', () => {
