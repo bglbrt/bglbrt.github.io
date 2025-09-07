@@ -121,23 +121,9 @@
   <div class="pill" id="statusPill" title="Status"><div class="dot"></div><span id="statusText">Idle</span></div>
 </div>
     <div class="hint">Default tries to load <code>data/france_1km_pop_centroids.csv</code> (columns: <code>lon,lat,pop</code>). If not found, a tiny demo dataset is used.</div>
-    <div class="row" style="justify-content:space-between;">
-      <span class="hint">Basemap</span>
-      <select id="styleSelect" class="select">
-        <option value="voyager" selected>Voyager (greenish)</option>
-        <option value="opentopo">OpenTopoMap (topography)</option>
-        <option value="osm">OSM Standard</option>
-        <option value="thunderforest">Thunderforest Outdoors (needs key)</option>
-      </select>
-    </div>
+    
 
-    <div class="row" style="justify-content:space-between;">
-      <label class="row" style="gap:8px">
-        <input type="checkbox" id="tintToggle" checked>
-        <span>Pastel tint</span>
-      </label>
-      <span class="hint">visual only</span>
-    </div>
+    
 
     <div class="row" style="justify-content:space-between;">
       <label class="row" style="gap:8px">
@@ -154,7 +140,7 @@
 const FR_BOUNDS = L.latLngBounds([ [41.0,-5.8], [51.7,9.9] ]); // Metropole + Corsica
 const START_VIEW = [46.7, 2.5];
 const START_ZOOM = 5.3; // shows all of France nicely
-const THUNDERFOREST_API_KEY = ''; // optional: paste your Thunderforest API key to enable Thunderforest Outdoors
+
 
 function setStatus(msg){
   const el = document.getElementById('statusText');
@@ -257,7 +243,7 @@ function initMap(){
     zoomControl: false,
     attributionControl: true,
     minZoom: 4,
-    maxZoom: 18,
+    maxZoom: 19,
     preferCanvas: true,
     // smoother feel
     zoomSnap: 0,
@@ -276,8 +262,10 @@ function initMap(){
   map.createPane('basePane');
   map.getPane('basePane').classList.add('base-pane');
 
-  base = createBaseLayer('voyager');
-  if(base) base.addTo(map);
+  base = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    pane: 'basePane',
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
 
   gridLayer = new GridLayer();
   gridLayer.addTo(map);
@@ -385,7 +373,7 @@ function animateSelection(lon, lat, pop){
   setStatus('Selected. Animating...');
   // 1) Flash a quick zoom toward the area
   const dest = L.latLng(lat, lon);
-  map.flyTo(dest, 8.8, {duration: 0.9, easeLinearity: 0.15});
+  map.flyTo(dest, 9.5, {duration: 0.8, easeLinearity: 0.18});
 
   // 2) After first fly, draw the 1km square and zoom to its bounds
   setTimeout(() => {
@@ -396,10 +384,11 @@ function animateSelection(lon, lat, pop){
         color: '#6ae6a9', weight: 3, fillColor:'#6ae6a9', fillOpacity:0.20,
         className: 'pulse'
       }
-    }).addTo(selectionLayer);
+    )}.addTo(selectionLayer);
+    layer.bringToFront();
 
     const b = layer.getBounds();
-    map.flyToBounds(b, {padding: [40,40], duration: 1.1, easeLinearity: 0.15});
+    map.flyToBounds(b, {padding: [40,40], duration: 0.9, easeLinearity: 0.18, maxZoom: 15.5});
 
     // 3) Drop a tiny info marker
     setTimeout(() => {
@@ -422,46 +411,6 @@ function setMapStyle(mode){
   else pane.classList.add('pastel');
 }
 
-// === Basemap + tint utilities ===
-function createBaseLayer(mode){
-  const pane = 'basePane';
-  if(mode === 'thunderforest' && THUNDERFOREST_API_KEY){
-    return L.tileLayer(`https://{s}.tile.thunderforest.com/outdoors/{z}/{x}/{y}.png?apikey=${THUNDERFOREST_API_KEY}`, {
-      pane,
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://www.thunderforest.com/">Thunderforest</a>'
-    });
-  }
-  if(mode === 'opentopo'){
-    return L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
-      pane,
-      attribution: 'Map data: &copy; OpenStreetMap contributors, SRTM | Map style: &copy; OpenTopoMap (CC-BY-SA)'
-    });
-  }
-  if(mode === 'osm'){
-    return L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      pane,
-      attribution: '&copy; OSM contributors'
-    });
-  }
-  return L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png', {
-    pane,
-    attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
-  });
-}
-
-function setBaseMap(mode){
-  if(base){ map.removeLayer(base); }
-  base = createBaseLayer(mode) || createBaseLayer('voyager');
-  if(base) base.addTo(map);
-}
-
-function setPastelTint(on){
-  const pane = map && map.getPane('basePane');
-  if(!pane) return;
-  pane.classList.remove('pastel','original','gray');
-  if(on) pane.classList.add('pastel');
-}
-
 // UI wiring
 window.addEventListener('DOMContentLoaded', () => {
   initMap();
@@ -479,10 +428,7 @@ window.addEventListener('DOMContentLoaded', () => {
     else { map.removeLayer(gridLayer); }
   });
 
-  const styleEl = document.getElementById('styleSelect');
-  if(styleEl){ styleEl.addEventListener('change', (e) => setBaseMap(e.target.value)); }
-  const tintEl = document.getElementById('tintToggle');
-  if(tintEl){ tintEl.addEventListener('change', (e) => setPastelTint(e.target.checked)); }
+  
 
   // Allow manual CSV upload
   const __fileEl = document.getElementById('fileInput');
