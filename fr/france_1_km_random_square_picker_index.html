@@ -308,6 +308,13 @@ function pickRandomSquare(){
   setStatus('Sampling...');
 
   const sampler = new WeightedSampler();
+  let processed = 0;
+  // Watchdog: if nothing arrives for 15s, fall back to demo data
+  const watchdog = setTimeout(() => {
+    console.warn('CSV sampling watchdog triggered');
+    setStatus('Dataset appears slow/unavailable — using demo data');
+    usingSample = true; pickRandomSquare();
+  }, 15000);
   const onComplete = () => {
     if(!sampler.bestItem){
       setStatus('No eligible squares found');
@@ -331,17 +338,25 @@ function pickRandomSquare(){
     download: true,
     header: true,
     dynamicTyping: true,
-    worker: true,
-    step: function(row){
+    skipEmptyLines: true,
+    delimiter: ",",           // expected from the generated CSV
+    worker: false,              // avoid worker-related fetch issues on some hosts
+    step: function(row, parser){
+      processed++;
       const r = row.data;
       const lon = Number(r.lon), lat = Number(r.lat), pop = Number(r.pop);
       if(Number.isFinite(lon) && Number.isFinite(lat) && Number.isFinite(pop)){
         const w = Math.log(1 + Math.max(0, pop));
         sampler.consider({lon,lat,pop}, w);
       }
+      if(processed % 50000 === 0){ setStatus(`Sampling... ${processed.toLocaleString()} rows`); }
     },
-    complete: function(){ onComplete(); },
+    complete: function(){
+      clearTimeout(watchdog);
+      onComplete();
+    },
     error: function(err){
+      clearTimeout(watchdog);
       console.error(err);
       setStatus('CSV error; using demo data');
       usingSample = true; pickRandomSquare();
