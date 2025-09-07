@@ -85,6 +85,9 @@ hr {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
+    max-width: 100%;
+    padding: 0 2rem;
 }
 
 .navbar-ul {
@@ -118,6 +121,7 @@ hr {
 
 
 .container {
+    width: 90%;
     max-width: $max-width;
     margin: auto;
 }
@@ -135,6 +139,7 @@ hr {
 
 @media (max-width: 800px) {
     .container {
+        width: 90%;
         max-width: $med-width;
         transition: 0.3s ease all;
     }
@@ -142,7 +147,7 @@ hr {
 
 @media (max-width: 650px) {
     .container {
-        max-width: 83%;
+        width: 83%;
     }
     .navbar-ul {
         gap: 1rem;
