@@ -359,7 +359,7 @@ function animateSelection(lon, lat, pop){
   setStatus('Selected. Animating...');
   // 1) Flash a quick zoom toward the area
   const dest = L.latLng(lat, lon);
-  map.flyTo(dest, 8.5, {duration: 1.2});
+  map.flyTo(dest, 8.5, { duration: 1.2 });
 
   // 2) After first fly, draw the 1km square and zoom to its bounds
   setTimeout(() => {
@@ -367,19 +367,22 @@ function animateSelection(lon, lat, pop){
     selectedFeature = poly;
     const layer = L.geoJSON(poly, {
       style: {
-        color: '#6ae6a9', weight: 3, fillColor:'#6ae6a9', fillOpacity:0.20,
+        color: '#6ae6a9',
+        weight: 3,
+        fillColor: '#6ae6a9',
+        fillOpacity: 0.20,
         className: 'pulse'
       }
-    )}.addTo(selectionLayer);
+    }).addTo(selectionLayer);
     layer.bringToFront();
 
     const b = layer.getBounds();
-    map.flyToBounds(b, {padding: [40,40], duration: 1.6});
+    map.flyToBounds(b, { padding: [40, 40], duration: 1.6 });
 
     // 3) Drop a tiny info marker
     setTimeout(() => {
       const html = `<div class="tooltip"><strong>Selected square</strong><br/>Center: ${lat.toFixed(5)}, ${lon.toFixed(5)}<br/>Pop: ${Math.round(pop).toLocaleString('en')}</div>`;
-      selectedMarker = L.marker([lat,lon], {
+      selectedMarker = L.marker([lat, lon], {
         icon: L.divIcon({ html, className: '', iconSize: [220, 54], iconAnchor: [110, 60] })
       }).addTo(map);
       setStatus('Done');
