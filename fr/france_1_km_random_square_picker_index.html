@@ -84,44 +84,35 @@
     /* ===== Fix: ensure overlays are above the map ===== */
     #map { z-index: 0; }
     .leaflet-container { z-index: 0 !important; }
-    .hud, .topbar, .panel, .helper { z-index: 10000; }
+    .hud, .panel { z-index: 10000; }
   
     /* Seamless mode tweaks */
     .topbar, .helper { display:none !important; }
-    #pickBtn, #resetBtn { display:none !important; }
+    
   </style>
 </head>
 <body>
   <div id="app">
     <div id="map" aria-label="Map of metropolitan France"></div>
     <div class="hud" aria-hidden="true">
-      
-          <div>1km² Picker<br><small>Weighted by log(pop)</small></div>
-        </div>
-        <span class="badge">Metropolitan France</span>
-      </div>
-
-      <div class="panel" id="panel">
-        
-        <div class="row" style="flex-wrap:wrap; gap:10px;">
-          <label class="file-label">📄 Load CSV (lon,lat,pop)
-            <input type="file" id="fileInput" accept=".csv,text/csv">
-          </label>
-          <div class="pill" id="statusPill" title="Status"><div class="dot"></div><span id="statusText">Idle</span></div>
-        </div>
-        <div class="hint">Default tries to load <code>/data/france_1km_pop_centroids.csv</code> (columns: <code>lon,lat,pop</code>). If not found, a tiny demo dataset is used.</div>
-        <div class="row" style="justify-content:space-between;">
-          <label class="row" style="gap:8px">
-            <input type="checkbox" id="gridToggle" checked>
-            <span>Show 1km-ish grid overlay</span>
-          </label>
-          <span class="hint">visual only</span>
-        </div>
-      </div>
-
-      
+  <div class="panel" id="panel">
+    <div class="row" style="justify-content:flex-start; gap:10px; flex-wrap:wrap;">
+      <button id="pickBtn" class="btn primary">🎲 Pick a random square</button>
+      <button id="resetBtn" class="btn ghost">↺ Reset</button>
+    </div>
+    <div class="row" style="flex-wrap:wrap; gap:10px;">
+  <div class="pill" id="statusPill" title="Status"><div class="dot"></div><span id="statusText">Idle</span></div>
+</div>
+    <div class="hint">Default tries to load <code>/data/france_1km_pop_centroids.csv</code> (columns: <code>lon,lat,pop</code>). If not found, a tiny demo dataset is used.</div>
+    <div class="row" style="justify-content:space-between;">
+      <label class="row" style="gap:8px">
+        <input type="checkbox" id="gridToggle" checked>
+        <span>Show 1km-ish grid overlay</span>
+      </label>
+      <span class="hint">visual only</span>
     </div>
   </div>
+</div>
 
 <script>
 // --- Constants & helpers ----------------------------------------------------
@@ -168,29 +159,43 @@ const GridLayer = L.GridLayer.extend({
     tile.width = size.x; tile.height = size.y;
     const ctx = tile.getContext('2d');
 
-    // Determine meters per pixel at tile Y (approx)
     const map = this._map;
     const zoom = this._tileZoom;
+
+    // World pixel coords of this tile's top-left at current zoom
     const nwPoint = coords.multiplyBy(size.x);
     const sePoint = nwPoint.add([size.x, size.y]);
+
+    // Lat at tile middle for meters-per-pixel approximation
     const nw = map.unproject(nwPoint, zoom);
     const se = map.unproject(sePoint, zoom);
     const lat = (nw.lat + se.lat)/2;
+
     const metersPerPixel = 156543.03392 * Math.cos(lat * Math.PI/180) / Math.pow(2, zoom);
-    const pxStep = 1000 / metersPerPixel; // 1km in pixels
+
+    // Dynamic step: keep lines ~>=16px apart so they are visible at any zoom
+    let stepKm = 1;
+    let pxStep = (stepKm * 1000) / metersPerPixel;
+    while (pxStep < 16) { // zoomed out -> coarsen the grid to stay visible
+      stepKm *= 2;
+      pxStep = (stepKm * 1000) / metersPerPixel;
+      if (stepKm > 128) break; // safety cap
+    }
+
+    // Align lines to world pixels so grid is continuous across tiles
+    const startX = (pxStep - (nwPoint.x % pxStep)) % pxStep;
+    const startY = (pxStep - (nwPoint.y % pxStep)) % pxStep;
 
     ctx.strokeStyle = 'rgba(255,255,255,0.13)';
     ctx.lineWidth = 1;
 
-    if(pxStep > 6) { // avoid overdraw when zoomed way out
-      // Draw vertical lines
-      for(let x=0; x<=size.x; x += pxStep){
-        ctx.beginPath(); ctx.moveTo(x+0.5, 0); ctx.lineTo(x+0.5, size.y); ctx.stroke();
-      }
-      // Draw horizontal lines
-      for(let y=0; y<=size.y; y += pxStep){
-        ctx.beginPath(); ctx.moveTo(0, y+0.5); ctx.lineTo(size.x, y+0.5); ctx.stroke();
-      }
+    // Vertical lines
+    for(let x = startX; x <= size.x; x += pxStep){
+      ctx.beginPath(); ctx.moveTo(x + 0.5, 0); ctx.lineTo(x + 0.5, size.y); ctx.stroke();
+    }
+    // Horizontal lines
+    for(let y = startY; y <= size.y; y += pxStep){
+      ctx.beginPath(); ctx.moveTo(0, y + 0.5); ctx.lineTo(size.x, y + 0.5); ctx.stroke();
     }
 
     return tile;
@@ -208,7 +213,7 @@ const SAMPLE = [
 
 // --- App state --------------------------------------------------------------
 let map, base, gridLayer, selectionLayer, selectedFeature, selectedMarker;
-let csvUrl = '/data/france_1km_pop_centroids.csv';
+let csvUrl = 'data/france_1km_pop_centroids.csv';
 let usingSample = false;
 
 function initMap(){
@@ -340,7 +345,7 @@ function animateSelection(lon, lat, pop){
 // UI wiring
 window.addEventListener('DOMContentLoaded', () => {
   initMap();
-  tryPrefetchCsv(); setTimeout(pickRandomSquare, 400);
+  tryPrefetchCsv();
 
   document.getElementById('pickBtn').addEventListener('click', pickRandomSquare);
   document.getElementById('resetBtn').addEventListener('click', () => {
@@ -355,7 +360,8 @@ window.addEventListener('DOMContentLoaded', () => {
   });
 
   // Allow manual CSV upload
-  document.getElementById('fileInput').addEventListener('change', (ev) => {
+  const __fileEl = document.getElementById('fileInput');
+  if (__fileEl) __fileEl.addEventListener('change', (ev) => {
     const file = ev.target.files && ev.target.files[0];
     if(!file) return;
     usingSample = false; // we will parse the provided file
