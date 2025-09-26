@@ -37,6 +37,384 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
     $$
     \forall x \in J, \quad h(x) \;=\;\int_{0}^{+\infty} \frac{x \cos t}{x^{2} + t^{2}} \,\mathrm{d}t.
     $$
+    
+    <!-- 1. -->
+    <li>
+        <p>
+        Montrer que la fonction \(h\) est bien définie.
+        </p>
+    
+        <!-- Answer placeholder -->
+        <p style="border: solid 2px; border-radius: 10px; 
+                  background-color:rgba(152, 180, 212, .1); 
+                  padding: 10px; margin: 15px 0 15px -30px;">
+            Pour \(x&gt;0\), la fonction \(t\mapsto \dfrac{x\cos t}{x^{2}+t^{2}}\) est continue sur \([0,+\infty[\). <br>
+            – Sur \([0,1]\), elle est bornée (en particulier \( \left|\dfrac{x\cos t}{x^{2}+t^{2}}\right| \le \dfrac{x}{x^{2}}=\dfrac1x\)), donc intégrable. <br>
+            – Sur \([1,+\infty[\), on a
+            \[
+                \left|\frac{x\cos t}{x^{2}+t^{2}}\right| \le \frac{x}{t^{2}},
+                \qquad \text{et} \quad \int_{1}^{+\infty}\frac{x}{t^{2}}\,\mathrm dt = x &lt;+\infty.
+            \]
+            L’intégrale impropre converge donc absolument sur \([1,+\infty[\). Par additivité, l’intégrale sur \([0,+\infty[\) existe : \(h\) est bien définie sur \(J\).
+        </p>
+    </li>
+    
+    <!-- 2. -->
+    <li>
+        <ol type="a" start="1">
+            
+            <!-- (a) -->
+            <li>
+                <p>
+                À l’aide d’une intégration par parties, établir l’égalité suivante :
+                </p>
+                $$
+                h(x) \;=\; 2x \int_{0}^{+\infty} 
+                \frac{t \,\sin t}{\bigl(x^{2} + t^{2}\bigr)^{2}} 
+                \,\mathrm{d}t.
+                $$
+    
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    Pour \(b&gt;0\), on intègre par parties sur \([0,b]\) avec
+                    \[
+                        u(t)=\frac{x}{x^{2}+t^{2}},\qquad v'(t)=\cos t
+                        \quad\Longrightarrow\quad
+                        u'(t)=-\frac{2xt}{(x^{2}+t^{2})^{2}},\; v(t)=\sin t.
+                    \]
+                    On obtient
+                    \[
+                        \int_{0}^{b}\frac{x\cos t}{x^{2}+t^{2}}\,\mathrm dt
+                        =\Big[\tfrac{x\sin t}{x^{2}+t^{2}}\Big]_{0}^{b}
+                        +2x\int_{0}^{b}\frac{t\sin t}{(x^{2}+t^{2})^{2}}\,\mathrm dt.
+                    \]
+                    Comme \(\dfrac{x\sin b}{x^{2}+b^{2}}\to 0\) quand \(b\to+\infty\) (car \(|\sin b|\le 1\) et \(\dfrac{x}{x^{2}+b^{2}}\le \dfrac{x}{b^{2}}\)), et \(\sin 0=0\), on peut passer à la limite \(b\to+\infty\) (les intégrales impropres étant convergentes par majoration) et l’égalité annoncée s’ensuit :
+                    \[
+                        h(x)=2x\int_{0}^{+\infty}\frac{t\sin t}{(x^{2}+t^{2})^{2}}\,\mathrm dt.
+                    \]
+                </p>
+            </li>
+    
+            <!-- (b) -->
+            <li>
+                <p>
+                En déduire l’inégalité suivante :
+                </p>
+                $$
+                \forall x \in J,\quad |h(x)| \;\leqslant\; \frac{1}{x}.
+                $$
+    
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    D’après (a),
+                    \[
+                        |h(x)|\le 2x\int_{0}^{+\infty}\frac{t\,|\sin t|}{(x^{2}+t^{2})^{2}}\,\mathrm dt
+                        \le 2x\int_{0}^{+\infty}\frac{t}{(x^{2}+t^{2})^{2}}\,\mathrm dt.
+                    \]
+                    Or
+                    \[
+                        \int_{0}^{+\infty}\frac{t}{(x^{2}+t^{2})^{2}}\,\mathrm dt
+                        =\frac1{2}\int_{0}^{+\infty}\frac{1}{(x^{2}+u)^{2}}\,\mathrm du
+                        =\frac1{2}\Big[\!-\,\frac{1}{x^{2}+u}\Big]_{0}^{+\infty}
+                        =\frac{1}{2x^{2}},
+                    \]
+                    (en posant \(u=t^{2}\)). Ainsi \(|h(x)|\le 2x\times \dfrac{1}{2x^{2}}=\dfrac{1}{x}\).
+                </p>
+            </li>
+    
+            <!-- (c) -->
+            <li>
+                <p>
+                Donner la limite de \(h(x)\) quand \(x\) tend vers \(+\infty\).
+                </p>
+    
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    D’après (b), \(|h(x)|\le \dfrac{1}{x}\) pour tout \(x&gt;0\). Par encadrement,
+                    \(\displaystyle \lim_{x\to +\infty}h(x)=0\).
+                </p>
+            </li>
+    
+        </ol>
+    </li>
+    
+    <!-- 3. -->
+    <li>
+        <ol type="a" start="1">
+            
+            <!-- (a) -->
+            <li>
+                <p>
+                À l’aide d’un changement de variable, montrer que, pour tout 
+                \(x \in J\) :
+                </p>
+                $$
+                h(x) \;=\; \int_{0}^{+\infty} \frac{\cos (xt)}{1 + t^{2}} \,\mathrm{d}t.
+                $$
+    
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    Dans la définition de \(h(x)\), on pose \(t=xu\) (avec \(u\in[0,+\infty[\)), donc \(\mathrm dt=x\,\mathrm du\).
+                    Alors
+                    \[
+                        h(x)=\int_{0}^{+\infty}\frac{x\cos(xu)}{x^{2}+x^{2}u^{2}}\,x\,\mathrm du
+                        =\int_{0}^{+\infty}\frac{\cos(xu)}{1+u^{2}}\,\mathrm du,
+                    \]
+                    ce qui donne la formule voulue (en renommant la variable d’intégration).
+                </p>
+            </li>
+    
+            <!-- (b) -->
+            <li>
+                <p>
+                Établir, pour tout réel \(a\), l’encadrement suivant :
+                </p>
+                $$
+                0 \;\leqslant\; 1 - \cos a \;\leqslant\; \frac{a^{2}}{2}.
+                $$
+    
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    On a \(1-\cos a=2\sin^{2}\!\bigl(\tfrac{a}{2}\bigr)\ge 0\). De plus, pour tout \(u\in\mathbb R\),
+                    \(|\sin u|\le |u|\) (par inégalité des accroissements finis appliquée à \(\sin\)).
+                    Ainsi
+                    \[
+                        1-\cos a = 2\sin^{2}\!\Big(\tfrac{a}{2}\Big) 
+                        \le 2\Big(\tfrac{|a|}{2}\Big)^{2}=\frac{a^{2}}{2}.
+                    \]
+                </p>
+            </li>
+    
+            <!-- (c) -->
+            <li>
+                <p>
+                Montrer l’encadrement suivant :
+                </p>
+                $$
+                \forall x \in J,\; \forall A>0,\quad 
+                0 \;\leqslant\; \frac{\pi}{2} - h(x) \;\leqslant\; 
+                \frac{x^{2}}{2} \int_{0}^{A} \frac{t^{2}}{1+t^{2}} \,\mathrm{d}t
+                \;+\; 2 \int_{A}^{+\infty} \frac{1}{1 + t^{2}} \,\mathrm{d}t.
+                $$
+    
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    Par (3a), 
+                    \[
+                        h(x)=\int_{0}^{+\infty}\frac{\cos(xt)}{1+t^{2}}\,\mathrm dt,
+                        \qquad
+                        \int_{0}^{+\infty}\frac{1}{1+t^{2}}\,\mathrm dt=\frac{\pi}{2}.
+                    \]
+                    Donc
+                    \[
+                        \frac{\pi}{2}-h(x)=\int_{0}^{+\infty}\frac{1-\cos(xt)}{1+t^{2}}\,\mathrm dt.
+                    \]
+                    Soit \(A&gt;0\). En découpant \([0,+\infty[=[0,A]\cup[A,+\infty[\) et en utilisant (3b) et \(|1-\cos(xt)|\le 2\), on obtient
+                    \[
+                    \begin{aligned}
+                        0\le \frac{\pi}{2}-h(x)
+                        &\le \int_{0}^{A}\frac{1-\cos(xt)}{1+t^{2}}\,\mathrm dt
+                           +\int_{A}^{+\infty}\frac{2}{1+t^{2}}\,\mathrm dt \\
+                        &\le \int_{0}^{A}\frac{x^{2}t^{2}}{2(1+t^{2})}\,\mathrm dt
+                           +2\int_{A}^{+\infty}\frac{1}{1+t^{2}}\,\mathrm dt,
+                    \end{aligned}
+                    \]
+                    ce qui donne l’encadrement requis.
+                </p>
+            </li>
+    
+            <!-- (d) -->
+            <li>
+                <p>
+                Déterminer la limite de \(h(x)\) quand \(x\) tend vers \(0\) par valeurs supérieures.
+                </p>
+    
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    À partir de (3c), pour tout \(A&gt;0\) et \(x&gt;0\),
+                    \[
+                        0\le \frac{\pi}{2}-h(x)\le 
+                        \frac{x^{2}}{2}\int_{0}^{A}\frac{t^{2}}{1+t^{2}}\,\mathrm dt
+                        +2\int_{A}^{+\infty}\frac{1}{1+t^{2}}\,\mathrm dt.
+                    \]
+                    En fixant \(A\) et en laissant \(x\to 0^{+}\), le premier terme du majorant tend vers \(0\).
+                    Puis en choisissant \(A\) assez grand, le second terme peut être rendu arbitrairement petit.
+                    Par le procédé usuel \(\varepsilon\!-\!A\), on déduit
+                    \[
+                        \lim_{x\to 0^{+}}h(x)=\frac{\pi}{2}.
+                    \]
+                </p>
+            </li>
+    
+        </ol>
+    </li>
+    
+    <!-- 4. -->
+    <li>
+        <ol type="a" start="1">
+            
+            <!-- (a) -->
+            <li>
+                <p>
+                On définit sur \(U = \mathbb{R}^{2}\setminus\{\,(0,0)\}\) la fonction 
+                \(\Phi\) par
+                </p>
+                $$
+                \Phi(x, t) \;=\; \frac{x}{x^{2} + t^{2}}.
+                $$
+                <p>
+                Calculer, pour \((x,t)\in U,\; 
+                \frac{\partial^2 \Phi}{\partial x^2}(x,t) \;+\;
+                \frac{\partial^2 \Phi}{\partial t^2}(x,t).\)
+                </p>
+    
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    Posons \(s=x^{2}+t^{2}\). On a
+                    \[
+                        \partial_{x}\Phi=\frac{s-2x^{2}}{s^{2}}=\frac{t^{2}-x^{2}}{s^{2}},
+                        \qquad
+                        \partial_{t}\Phi=-\frac{2xt}{s^{2}}.
+                    \]
+                    Puis
+                    \[
+                        \partial_{xx}\Phi
+                        =\frac{-2x}{s^{2}}-\frac{4x(t^{2}-x^{2})}{s^{3}},
+                        \qquad
+                        \partial_{tt}\Phi
+                        =-\frac{2x}{s^{2}}+\frac{8xt^{2}}{s^{3}}.
+                    \]
+                    En sommant,
+                    \[
+                        \partial_{xx}\Phi+\partial_{tt}\Phi
+                        =-\frac{4x}{s^{2}}+\frac{4x(x^{2}+t^{2})}{s^{3}}=0.
+                    \]
+                    Ainsi, \(\Phi\) est harmonique sur \(U\).
+                </p>
+            </li>
+    
+            <!-- (b) -->
+            <li>
+                <p>
+                En déduire que, pour tout \(x \in J,\; h''(x) = h(x)\).
+                </p>
+    
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    On écrit
+                    \[
+                        h(x)=\int_{0}^{+\infty}\Phi(x,t)\,\cos t\,\mathrm dt.
+                    \]
+                    Pour \(x&gt;0\), les dérivées partielles \(\partial_{x}\Phi,\partial_{xx}\Phi\) existent et
+                    \(|\partial_{xx}\Phi(x,t)|\le C_{x}\,(x^{2}+t^{2})^{-2}\), fonction intégrable en \(t\) sur \([0,+\infty[\).
+                    On peut donc dériver sous le signe intégral (théorème de dérivation des intégrales à paramètre) et obtenir
+                    \[
+                        h''(x)=\int_{0}^{+\infty}\partial_{xx}\Phi(x,t)\,\cos t\,\mathrm dt.
+                    \]
+                    Or \(\partial_{xx}\Phi=-\partial_{tt}\Phi\) d’après (4a), d’où
+                    \[
+                        h''(x)=-\int_{0}^{+\infty}\partial_{tt}\Phi(x,t)\,\cos t\,\mathrm dt.
+                    \]
+                    En intégrant par parties deux fois par rapport à \(t\) (les termes de bord s’annulent car
+                    \(\partial_{t}\Phi(x,t)=\mathcal O(1/t^{3})\) et \(\Phi(x,t)=\mathcal O(1/t^{2})\) quand \(t\to+\infty\), et \(\Phi,\partial_{t}\Phi\) sont nulles en \(t=0\)),
+                    on obtient
+                    \[
+                        \int_{0}^{+\infty}\partial_{tt}\Phi\,\cos t\,\mathrm dt
+                        = -\int_{0}^{+\infty}\Phi\,\cos t\,\mathrm dt.
+                    \]
+                    Ainsi \(h''(x)=h(x)\) pour tout \(x\in J\).
+                </p>
+            </li>
+    
+        </ol>
+    </li>
+    
+    <!-- 5. -->
+    <li>
+        <p>
+        On pose, pour tout \(x \in J,\; k(x)=e^{-2x}\bigl(e^{x}h(x)\bigr)'\). 
+        </p>
+        <ol type="a" start="1">
+    
+            <!-- (a) -->
+            <li>
+                <p>
+                Calculer \(k'(x)\).
+                </p>
+    
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    On a \((e^{x}h(x))'=e^{x}(h'(x)+h(x))\), donc
+                    \[
+                        k(x)=e^{-2x}\cdot e^{x}\,(h'+h)=e^{-x}(h'+h).
+                    \]
+                    Ainsi
+                    \[
+                        k'(x)=-e^{-x}(h'+h)+e^{-x}(h''+h')=e^{-x}\bigl(h''-h\bigr).
+                    \]
+                    Or, d’après (4b), \(h''=h\). Par conséquent \(k'(x)=0\) pour tout \(x\in J\).
+                </p>
+            </li>
+    
+            <!-- (b) -->
+            <li>
+                <p>
+                En déduire que, pour tout \(x \in J,\; 
+                h(x)=\frac{\pi}{2}\, e^{-x}\).
+                </p>
+    
+                <!-- Answer placeholder -->
+                <p style="border: solid 2px; border-radius: 10px; 
+                          background-color:rgba(152, 180, 212, .1); 
+                          padding: 10px; margin: 15px 0 15px -60px;">
+                    De (a), \(k'(x)=0\) donc \(k\) est constante : il existe \(C\in\mathbb R\) tel que
+                    \[
+                        (e^{x}h(x))'=C\,e^{2x}.
+                    \]
+                    En intégrant, il existe \(D\in\mathbb R\) tel que
+                    \[
+                        e^{x}h(x)=\frac{C}{2}e^{2x}+D
+                        \quad\Longleftrightarrow\quad
+                        h(x)=\frac{C}{2}e^{x}+D\,e^{-x}.
+                    \]
+                    D’après (2c), \(\displaystyle \lim_{x\to+\infty}h(x)=0\), donc nécessairement \(C=0\), d’où
+                    \(h(x)=D\,e^{-x}\). Enfin, par (3d), \(\displaystyle \lim_{x\to 0^{+}}h(x)=\dfrac{\pi}{2}\),
+                    ce qui impose \(D=\dfrac{\pi}{2}\). Par suite,
+                    \[
+                        \boxed{\;h(x)=\dfrac{\pi}{2}\,e^{-x}\;}\qquad (x&gt;0).
+                    \]
+                </p>
+            </li>
+    
+        </ol>
+    </li>
+</ol>
+
+<ol type="1" start="1">
+
+    $$
+    \forall x \in J, \quad h(x) \;=\;\int_{0}^{+\infty} \frac{x \cos t}{x^{2} + t^{2}} \,\mathrm{d}t.
+    $$
 
     <!-- 1. -->
     <li>
