@@ -1,34 +1,40 @@
 table {
-    margin: 15px 0;
-    border-collapse: collapse;
     width: 100%;
-    padding: 0;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    background: rgba(0, 0, 0, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 0.85rem;
+    overflow: hidden;
+    box-shadow: 0 18px 32px -26px var(--shadow-color);
 }
-table tr {
-    border-top: 1px solid #cccccc00;
-    background-color:#cccccc00;
-    margin: 0;
-    padding: 0;
+
+table thead {
+    background: rgba(255, 255, 255, 0.05);
 }
-table tr:nth-child(2n) {
-    background-color: #cccccc00;
+
+table th,
+table td {
+    padding: 0.75rem 0.95rem;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
-table tr th {
-    font-weight: bold;
-    border: 0px solid #cccccc00;
-    text-align: center;
-    margin: 0;
-    padding: 6px 13px;
+
+table th {
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent-color);
 }
-table tr td {
-    border: 0px solid #cccccc00;
-    text-align: center;
-    margin: 0;
-    padding: 6px 13px;
+
+table tbody tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.03);
 }
-table tr th :first-child, table tr td :first-child {
-    margin: 0;
+
+table tbody tr:hover {
+    background: rgba(255, 255, 255, 0.06);
 }
-table tr th :last-child, table tr td :last-child {
-    margin: 0;
+
+table tr:last-child td {
+    border-bottom: none;
 }
