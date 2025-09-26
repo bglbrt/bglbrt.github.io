@@ -2,23 +2,23 @@
 
 :root {
     --font-family: "IBM Plex Mono", "Source Code Pro", monospace;
-    --background-color: #0f120a;
-    --background-shine: rgba(255, 240, 206, 0.08);
-    --surface-color: #11160d;
-    --surface-edge: #1b2313;
-    --surface-border: rgba(255, 226, 175, 0.08);
-    --text-color: #f5f2d2;
-    --muted-color: rgba(245, 242, 210, 0.64);
-    --accent-color: #ffd166;
-    --accent-glow: rgba(255, 209, 102, 0.35);
-    --divider-color: rgba(245, 242, 210, 0.15);
-    --nav-pill: rgba(255, 209, 102, 0.12);
-    --nav-pill-border: rgba(255, 209, 102, 0.32);
-    --screen-mask: rgba(12, 18, 8, 0.55);
-    --shadow-color: rgba(0, 0, 0, 0.55);
-    --focus-outline: rgba(255, 209, 102, 0.45);
-    --selection-bg: rgba(255, 209, 102, 0.35);
-    --selection-text: #13140f;
+    --background-color: #fdf6e3;
+    --background-shine: rgba(147, 161, 161, 0.12);
+    --surface-color: #f7efda;
+    --surface-edge: #e1d9b8;
+    --surface-border: rgba(101, 123, 131, 0.22);
+    --text-color: #586e75;
+    --muted-color: rgba(88, 110, 117, 0.7);
+    --accent-color: #b58900;
+    --accent-glow: rgba(181, 137, 0, 0.32);
+    --divider-color: rgba(101, 123, 131, 0.25);
+    --nav-pill: rgba(181, 137, 0, 0.12);
+    --nav-pill-border: rgba(181, 137, 0, 0.32);
+    --screen-mask: rgba(253, 246, 227, 0.55);
+    --shadow-color: rgba(51, 61, 66, 0.18);
+    --focus-outline: rgba(38, 139, 210, 0.45);
+    --selection-bg: rgba(38, 139, 210, 0.25);
+    --selection-text: #002b36;
 }
 
 html[data-theme='dark'] {
@@ -175,7 +175,6 @@ ol {
     align-items: center;
     justify-content: center;
     padding: 0.2rem 0.45rem;
-    border-left: 2px solid var(--accent-color);
     color: var(--accent-color);
     letter-spacing: 0.18em;
     text-transform: uppercase;

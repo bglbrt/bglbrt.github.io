@@ -15,7 +15,7 @@ katex: True
 Le sujet est accessible <a href = "/pdfs/insee_administrateur_externe/insee_administrateur_externe_2023.pdf">ici</a> au format PDF.
 </p>
 
-<p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px 0px;">
+<p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px 0px;">
 Les propositions de corrections présentées ci-dessous n'engagent que l'auteur de ce site.
 </p>
 
@@ -37,19 +37,19 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
         <ol type="a" start="1">
             <li>
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li> 
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                  </p>
             </li>
             <li> 
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                  </p>
             </li>
@@ -59,19 +59,19 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
         <ol type="a" start="1">
             <li>
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li> 
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                  </p>
             </li>
             <li> 
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                  </p>
             </li>
@@ -81,19 +81,19 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
         <ol type="a" start="1">
             <li>
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li> 
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                  </p>
             </li>
             <li> 
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                  </p>
             </li>
@@ -103,13 +103,13 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
         <ol type="a" start="1">
             <li>
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li> 
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                  </p>
             </li>
@@ -117,7 +117,7 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
     </li>
     <li>
         ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -30px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -30px;">
                     ...
                 </p>
     </li>
@@ -125,31 +125,31 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
         <ol type="a" start="1">
             <li>
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li> 
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                  </p>
             </li>
             <li> 
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                  </p>
             </li>
             <li> 
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                  </p>
             </li>
             <li> 
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                  </p>
             </li>
@@ -157,7 +157,7 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
     </li>
     <li>
         ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -30px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -30px;">
                     ...
                 </p>
     </li>
@@ -165,7 +165,7 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
         <ol type="a" start="1">
             <li>
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
@@ -173,7 +173,7 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
     </li>
     <li>
         ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -30px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -30px;">
                     ...
                 </p>
     </li>
@@ -184,19 +184,19 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
 <ol type="1" start="1">
     <li>
         ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -30px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -30px;">
                     ...
                 </p>
     </li>
     <li>
         ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -30px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -30px;">
                     ...
                 </p>
     </li>
     <li>
         ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -30px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -30px;">
                     ...
                 </p>
     </li>
@@ -204,19 +204,19 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
         <ol type="a" start="1">
             <li>
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li> 
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                  </p>
             </li>
             <li> 
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                  </p>
             </li>
@@ -226,13 +226,13 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
         <ol type="a" start="1">
             <li>
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li> 
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                  </p>
             </li>
@@ -240,13 +240,13 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
     </li>
     <li>
         ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -30px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -30px;">
                     ...
                 </p>
     </li>
     <li>
         ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -30px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -30px;">
                     ...
                 </p>
     </li>
@@ -267,25 +267,25 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
         <ol type="a" start="1">
             <li>
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li> 
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                  </p>
             </li>
             <li> 
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                  </p>
             </li>
             <li> 
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                  </p>
             </li>
@@ -293,7 +293,7 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
     </li>
     <li>
         ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -30px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -30px;">
                     ...
                 </p>
     </li>
@@ -301,19 +301,19 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
         <ol type="a" start="1">
             <li>
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li> 
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                  </p>
             </li>
             <li> 
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                  </p>
             </li>
@@ -323,19 +323,19 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
         <ol type="a" start="1">
             <li>
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li> 
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                  </p>
             </li>
             <li> 
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                  </p>
             </li>
@@ -345,19 +345,19 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
         <ol type="a" start="1">
             <li>
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li> 
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                  </p>
             </li>
             <li> 
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                  </p>
             </li>
@@ -372,13 +372,13 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
         <ol type="a" start="1">
             <li>
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li> 
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                  </p>
             </li>
@@ -386,7 +386,7 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
     </li>
     <li>
         ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -30px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -30px;">
                     ...
                  </p>
     </li>
@@ -394,13 +394,13 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
         <ol type="a" start="1">
             <li>
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li> 
                 ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                  </p>
             </li>
@@ -408,19 +408,19 @@ Les propositions de corrections présentées ci-dessous n'engagent que l'auteur 
     </li>
     <li>
         ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -30px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -30px;">
                     ...
                  </p>
     </li>
     <li>
         ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -30px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -30px;">
                     ...
                  </p>
     </li>
     <li>
         ...
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -30px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -30px;">
                     ...
                  </p>
     </li>

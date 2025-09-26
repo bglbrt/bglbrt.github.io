@@ -15,7 +15,7 @@ katex: True
 Le sujet est accessible <a href = "/pdfs/insee_administrateur_externe/insee_administrateur_externe_1993.pdf">ici</a> au format PDF.
 </p>
 
-<p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px 0px;">
+<p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px 0px;">
 Les propositions de corrections présentées ci-dessous n'engagent que l'auteur de ce site.
 </p>
 
@@ -34,7 +34,7 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
         <ol type="a" start="1">
             <li>
                 Calculer l'intégrale \(\int_{0}^{+\infty} e^{-t} \mathrm{d}t\).
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     En évaluant directement l'intégrale, on a :
                     $$
                     \int_{0}^{+\infty} e^{-t} \mathrm{d} t = \lim_{b \rightarrow +\infty} \int_{0}^{b} e^{-t} \mathrm{d}t = \lim_{b \rightarrow +\infty} \left[ -e^{-t} \right]_{0}^{b} = \lim_{b \rightarrow +\infty} -e^{-b} - \left( -e^{-0} \right) = 1.
@@ -50,7 +50,7 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                 $$
                 0 < F_n(x) < \frac{e^{-x}}{x^{n+1}}
                 $$
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     Dans la suite, on définit \( f : t \mapsto \frac{e^{-t}}{t^{n+1}} \). Il est clair qu'on a pour tout \( n\in\mathbb{N} \) et \( t>x>0 \) :
                     $$
                     0 < f(t) < \frac{e^{-t}}{x^{n+1}}
@@ -66,7 +66,7 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
             </li>
             <li>
                 Montrer que pour tout \(n \in \mathbb{N} \), la fonction \( F_n \) est deux fois dérivable sur \( \left] 0, +\infty \right[ \) et calculer sa dérivée \( F'_n \).
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     Par le théorème fondamental de l'analyse, en utilisant le résultat de convergence montré à la question précédente, on a pour tout \(n \in \mathbb{N} \) et pour tout \( x \in \left] 0, +\infty \right[ \) :
                     $$
                     F'_n(x) = \frac{\partial}{\partial x} F_n(x) = \frac{\partial}{\partial x} \int_{x}^{+\infty} f(t) \mathrm{d}t = - f(x) = - \frac{e^{-x}}{x^{n+1}}
@@ -86,7 +86,7 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                 $$
                 F_n(x) = \frac{e^{-x}}{x^{n+1}} - (n+1)F_{n+1}(x)
                 $$
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     On utilise une intégration par parties.
                     <br><br>
                     Pour ce faire, on s'appuie sur le résultat de convergence montré dans les questions précédentes et on note que :
@@ -115,7 +115,7 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                 $$
                 e^{x} F_0(x) = f_n(x) + (-1)^n n! e^{x} F_n(x)
                 $$
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     On établit la relation par récurrence sur \( n \in \mathbb{N} \).
                     <br><br>
                     <u>Initialisation</u>
@@ -151,7 +151,7 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                 $$
                 \lvert \varphi(x) - f_n(x) \rvert \leq \frac{n!}{x^{n+1}}
                 $$
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     En utilisant la majoration trouvée précédemment, on a pour \( x >0 \) et \( n \in \mathbb{N} \) :
                     $$
                     \begin{aligned}
@@ -164,7 +164,7 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
             </li>
             <li>
                 Déterminer les valeurs de \( n \) pour lesquelles \( \varepsilon_n = \frac{n!}{10^{n+1}} \) est minimal, et en déduire pour ces valeurs de \( n \) un majorant numérique de l'erreur conimise en prenant \( \ln(10) \) comme valeur approchée de \( \varphi(10) \).
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     On note que pour tout \( n \in \mathbb{N} : \varepsilon > 0 \) et qu'on a :
                     $$
                     \frac{\varepsilon_{n+1}}{\varepsilon_{n}} = \frac{(n+1)!}{10^{n+2}} \times \frac{10^{n+1}}{n!} = \frac{n+1}{10}
@@ -193,7 +193,7 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                 $$
                 G_n(x) = n! \int_{x}^{+\infty} \frac{e^{-t}(t-x)^n}{t^{n+1}} \mathrm{d}t.
                 $$
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     On remarque que pour tout \( n\in\mathbb{N}, x>0 \) et \( t>x \) on a :
                     $$
                     0 \leq (t-x)^n \leq t^n
@@ -206,7 +206,7 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
             </li>
             <li>
                 Exprimer la fonction \( G_n \) comme combinaison linéaire des fonctions \( x \mapsto x^p F_p(x) \).
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     On rappelle que, par la formule du binôme de Newton, pour tout \( n \in \mathbb{N}, x>0 \) et \( t \geq x \) on a :
                     $$
                     (t-x)^{n} = \sum_{k=0}^{n} \binom{n}{k} t^{k} (-x)^{n-k}
@@ -227,13 +227,13 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
             </li>
             <li>
                 Établir que la fonction \( G_n(x) \) est deux fois dérivable sur \( \left] 0, +\infty \right[ \).
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     En s'appuyant sur les résultats de la partie précédente, la fonction \( G_n(x) \) est deux fois dérivables sur \( \left] 0, +\infty \right[ \) pour tout \( n\in \mathbb{N} \) en tant que combinaison linéaire de fonctions elles-mêmes deux fois dérivables sur \( \left] 0, +\infty \right[ \).
                 </p>
             </li>
             <li>
                 Justifier que pour \( n\geq 1 \), on a \( \sum_{p=0}^n (-1)^p \binom{n, p} = 0 \).
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     Par la formule du binôme de Newton, on a :
                     $$
                     \sum_{p=0}^{n} (-1)^{p} C_{n}^{p} = \sum_{p=0}^{n} \binom{n}{p} (-1)^{p} (1)^{n-p} = (-1+1)^{n} = 0
@@ -245,7 +245,7 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                 $$
                 G_n'(x) = -n n! \int_{x}^{+\infty} \frac{e^{-t}(t-x)^{n-1}}{t^{n+1}} \mathrm{d}t.
                 $$
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     En utilisant les résultats de la partie précédente, on a :
                     $$
                     \begin{aligned}
@@ -268,7 +268,7 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                 $$
                 xG_n'(x) = n G_n(x) - n^2 G_{n-1}(x).
                 $$
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     En utilisant les résultats précédents, on a pour tout \( n \geq 1 \) et pour tout \( x > 0 \) :
                     $$
                     \begin{aligned}
@@ -286,7 +286,7 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                 $$
                 G_n'(x) = n G_{n-1}(x) + n G_{n-1}'(x).
                 $$
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     On utilise une intégration par parties.
                     <br><br>
                     Pour ce faire, on note que :
@@ -321,7 +321,7 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                 $$
                 G_{n+1}(x) = (x+2n+1) G_n(x) - n^2 G_{n-1}(x).
                 $$
-                 <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                 <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     En utilisant les résultats précédents, on a pour \( n\geq 1 \) et \( x > 0 \) :
                     $$
                     x G_{n+1}'(x) = x (n+1) G_{n}(x) + x(n+1) G_{n}'(x)
@@ -353,7 +353,7 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                 $$
                 x G_n''(x) + (x+1) G_n'(x) - nG_n(x) = 0.
                 $$
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     On note d'abord qu'on a pour tout \( n\geq 1 \) et \( x > 0 \), en combinant les résultats précédents :
                     $$
                     n G_{n}(x) = x G_n'(x) + n^{2} G_{n-1}(x) = x G_n'(x) + n \left( G_n'(x) - n G_{n-1}'(x)\right)
@@ -396,7 +396,7 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                 (p+1)^2 \alpha_{n, p+1} = (n-p)\alpha_{n, p}
                 $$
                 où l'on a posé \( \alpha_{n, n} = 1 \).
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     En dérivant, on note qu'on a pour tout \(n \geq 1 \) et \( x > 0 \) :
                     $$
                     P_{n}'(x) = \sum_{p=1}^{n} \alpha_{n, p} p x^{p-1}
@@ -429,7 +429,7 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
             </li>
             <li>
                 En déduire que \( \alpha_{n, p} = \frac{n!}{p!} \binom{n}{p} \) puis que \( \alpha_{n, p} \) est entier.
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     En utilisant le résulat précédent, on peut écrire pour tout \( p \in \{ 0, ..., n-1\} \) :
                     $$
                     \alpha_{n, p} = \frac{(p+1)^{2}}{(n-p)} \alpha_{n, p+1}
@@ -452,7 +452,7 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
             </li>
             <li>
                 Expliciter les polynômes \( P_1, P_2 \) et \( P_3 \).
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     On obtient les polynômes suivants :
                     <br><br>
                     • &nbsp; pour tout \( x > 0 \) : \( P_{1}(x)=x+1 \)
@@ -473,7 +473,7 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                 $$
                 <br>
                 Vérifier que \( Q_n(x) = \sum_{p=0}^n \alpha_{n, p} x^p f_p(x) \).
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     On sait par les questions précédentes que pour tout \( n \in \mathbb{N} \) et \( x>0 \) on a :
                     $$
                     e^{x} F_{0}(x) = f_{n}(x) + (-1)^{n} n! e^{x} F_{n}(x)
@@ -491,7 +491,7 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
             </li>
             <li>
                 Expliciter les polynômes \( Q_1, Q_2 \) et \( Q_3 \).
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     On obtient les polynômes suivants :
                     <br><br>
                     • &nbsp; pour tout \( x > 0 \) : 
@@ -528,7 +528,7 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                 $$
                 P_n(x) > n! n x.
                 $$
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     \( G_n(x) \) étant définie comme une intégrale de fonctions strictement positives sur son intervalle d'intégration, on a nécessairement pour tout \( n\in \mathbb{N} \) et \( x > 0 \) : \( 0 < G_n(x) \).
                     <br><br>
                     On rappelle ensuite que : 
@@ -564,7 +564,7 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
             </li>
             <li>
                 Montrer que pour \( x > 0 \) fixé, on a \( \lim_{n \rightarrow +\infty} \frac{G_n(x)}{P_n(x)}e^x = 0 \).
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     En notant que \( n\in \mathbb{N} \) et \( x > 0 \) : \( P_n(x) > 0 \) et \( G_n(x) > 0 \), on a pour \( x > 0 \) fixé :
                     $$
                     \lim_{n \rightarrow +\infty} \frac{G_n(x)}{P_n(x)} e^x \leq \lim_{n \rightarrow +\infty}  \frac{\frac{n! e^{-x}}{x} e^x}{n! n x} = \lim_{n \rightarrow +\infty} \frac{1}{nx^2} = 0
@@ -579,7 +579,7 @@ Dans tout le problème \( x \) désigne un réel <i>strictement positif</i>, et 
                 En déduire pour \( x > 0 \) fixé \( \varphi(x) = \lim_{n \rightarrow +\infty} \frac{Q_n(x)}{P_n(x)} \).
                 <br><br>
                 Puis, calculer \( \frac{Q_3(10)}{P_3(10)} \) et en dédurie une valeur approchée de \( \varphi(10) \).
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     En utilisant les résultats précédents, on note que pour tout \( n\in \mathbb{N} \) et \( x > 0 \) :
                     $$
                     \frac{G_n(x) e^x}{P_n(x)} = \frac{\left( P_n(x) F_0(x) - Q_n(x) e^{-x} \right) e^x}{P_n(x)} = F_0(x) e^x - \frac{Q_n(x)}{P_n(x)}
@@ -617,7 +617,7 @@ $$
         <ol type="a" start="1">
             <li>
                 Calculer \( A = \frac{1}{4}(M - I) \) puis \( A^2 \).
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
@@ -626,13 +626,13 @@ $$
                 $$
                 \forall n \in \mathbb{N} : M^n = I + u_n A
                 $$
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li>
                 Calculer \( u_n \) en fonction de \( n \) et en déduire l'expression de \( M^n \).
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
@@ -644,7 +644,7 @@ $$
         J = \begin{pmatrix} -1 & 0 & -2 \\ 1 & 1 & 1 \\ 1 & 0 & 2 \end{pmatrix}.
         $$
         Calculer \( J^2 \) puis \( J^n \) et montrer que \( J \) n'est pas inversible.
-        <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -30px;">
+        <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -30px;">
             ...
         </p>
     </li>
@@ -655,13 +655,13 @@ $$
         <ol type="a" start="1">
             <li>
                 Montrer que \( E \) est stable par le produit de matrices. Montrer aussi que \( E \) est un espace vectoriel réel, en donner une base et préciser sa dimension.
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li>
                 Déterminer quels sont les éléments de \( E \) admettant un inverse dans \( E \), et préciser celui-ci.
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
@@ -671,7 +671,7 @@ $$
                 • &nbsp; \( X^2 = I \),
                 <br><br>
                 • &nbsp; \( X^2 = X \).
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
@@ -681,13 +681,13 @@ $$
         <ol type="a" start="1">
             <li>
                 Montrer que \( M \in E \).
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li>
                 En déduire que \( M^n = [1 - (-3)^n]J + (-3)^n I \) et comparer avec le résultat obtenu à la première question.
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
@@ -700,7 +700,7 @@ $$
         <ol type="a" start="1">
             <li>
                 Pour quelles valeurs de \(X\) le noyau de l'endomorphisme \(j - X I_{d}\) n'est-il pas réduit au vecteur nul ?
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
@@ -711,25 +711,25 @@ $$
                 $$
                 <br>
                 Déterminer la matrice de passage \(P\) de la base canonique à \(\mathcal{B}\).
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li>
                 Donner dans la base \(\mathcal{B}\) la matrice \(N\) de l'endomorphisme \(f\) de matrice \(M\) dans la base canonique.
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li>
                 Déterminer la matrice de \(f^n = f \circ ... \circ f\) dans cette base.
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
             <li>
                 Retrouver à nouveau l'expression de \( M^n \).
-                <p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
+                <p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
             </li>
