@@ -84,7 +84,7 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                         \quad\Longrightarrow\quad
                         u'(t)=-\frac{2xt}{(x^{2}+t^{2})^{2}},\; v(t)=\sin t.
                     \]
-                    On obtient
+                    On obtient donc
                     \[
                         \int_{0}^{b}\frac{x\cos t}{x^{2}+t^{2}}\,\mathrm dt
                         =\Big[\tfrac{x\sin t}{x^{2}+t^{2}}\Big]_{0}^{b}
