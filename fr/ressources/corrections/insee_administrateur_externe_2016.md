@@ -15,7 +15,7 @@ katex: True
 Le sujet est accessible <a href = "/pdfs/insee_administrateur_externe/insee_administrateur_externe_2016.pdf">ici</a> au format PDF.
 </p>
 
-<p style="border: solid 2px; border-radius: 10px; background-color:rgba(152, 180, 212, .1); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px 0px;">
+<p style="border: none; border-radius: 0; background-color:rgba(152, 180, 212, .12); padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; margin: 15px 0 15px 0px;">
 Les propositions de corrections présentées ci-dessous n'engagent que l'auteur de ce site.
 </p>
 
@@ -45,8 +45,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
         </p>
     
         <!-- Answer placeholder -->
-        <p style="border: solid 2px; border-radius: 10px; 
-                  background-color:rgba(152, 180, 212, .1); 
+        <p style="border: none; border-radius: 0; 
+                  background-color:rgba(152, 180, 212, .12); 
                   padding: 10px; margin: 15px 0 15px -30px;">
             Pour \(x&gt;0\), la fonction \(t\mapsto \dfrac{x\cos t}{x^{2}+t^{2}}\) est continue sur \([0,+\infty[\). <br>
             – Sur \([0,1]\), elle est bornée (en particulier \( \left|\dfrac{x\cos t}{x^{2}+t^{2}}\right| \le \dfrac{x}{x^{2}}=\dfrac1x\)), donc intégrable. <br>
@@ -75,8 +75,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 $$
     
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     Pour \(b&gt;0\), on intègre par parties sur \([0,b]\) avec
                     \[
@@ -107,8 +107,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 $$
     
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     D’après (a),
                     \[
@@ -133,8 +133,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 </p>
     
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     D’après (b), \(|h(x)|\le \dfrac{1}{x}\) pour tout \(x&gt;0\). Par encadrement,
                     \(\displaystyle \lim_{x\to +\infty}h(x)=0\).
@@ -159,8 +159,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 $$
     
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     Dans la définition de \(h(x)\), on pose \(t=xu\) (avec \(u\in[0,+\infty[\)), donc \(\mathrm dt=x\,\mathrm du\).
                     Alors
@@ -182,8 +182,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 $$
     
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     On a \(1-\cos a=2\sin^{2}\!\bigl(\tfrac{a}{2}\bigr)\ge 0\). De plus, pour tout \(u\in\mathbb R\),
                     \(|\sin u|\le |u|\) (par inégalité des accroissements finis appliquée à \(\sin\)).
@@ -208,8 +208,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 $$
     
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     Par (3a), 
                     \[
@@ -242,8 +242,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 </p>
     
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     À partir de (3c), pour tout \(A&gt;0\) et \(x&gt;0\),
                     \[
@@ -283,8 +283,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 </p>
     
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     Posons \(s=x^{2}+t^{2}\). On a
                     \[
@@ -316,8 +316,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 </p>
     
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     On écrit
                     \[
@@ -361,8 +361,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 </p>
     
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     On a \((e^{x}h(x))'=e^{x}(h'(x)+h(x))\), donc
                     \[
@@ -384,8 +384,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 </p>
     
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     De (a), \(k'(x)=0\) donc \(k\) est constante : il existe \(C\in\mathbb R\) tel que
                     \[
@@ -423,8 +423,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
         </p>
 
         <!-- Answer placeholder -->
-        <p style="border: solid 2px; border-radius: 10px; 
-                  background-color:rgba(152, 180, 212, .1); 
+        <p style="border: none; border-radius: 0; 
+                  background-color:rgba(152, 180, 212, .12); 
                   padding: 10px; margin: 15px 0 15px -30px;">
             ...
         </p>
@@ -446,8 +446,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 $$
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -463,8 +463,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 $$
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -477,8 +477,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 </p>
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -502,8 +502,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 $$
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -519,8 +519,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 $$
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -539,8 +539,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 $$
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -553,8 +553,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 </p>
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -583,8 +583,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 </p>
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -597,8 +597,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 </p>
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -621,8 +621,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 </p>
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -636,8 +636,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 </p>
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -675,8 +675,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
         </p>
 
         <!-- Answer placeholder -->
-        <p style="border: solid 2px; border-radius: 10px; 
-                  background-color:rgba(152, 180, 212, .1); 
+        <p style="border: none; border-radius: 0; 
+                  background-color:rgba(152, 180, 212, .12); 
                   padding: 10px; margin: 15px 0 15px -30px;">
             ...
         </p>
@@ -702,8 +702,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 </p>
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -716,8 +716,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 </p>
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -744,8 +744,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
         </p>
 
         <!-- Answer placeholder -->
-        <p style="border: solid 2px; border-radius: 10px; 
-                  background-color:rgba(152, 180, 212, .1); 
+        <p style="border: none; border-radius: 0; 
+                  background-color:rgba(152, 180, 212, .12); 
                   padding: 10px; margin: 15px 0 15px -30px;">
             ...
         </p>
@@ -766,8 +766,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
         </p>
 
         <!-- Answer placeholder -->
-        <p style="border: solid 2px; border-radius: 10px; 
-                  background-color:rgba(152, 180, 212, .1); 
+        <p style="border: none; border-radius: 0; 
+                  background-color:rgba(152, 180, 212, .12); 
                   padding: 10px; margin: 15px 0 15px -30px;">
             ...
         </p>
@@ -789,8 +789,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
         </p>
 
         <!-- Answer placeholder -->
-        <p style="border: solid 2px; border-radius: 10px; 
-                  background-color:rgba(152, 180, 212, .1); 
+        <p style="border: none; border-radius: 0; 
+                  background-color:rgba(152, 180, 212, .12); 
                   padding: 10px; margin: 15px 0 15px -30px;">
             ...
         </p>
@@ -806,8 +806,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 </p>
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -819,8 +819,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 </p>
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -842,8 +842,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 </p>
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -854,8 +854,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 </p>
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -897,8 +897,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 $$
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -918,8 +918,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 $$
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -957,8 +957,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 </p>
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -977,8 +977,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                         <p>Montrer que l’intégrale \(J_{n}\) est convergente.</p>
 
                         <!-- Answer placeholder -->
-                        <p style="border: solid 2px; border-radius: 10px; 
-                                  background-color:rgba(152, 180, 212, .1); 
+                        <p style="border: none; border-radius: 0; 
+                                  background-color:rgba(152, 180, 212, .12); 
                                   padding: 10px; margin: 15px 0 15px -60px;">
                             ...
                         </p>
@@ -987,8 +987,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                         <p>En déduire que \(S_{n}\) admet une espérance mathématique.</p>
 
                         <!-- Answer placeholder -->
-                        <p style="border: solid 2px; border-radius: 10px; 
-                                  background-color:rgba(152, 180, 212, .1); 
+                        <p style="border: none; border-radius: 0; 
+                                  background-color:rgba(152, 180, 212, .12); 
                                   padding: 10px; margin: 15px 0 15px -60px;">
                             ...
                         </p>
@@ -1017,8 +1017,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 </p>
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -1031,8 +1031,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 </p>
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -1046,8 +1046,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 </p>
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -1081,8 +1081,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 </p>
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -1094,8 +1094,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 </p>
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -1107,8 +1107,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 </p>
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -1155,8 +1155,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 </p>
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -1168,8 +1168,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 </p>
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -1191,8 +1191,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 </p>
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -1204,8 +1204,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 </p>
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -1216,8 +1216,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 </p>
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -1235,8 +1235,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
         </p>
 
         <!-- Answer placeholder -->
-        <p style="border: solid 2px; border-radius: 10px; 
-                  background-color:rgba(152, 180, 212, .1); 
+        <p style="border: none; border-radius: 0; 
+                  background-color:rgba(152, 180, 212, .12); 
                   padding: 10px; margin: 15px 0 15px -30px;">
             ...
         </p>
@@ -1270,8 +1270,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 $$
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -1284,8 +1284,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 </p>
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -1297,8 +1297,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 </p>
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -1313,8 +1313,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
                 </p>
 
                 <!-- Answer placeholder -->
-                <p style="border: solid 2px; border-radius: 10px; 
-                          background-color:rgba(152, 180, 212, .1); 
+                <p style="border: none; border-radius: 0; 
+                          background-color:rgba(152, 180, 212, .12); 
                           padding: 10px; margin: 15px 0 15px -60px;">
                     ...
                 </p>
@@ -1333,8 +1333,8 @@ On note \(J\) l’intervalle \(\left] 0,+\infty \right[\) et on définit sur \(J
         </p>
 
         <!-- Answer placeholder -->
-        <p style="border: solid 2px; border-radius: 10px; 
-                  background-color:rgba(152, 180, 212, .1); 
+        <p style="border: none; border-radius: 0; 
+                  background-color:rgba(152, 180, 212, .12); 
                   padding: 10px; margin: 15px 0 15px -30px;">
             ...
         </p>
